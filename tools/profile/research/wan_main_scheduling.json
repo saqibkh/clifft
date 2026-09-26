@@ -1,0 +1,1201 @@
+{
+  "main_revision": "63fc77ab7753220f396a87c274e9d2252a4b1b71",
+  "study_revision": "195beacc2be9ebddc5670b42614b697255d5761c",
+  "extension_sha256": "200bf00efa2e2406b6bee11c1802849fa6f8bff8a94972ff969c044aa1438c74",
+  "python": "3.13.11",
+  "affinity": [
+    0
+  ],
+  "cpu": "model name\t: AMD EPYC 9554P 64-Core Processor",
+  "p": 0.001,
+  "threads": 1,
+  "batch_size": 1,
+  "keep_records": true,
+  "cases": {
+    "fold-d5": {
+      "circuit_sha256": "58f4e323b9a97da50b0cbfca9722ba1babb2ece0cdc60a350cf639dca28fe4ff",
+      "rows": {
+        "full/default": {
+          "compile_seconds": 0.035149806877598166,
+          "peak_active_width": 22,
+          "executable_sha256": "6b5e62bf8ea710f5c7623aeb35d3a789f3db60f6cbda41e2f4127bbdf6f2be0a",
+          "shots_per_trial": 32,
+          "trials": [
+            {
+              "seconds": 20.90346152195707,
+              "seed": 91000,
+              "attempts": 32,
+              "accepted": 5,
+              "errors": 0,
+              "A": 0.15625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 21.960478344000876,
+              "seed": 91001,
+              "attempts": 32,
+              "accepted": 3,
+              "errors": 0,
+              "A": 0.09375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 22.29575207014568,
+              "seed": 91002,
+              "attempts": 32,
+              "accepted": 8,
+              "errors": 0,
+              "A": 0.25,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 22.08477793005295,
+              "seed": 91003,
+              "attempts": 32,
+              "accepted": 6,
+              "errors": 0,
+              "A": 0.1875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 21.60628390708007,
+              "seed": 91004,
+              "attempts": 32,
+              "accepted": 4,
+              "errors": 0,
+              "A": 0.125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 686264.9482500274
+        },
+        "full/scheduled": {
+          "compile_seconds": 0.11301074782386422,
+          "peak_active_width": 22,
+          "executable_sha256": "ad22b3d2b209711c6faeeb8bbd3a861a8bb94fe6b59fa9f27aa3aa5495a0469b",
+          "shots_per_trial": 128,
+          "trials": [
+            {
+              "seconds": 14.82479386497289,
+              "seed": 91000,
+              "attempts": 128,
+              "accepted": 20,
+              "errors": 0,
+              "A": 0.15625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 14.898921390995383,
+              "seed": 91001,
+              "attempts": 128,
+              "accepted": 18,
+              "errors": 0,
+              "A": 0.140625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 14.957355294143781,
+              "seed": 91002,
+              "attempts": 128,
+              "accepted": 23,
+              "errors": 0,
+              "A": 0.1796875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 15.684803877957165,
+              "seed": 91003,
+              "attempts": 128,
+              "accepted": 20,
+              "errors": 0,
+              "A": 0.15625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 15.034296459984034,
+              "seed": 91004,
+              "attempts": 128,
+              "accepted": 16,
+              "errors": 0,
+              "A": 0.125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 152183576.0,
+            "swept_ops": 56264,
+            "classification_probes": 133155
+          },
+          "median_us_per_attempt": 116854.33823549829
+        },
+        "full/unlimited": {
+          "compile_seconds": 0.5194746109191328,
+          "peak_active_width": 22,
+          "executable_sha256": "7fc7f3b32119ee254311a9aa3b23677b384b58901456ec2a3ceb9798b99192bb",
+          "shots_per_trial": 128,
+          "trials": [
+            {
+              "seconds": 11.65467246598564,
+              "seed": 91000,
+              "attempts": 128,
+              "accepted": 20,
+              "errors": 0,
+              "A": 0.15625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 12.149504160974175,
+              "seed": 91001,
+              "attempts": 128,
+              "accepted": 18,
+              "errors": 0,
+              "A": 0.140625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 11.988112815888599,
+              "seed": 91002,
+              "attempts": 128,
+              "accepted": 23,
+              "errors": 0,
+              "A": 0.1796875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 11.818279474042356,
+              "seed": 91003,
+              "attempts": 128,
+              "accepted": 20,
+              "errors": 0,
+              "A": 0.15625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 12.366811846848577,
+              "seed": 91004,
+              "attempts": 128,
+              "accepted": 16,
+              "errors": 0,
+              "A": 0.125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 128363144.0,
+            "swept_ops": 235318,
+            "classification_probes": 2519791
+          },
+          "median_us_per_attempt": 93657.13137412968
+        },
+        "postselected/default": {
+          "compile_seconds": 0.03298928705044091,
+          "peak_active_width": 22,
+          "executable_sha256": "84a714e6e3252793db276aad8b0509ac266b6b9f32b4b726f27efbdca9e5616f",
+          "shots_per_trial": 32,
+          "trials": [
+            {
+              "seconds": 5.69084033719264,
+              "seed": 91000,
+              "attempts": 32,
+              "accepted": 5,
+              "errors": 0,
+              "A": 0.15625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 8.758903139038011,
+              "seed": 91001,
+              "attempts": 32,
+              "accepted": 3,
+              "errors": 0,
+              "A": 0.09375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 7.692820210009813,
+              "seed": 91002,
+              "attempts": 32,
+              "accepted": 6,
+              "errors": 0,
+              "A": 0.1875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 10.273215065011755,
+              "seed": 91003,
+              "attempts": 32,
+              "accepted": 7,
+              "errors": 0,
+              "A": 0.21875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.758988292887807,
+              "seed": 91004,
+              "attempts": 32,
+              "accepted": 4,
+              "errors": 0,
+              "A": 0.125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 240400.63156280667
+        },
+        "postselected/scheduled": {
+          "compile_seconds": 0.11344846291467547,
+          "peak_active_width": 22,
+          "executable_sha256": "84bd4d12aab64acb1908ab5099c5d4913c0c9c30f28e7f0ec5469a944cf5863b",
+          "shots_per_trial": 128,
+          "trials": [
+            {
+              "seconds": 5.405097266891971,
+              "seed": 91000,
+              "attempts": 128,
+              "accepted": 21,
+              "errors": 0,
+              "A": 0.1640625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 4.812712325016037,
+              "seed": 91001,
+              "attempts": 128,
+              "accepted": 19,
+              "errors": 0,
+              "A": 0.1484375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 4.6108289018739015,
+              "seed": 91002,
+              "attempts": 128,
+              "accepted": 17,
+              "errors": 0,
+              "A": 0.1328125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 5.016138585982844,
+              "seed": 91003,
+              "attempts": 128,
+              "accepted": 18,
+              "errors": 0,
+              "A": 0.140625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.86410198896192,
+              "seed": 91004,
+              "attempts": 128,
+              "accepted": 16,
+              "errors": 0,
+              "A": 0.125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 152183576.0,
+            "swept_ops": 56264,
+            "classification_probes": 133155
+          },
+          "median_us_per_attempt": 37599.315039187786
+        },
+        "postselected/unlimited": {
+          "compile_seconds": 0.5445059789344668,
+          "peak_active_width": 22,
+          "executable_sha256": "0e33e8fe83571028985399c3e057d0cfb90aeed4c8f380f34718ad3a5a264ec4",
+          "shots_per_trial": 128,
+          "trials": [
+            {
+              "seconds": 4.232647099066526,
+              "seed": 91000,
+              "attempts": 128,
+              "accepted": 21,
+              "errors": 0,
+              "A": 0.1640625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.8701500319875777,
+              "seed": 91001,
+              "attempts": 128,
+              "accepted": 19,
+              "errors": 0,
+              "A": 0.1484375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.467177817830816,
+              "seed": 91002,
+              "attempts": 128,
+              "accepted": 17,
+              "errors": 0,
+              "A": 0.1328125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.8166306449566036,
+              "seed": 91003,
+              "attempts": 128,
+              "accepted": 18,
+              "errors": 0,
+              "A": 0.140625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.0156338319648057,
+              "seed": 91004,
+              "attempts": 128,
+              "accepted": 16,
+              "errors": 0,
+              "A": 0.125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 128363144.0,
+            "swept_ops": 235318,
+            "classification_probes": 2519791
+          },
+          "median_us_per_attempt": 29817.426913723466
+        }
+      }
+    },
+    "rp2-d5": {
+      "circuit_sha256": "abec7835b49db1b51a32894fc7098be7dcd73ed1209a3da2c7faec0ee2bb010a",
+      "rows": {
+        "full/default": {
+          "compile_seconds": 0.01597064291127026,
+          "peak_active_width": 18,
+          "executable_sha256": "94f301f9f18319718caa300ef9468223df08e5a2d16f61a77142c1af227b9d49",
+          "shots_per_trial": 1024,
+          "trials": [
+            {
+              "seconds": 3.743727999040857,
+              "seed": 91000,
+              "attempts": 1024,
+              "accepted": 90,
+              "errors": 0,
+              "A": 0.087890625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.704780187923461,
+              "seed": 91001,
+              "attempts": 1024,
+              "accepted": 102,
+              "errors": 0,
+              "A": 0.099609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.7320655977819115,
+              "seed": 91002,
+              "attempts": 1024,
+              "accepted": 110,
+              "errors": 0,
+              "A": 0.107421875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.6894787719938904,
+              "seed": 91003,
+              "attempts": 1024,
+              "accepted": 77,
+              "errors": 0,
+              "A": 0.0751953125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 3.6698984899558127,
+              "seed": 91004,
+              "attempts": 1024,
+              "accepted": 103,
+              "errors": 0,
+              "A": 0.1005859375,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 3617.949402269005
+        },
+        "full/scheduled": {
+          "compile_seconds": 0.03698794706724584,
+          "peak_active_width": 18,
+          "executable_sha256": "7c1e4bae99654a90b442a61701d6b5640e9c90b4b2bb938c74256dab2be35975",
+          "shots_per_trial": 1024,
+          "trials": [
+            {
+              "seconds": 1.6249695108272135,
+              "seed": 91000,
+              "attempts": 1024,
+              "accepted": 91,
+              "errors": 0,
+              "A": 0.0888671875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.6444178139790893,
+              "seed": 91001,
+              "attempts": 1024,
+              "accepted": 102,
+              "errors": 0,
+              "A": 0.099609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.659381188917905,
+              "seed": 91002,
+              "attempts": 1024,
+              "accepted": 110,
+              "errors": 0,
+              "A": 0.107421875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.6430390211753547,
+              "seed": 91003,
+              "attempts": 1024,
+              "accepted": 77,
+              "errors": 0,
+              "A": 0.0751953125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.6387663669884205,
+              "seed": 91004,
+              "attempts": 1024,
+              "accepted": 103,
+              "errors": 0,
+              "A": 0.1005859375,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0,
+            "swept_ops": 49196,
+            "classification_probes": 62541
+          },
+          "median_us_per_attempt": 1604.5302941165573
+        },
+        "full/unlimited": {
+          "compile_seconds": 0.05123551399447024,
+          "peak_active_width": 18,
+          "executable_sha256": "7f083f71c01d44dcc36a6d6090101a8fc71bba8bf1ef92959745b4f4baec1b36",
+          "shots_per_trial": 1024,
+          "trials": [
+            {
+              "seconds": 1.653063076082617,
+              "seed": 91000,
+              "attempts": 1024,
+              "accepted": 91,
+              "errors": 0,
+              "A": 0.0888671875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.6140915888827294,
+              "seed": 91001,
+              "attempts": 1024,
+              "accepted": 102,
+              "errors": 0,
+              "A": 0.099609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.6384203189518303,
+              "seed": 91002,
+              "attempts": 1024,
+              "accepted": 110,
+              "errors": 0,
+              "A": 0.107421875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.6627047639340162,
+              "seed": 91003,
+              "attempts": 1024,
+              "accepted": 77,
+              "errors": 0,
+              "A": 0.0751953125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.6687139649875462,
+              "seed": 91004,
+              "attempts": 1024,
+              "accepted": 103,
+              "errors": 0,
+              "A": 0.1005859375,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0,
+            "swept_ops": 76618,
+            "classification_probes": 148603
+          },
+          "median_us_per_attempt": 1614.3194102369307
+        },
+        "postselected/default": {
+          "compile_seconds": 0.015640511875972152,
+          "peak_active_width": 18,
+          "executable_sha256": "c7728dddcd61eb6fecbb940a3319e3dcbbee44790f2f762d0e2c92c7bd60f2f4",
+          "shots_per_trial": 1024,
+          "trials": [
+            {
+              "seconds": 1.0308952420018613,
+              "seed": 91000,
+              "attempts": 1024,
+              "accepted": 95,
+              "errors": 0,
+              "A": 0.0927734375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.9654583889059722,
+              "seed": 91001,
+              "attempts": 1024,
+              "accepted": 101,
+              "errors": 0,
+              "A": 0.0986328125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 1.0841982050333172,
+              "seed": 91002,
+              "attempts": 1024,
+              "accepted": 109,
+              "errors": 0,
+              "A": 0.1064453125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.923515560105443,
+              "seed": 91003,
+              "attempts": 1024,
+              "accepted": 75,
+              "errors": 0,
+              "A": 0.0732421875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.9973572618328035,
+              "seed": 91004,
+              "attempts": 1024,
+              "accepted": 103,
+              "errors": 0,
+              "A": 0.1005859375,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 973.9817010085972
+        },
+        "postselected/scheduled": {
+          "compile_seconds": 0.03701455798000097,
+          "peak_active_width": 18,
+          "executable_sha256": "5df726d1daa85a9d97acd978449662af44d9900f13a492c37447d8298f237311",
+          "shots_per_trial": 1024,
+          "trials": [
+            {
+              "seconds": 0.36259459611028433,
+              "seed": 91000,
+              "attempts": 1024,
+              "accepted": 91,
+              "errors": 0,
+              "A": 0.0888671875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.3669355751480907,
+              "seed": 91001,
+              "attempts": 1024,
+              "accepted": 104,
+              "errors": 0,
+              "A": 0.1015625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.39428434101864696,
+              "seed": 91002,
+              "attempts": 1024,
+              "accepted": 108,
+              "errors": 0,
+              "A": 0.10546875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.3300702639389783,
+              "seed": 91003,
+              "attempts": 1024,
+              "accepted": 76,
+              "errors": 0,
+              "A": 0.07421875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.3689025710336864,
+              "seed": 91004,
+              "attempts": 1024,
+              "accepted": 106,
+              "errors": 0,
+              "A": 0.103515625,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0,
+            "swept_ops": 49196,
+            "classification_probes": 62541
+          },
+          "median_us_per_attempt": 358.33552260555734
+        },
+        "postselected/unlimited": {
+          "compile_seconds": 0.05089584016241133,
+          "peak_active_width": 18,
+          "executable_sha256": "bc4d7b8c08fd4aad94829b5843c0c97cf3c47588998e4c7a52bc079d52f80067",
+          "shots_per_trial": 1024,
+          "trials": [
+            {
+              "seconds": 0.3615025379694998,
+              "seed": 91000,
+              "attempts": 1024,
+              "accepted": 91,
+              "errors": 0,
+              "A": 0.0888671875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.37948969285935163,
+              "seed": 91001,
+              "attempts": 1024,
+              "accepted": 104,
+              "errors": 0,
+              "A": 0.1015625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.38948845001868904,
+              "seed": 91002,
+              "attempts": 1024,
+              "accepted": 108,
+              "errors": 0,
+              "A": 0.10546875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.3269200320355594,
+              "seed": 91003,
+              "attempts": 1024,
+              "accepted": 76,
+              "errors": 0,
+              "A": 0.07421875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.3612224238459021,
+              "seed": 91004,
+              "attempts": 1024,
+              "accepted": 106,
+              "errors": 0,
+              "A": 0.103515625,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0,
+            "swept_ops": 76618,
+            "classification_probes": 148603
+          },
+          "median_us_per_attempt": 353.0298222358397
+        }
+      }
+    },
+    "chan-four-round-d5": {
+      "circuit_sha256": "f3b4dbdc995778c24c5141bc07506a9a36008a1f6fef967d401d0bb15f36e34b",
+      "rows": {
+        "full/default": {
+          "compile_seconds": 0.020904402947053313,
+          "peak_active_width": 10,
+          "executable_sha256": "fcf5ac93cf822d549924648fec1cfaef22fc00c4de4a3609f274954a73667800",
+          "shots_per_trial": 32768,
+          "trials": [
+            {
+              "seconds": 0.5921822579111904,
+              "seed": 91000,
+              "attempts": 32768,
+              "accepted": 2626,
+              "errors": 0,
+              "A": 0.08013916015625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.6001418710220605,
+              "seed": 91001,
+              "attempts": 32768,
+              "accepted": 2602,
+              "errors": 0,
+              "A": 0.07940673828125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5972309329081327,
+              "seed": 91002,
+              "attempts": 32768,
+              "accepted": 2675,
+              "errors": 0,
+              "A": 0.081634521484375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.59497149894014,
+              "seed": 91003,
+              "attempts": 32768,
+              "accepted": 2623,
+              "errors": 0,
+              "A": 0.080047607421875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5973685791250318,
+              "seed": 91004,
+              "attempts": 32768,
+              "accepted": 2730,
+              "errors": 0,
+              "A": 0.08331298828125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 18.226041653690572
+        },
+        "full/scheduled": {
+          "compile_seconds": 0.031641281209886074,
+          "peak_active_width": 10,
+          "executable_sha256": "db53665fd1de29b9bc84819dbfeecadb6e336b3c8deb6e639e87d3f36985fa86",
+          "shots_per_trial": 32768,
+          "trials": [
+            {
+              "seconds": 0.5404193229041994,
+              "seed": 91000,
+              "attempts": 32768,
+              "accepted": 2621,
+              "errors": 0,
+              "A": 0.079986572265625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5473632328212261,
+              "seed": 91001,
+              "attempts": 32768,
+              "accepted": 2592,
+              "errors": 0,
+              "A": 0.0791015625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5372598269023001,
+              "seed": 91002,
+              "attempts": 32768,
+              "accepted": 2684,
+              "errors": 0,
+              "A": 0.0819091796875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5449077570810914,
+              "seed": 91003,
+              "attempts": 32768,
+              "accepted": 2637,
+              "errors": 0,
+              "A": 0.080474853515625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5395677338819951,
+              "seed": 91004,
+              "attempts": 32768,
+              "accepted": 2735,
+              "errors": 0,
+              "A": 0.083465576171875,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0,
+            "swept_ops": 75887,
+            "classification_probes": 75674
+          },
+          "median_us_per_attempt": 16.492288906988506
+        },
+        "full/unlimited": {
+          "compile_seconds": 0.033680155873298645,
+          "peak_active_width": 10,
+          "executable_sha256": "db53665fd1de29b9bc84819dbfeecadb6e336b3c8deb6e639e87d3f36985fa86",
+          "shots_per_trial": 32768,
+          "trials": [
+            {
+              "seconds": 0.5774363439995795,
+              "seed": 91000,
+              "attempts": 32768,
+              "accepted": 2621,
+              "errors": 0,
+              "A": 0.079986572265625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5446395000908524,
+              "seed": 91001,
+              "attempts": 32768,
+              "accepted": 2592,
+              "errors": 0,
+              "A": 0.0791015625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5490234631579369,
+              "seed": 91002,
+              "attempts": 32768,
+              "accepted": 2684,
+              "errors": 0,
+              "A": 0.0819091796875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5422300910577178,
+              "seed": 91003,
+              "attempts": 32768,
+              "accepted": 2637,
+              "errors": 0,
+              "A": 0.080474853515625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5394207569770515,
+              "seed": 91004,
+              "attempts": 32768,
+              "accepted": 2735,
+              "errors": 0,
+              "A": 0.083465576171875,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0,
+            "swept_ops": 107996,
+            "classification_probes": 117004
+          },
+          "median_us_per_attempt": 16.621078493983532
+        },
+        "postselected/default": {
+          "compile_seconds": 0.020650648046284914,
+          "peak_active_width": 10,
+          "executable_sha256": "cf29ffe966cadb2812ac9e5236113b1e3a91ef727f949fa8e0bc70ea9aa6c910",
+          "shots_per_trial": 32768,
+          "trials": [
+            {
+              "seconds": 0.6220278940163553,
+              "seed": 91000,
+              "attempts": 32768,
+              "accepted": 2582,
+              "errors": 0,
+              "A": 0.07879638671875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.6055661148857325,
+              "seed": 91001,
+              "attempts": 32768,
+              "accepted": 2661,
+              "errors": 0,
+              "A": 0.081207275390625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5956955919973552,
+              "seed": 91002,
+              "attempts": 32768,
+              "accepted": 2754,
+              "errors": 0,
+              "A": 0.08404541015625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5958587569184601,
+              "seed": 91003,
+              "attempts": 32768,
+              "accepted": 2669,
+              "errors": 0,
+              "A": 0.081451416015625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.5941650711465627,
+              "seed": 91004,
+              "attempts": 32768,
+              "accepted": 2699,
+              "errors": 0,
+              "A": 0.082366943359375,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 18.18416616572449
+        },
+        "postselected/scheduled": {
+          "compile_seconds": 0.031587027944624424,
+          "peak_active_width": 10,
+          "executable_sha256": "debba47844d8bf6eab3b4fe869cfa07bdfccb49869fcf34f683ee4bb5f58ef6b",
+          "shots_per_trial": 32768,
+          "trials": [
+            {
+              "seconds": 0.24659930681809783,
+              "seed": 91000,
+              "attempts": 32768,
+              "accepted": 2647,
+              "errors": 0,
+              "A": 0.080780029296875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.22835417021997273,
+              "seed": 91001,
+              "attempts": 32768,
+              "accepted": 2683,
+              "errors": 0,
+              "A": 0.081878662109375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.2309953598305583,
+              "seed": 91002,
+              "attempts": 32768,
+              "accepted": 2699,
+              "errors": 0,
+              "A": 0.082366943359375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.22800110885873437,
+              "seed": 91003,
+              "attempts": 32768,
+              "accepted": 2639,
+              "errors": 0,
+              "A": 0.080535888671875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.22889926400966942,
+              "seed": 91004,
+              "attempts": 32768,
+              "accepted": 2706,
+              "errors": 0,
+              "A": 0.08258056640625,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0,
+            "swept_ops": 75887,
+            "classification_probes": 75674
+          },
+          "median_us_per_attempt": 6.985451172170087
+        },
+        "postselected/unlimited": {
+          "compile_seconds": 0.03497964912094176,
+          "peak_active_width": 10,
+          "executable_sha256": "debba47844d8bf6eab3b4fe869cfa07bdfccb49869fcf34f683ee4bb5f58ef6b",
+          "shots_per_trial": 32768,
+          "trials": [
+            {
+              "seconds": 0.23326358199119568,
+              "seed": 91000,
+              "attempts": 32768,
+              "accepted": 2647,
+              "errors": 0,
+              "A": 0.080780029296875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.22734976490028203,
+              "seed": 91001,
+              "attempts": 32768,
+              "accepted": 2683,
+              "errors": 0,
+              "A": 0.081878662109375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.22890166100114584,
+              "seed": 91002,
+              "attempts": 32768,
+              "accepted": 2699,
+              "errors": 0,
+              "A": 0.082366943359375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.22900950978510082,
+              "seed": 91003,
+              "attempts": 32768,
+              "accepted": 2639,
+              "errors": 0,
+              "A": 0.080535888671875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "seconds": 0.22898517409339547,
+              "seed": 91004,
+              "attempts": 32768,
+              "accepted": 2706,
+              "errors": 0,
+              "A": 0.08258056640625,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0,
+            "swept_ops": 107996,
+            "classification_probes": 117004
+          },
+          "median_us_per_attempt": 6.988072939861922
+        }
+      }
+    }
+  }
+}

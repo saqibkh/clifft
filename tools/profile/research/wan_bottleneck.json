@@ -1,0 +1,1697 @@
+{
+  "circuit_sha256": "58f4e323b9a97da50b0cbfca9722ba1babb2ece0cdc60a350cf639dca28fe4ff",
+  "main_revision": "63fc77ab7753220f396a87c274e9d2252a4b1b71",
+  "build": {
+    "original_executor_sha256": "67ed578a2f6b9039144ce30004e094804e3a06afed295dbeefe2b88382a9f509",
+    "instrumented_executor_sha256": "ee3c66c73cc4efaac6b0af37ee4b94274327424b18ad93fd856953ae752ef945",
+    "core_library_sha256": "589459d141033d235464c0c846339d595d231aebefcad027e28bfb70d5e3e294",
+    "compile_command": "/bin/c++ -DCLIFFT_ENABLE_X86_RUNTIME_DISPATCH -DCLIFFT_USE_OPENMP -I/home/exedev/.codex/worktrees/a1aa/clifft-codex/src/clifft/.. -I/tmp/clifft-495-build/generated -I/tmp/clifft-495-build/_deps/fast_float-src/include -O3 -DNDEBUG -std=c++20 -fPIC -Wall -Wextra -Wpedantic -ffast-math -march=native -mtune=native -fopenmp -o src/clifft/CMakeFiles/clifft_core.dir/sampling/executor.cc.o -c /home/exedev/.codex/worktrees/a1aa/clifft-codex/src/clifft/sampling/executor.cc",
+    "harness_sha256": "e66b74624d4132fdf489077dbed0038ff9b01b2aee4f631601b88c4e2ef7b7cd",
+    "timer_sha256": "981e128a33d25c23d308a7a8bdfb4f0fa074c862582beb8f14f81b73374ae913",
+    "binaries": {
+      "timed": "3e994303f582cffc34b7e3bc6e4b4c542fccd39a8dbf4ac4d8d17eca2cee7ecb",
+      "untimed": "1f70476f2ace3241ec5e9e0e5e12211a423a5070063e098a44aa5c3ed3688aa8"
+    }
+  },
+  "source_regions": {
+    "first_large_check": [
+      2355,
+      2803
+    ],
+    "logical_readout": [
+      3279,
+      3281
+    ],
+    "prefix": [
+      1,
+      2354
+    ],
+    "second_large_check": [
+      2804,
+      3198
+    ],
+    "terminal_projection": [
+      3199,
+      3278
+    ]
+  },
+  "profiles": {
+    "full": {
+      "untimed": {
+        "shots": 256,
+        "seed": 91301,
+        "accepted": 29,
+        "errors": 0,
+        "nanoseconds": 24550718965,
+        "accepted_ns": 2777038189,
+        "rejected_ns": 21773680776,
+        "record_hash": "15324914792176665842",
+        "peak_active_width": 22,
+        "actions": 897
+      },
+      "timed": {
+        "shots": 256,
+        "seed": 91301,
+        "accepted": 29,
+        "errors": 0,
+        "nanoseconds": 22818603760,
+        "accepted_ns": 2573467844,
+        "rejected_ns": 20245135916,
+        "record_hash": "15324914792176665842",
+        "peak_active_width": 22,
+        "groups": {
+          "region": {
+            "prefix": {
+              "accepted_ns": 613534,
+              "rejected_ns": 4397887,
+              "accepted_visits": 14065,
+              "rejected_visits": 110095
+            },
+            "first_large_check": {
+              "accepted_ns": 1100402050,
+              "rejected_ns": 8664049802,
+              "accepted_visits": 4901,
+              "rejected_visits": 38363
+            },
+            "terminal_projection": {
+              "accepted_ns": 281890920,
+              "rejected_ns": 2219063323,
+              "accepted_visits": 2320,
+              "rejected_visits": 18160
+            },
+            "second_large_check": {
+              "accepted_ns": 1189018905,
+              "rejected_ns": 9344497834,
+              "accepted_visits": 4640,
+              "rejected_visits": 36320
+            },
+            "logical_readout": {
+              "accepted_ns": 13577,
+              "rejected_ns": 128280,
+              "accepted_visits": 87,
+              "rejected_visits": 681
+            }
+          },
+          "kind": {
+            "RECORD_CLASSICAL": {
+              "accepted_ns": 371618,
+              "rejected_ns": 2838762,
+              "accepted_visits": 10759,
+              "rejected_visits": 84217
+            },
+            "MEASURE_DORMANT": {
+              "accepted_ns": 113787,
+              "rejected_ns": 398317,
+              "accepted_visits": 174,
+              "rejected_visits": 1362
+            },
+            "PROMOTE": {
+              "accepted_ns": 203819900,
+              "rejected_ns": 1635991170,
+              "accepted_visits": 899,
+              "rejected_visits": 7037
+            },
+            "ROTATE": {
+              "accepted_ns": 1894935742,
+              "rejected_ns": 14880944597,
+              "accepted_visits": 9831,
+              "rejected_visits": 76953
+            },
+            "WRITE_DETECTOR": {
+              "accepted_ns": 166080,
+              "rejected_ns": 1265152,
+              "accepted_visits": 3422,
+              "rejected_visits": 26786
+            },
+            "MEASURE_ACTIVE": {
+              "accepted_ns": 472525994,
+              "rejected_ns": 3710650789,
+              "accepted_visits": 899,
+              "rejected_visits": 7037
+            },
+            "WRITE_OBSERVABLE": {
+              "accepted_ns": 5865,
+              "rejected_ns": 48339,
+              "accepted_visits": 29,
+              "rejected_visits": 227
+            }
+          },
+          "width": {
+            "0": {
+              "accepted_ns": 180010,
+              "rejected_ns": 905494,
+              "accepted_visits": 1856,
+              "rejected_visits": 14528
+            },
+            "1": {
+              "accepted_ns": 238953,
+              "rejected_ns": 1855200,
+              "accepted_visits": 7163,
+              "rejected_visits": 56069
+            },
+            "2": {
+              "accepted_ns": 132719,
+              "rejected_ns": 1082418,
+              "accepted_visits": 3886,
+              "rejected_visits": 30418
+            },
+            "3": {
+              "accepted_ns": 36613,
+              "rejected_ns": 296450,
+              "accepted_visits": 841,
+              "rejected_visits": 6583
+            },
+            "4": {
+              "accepted_ns": 20562,
+              "rejected_ns": 171746,
+              "accepted_visits": 551,
+              "rejected_visits": 4313
+            },
+            "5": {
+              "accepted_ns": 50663,
+              "rejected_ns": 394127,
+              "accepted_visits": 1218,
+              "rejected_visits": 9534
+            },
+            "6": {
+              "accepted_ns": 31853,
+              "rejected_ns": 260079,
+              "accepted_visits": 725,
+              "rejected_visits": 5675
+            },
+            "7": {
+              "accepted_ns": 79657,
+              "rejected_ns": 647382,
+              "accepted_visits": 1914,
+              "rejected_visits": 14982
+            },
+            "8": {
+              "accepted_ns": 98768,
+              "rejected_ns": 806750,
+              "accepted_visits": 1044,
+              "rejected_visits": 8172
+            },
+            "9": {
+              "accepted_ns": 58713,
+              "rejected_ns": 416548,
+              "accepted_visits": 348,
+              "rejected_visits": 2724
+            },
+            "10": {
+              "accepted_ns": 104898,
+              "rejected_ns": 858603,
+              "accepted_visits": 377,
+              "rejected_visits": 2951
+            },
+            "11": {
+              "accepted_ns": 183084,
+              "rejected_ns": 1527788,
+              "accepted_visits": 406,
+              "rejected_visits": 3178
+            },
+            "12": {
+              "accepted_ns": 348515,
+              "rejected_ns": 2855786,
+              "accepted_visits": 377,
+              "rejected_visits": 2951
+            },
+            "13": {
+              "accepted_ns": 861241,
+              "rejected_ns": 6845698,
+              "accepted_visits": 435,
+              "rejected_visits": 3405
+            },
+            "14": {
+              "accepted_ns": 1679834,
+              "rejected_ns": 13248254,
+              "accepted_visits": 464,
+              "rejected_visits": 3632
+            },
+            "15": {
+              "accepted_ns": 3635200,
+              "rejected_ns": 28769751,
+              "accepted_visits": 406,
+              "rejected_visits": 3178
+            },
+            "16": {
+              "accepted_ns": 6343411,
+              "rejected_ns": 50214474,
+              "accepted_visits": 406,
+              "rejected_visits": 3178
+            },
+            "17": {
+              "accepted_ns": 13160977,
+              "rejected_ns": 103954668,
+              "accepted_visits": 377,
+              "rejected_visits": 2951
+            },
+            "18": {
+              "accepted_ns": 34342954,
+              "rejected_ns": 274285057,
+              "accepted_visits": 464,
+              "rejected_visits": 3632
+            },
+            "19": {
+              "accepted_ns": 56299089,
+              "rejected_ns": 450897115,
+              "accepted_visits": 406,
+              "rejected_visits": 3178
+            },
+            "20": {
+              "accepted_ns": 225263038,
+              "rejected_ns": 1784864322,
+              "accepted_visits": 406,
+              "rejected_visits": 3178
+            },
+            "21": {
+              "accepted_ns": 1165058478,
+              "rejected_ns": 9152403998,
+              "accepted_visits": 1682,
+              "rejected_visits": 13166
+            },
+            "22": {
+              "accepted_ns": 1063729756,
+              "rejected_ns": 8354575418,
+              "accepted_visits": 261,
+              "rejected_visits": 2043
+            }
+          },
+          "kernel": {
+            "none": {
+              "accepted_ns": 204477250,
+              "rejected_ns": 1640541740,
+              "accepted_visits": 15283,
+              "rejected_visits": 119629
+            },
+            "scalar": {
+              "accepted_ns": 104345,
+              "rejected_ns": 864315,
+              "accepted_visits": 2349,
+              "rejected_visits": 18387
+            },
+            "lane_paired": {
+              "accepted_ns": 6077,
+              "rejected_ns": 50605,
+              "accepted_visits": 145,
+              "rejected_visits": 1135
+            },
+            "high_pivot": {
+              "accepted_ns": 1894850553,
+              "rejected_ns": 14880264515,
+              "accepted_visits": 7482,
+              "rejected_visits": 58566
+            },
+            "diagonal": {
+              "accepted_ns": 472500761,
+              "rejected_ns": 3710415951,
+              "accepted_visits": 754,
+              "rejected_visits": 5902
+            }
+          }
+        },
+        "rotation_runs": [
+          {
+            "begin": 739,
+            "end": 743,
+            "length": 4,
+            "active_width": 22,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 3790411143
+          },
+          {
+            "begin": 682,
+            "end": 693,
+            "length": 11,
+            "active_width": 21,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 3524696064
+          },
+          {
+            "begin": 694,
+            "end": 697,
+            "length": 3,
+            "active_width": 22,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 2592823412
+          },
+          {
+            "begin": 730,
+            "end": 738,
+            "length": 8,
+            "active_width": 21,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 2565369372
+          },
+          {
+            "begin": 744,
+            "end": 748,
+            "length": 4,
+            "active_width": 21,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 1997130022
+          },
+          {
+            "begin": 749,
+            "end": 753,
+            "length": 4,
+            "active_width": 20,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 895198916
+          },
+          {
+            "begin": 673,
+            "end": 681,
+            "length": 8,
+            "active_width": 20,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 611336966
+          },
+          {
+            "begin": 664,
+            "end": 672,
+            "length": 8,
+            "active_width": 19,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 216140354
+          },
+          {
+            "begin": 652,
+            "end": 663,
+            "length": 11,
+            "active_width": 18,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 191873148
+          },
+          {
+            "begin": 754,
+            "end": 758,
+            "length": 4,
+            "active_width": 19,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 146371896
+          },
+          {
+            "begin": 643,
+            "end": 651,
+            "length": 8,
+            "active_width": 17,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 63530910
+          },
+          {
+            "begin": 759,
+            "end": 762,
+            "length": 3,
+            "active_width": 18,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 58490659
+          },
+          {
+            "begin": 634,
+            "end": 642,
+            "length": 8,
+            "active_width": 16,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 28944010
+          },
+          {
+            "begin": 763,
+            "end": 766,
+            "length": 3,
+            "active_width": 17,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 26199895
+          },
+          {
+            "begin": 625,
+            "end": 633,
+            "length": 8,
+            "active_width": 15,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 18819620
+          },
+          {
+            "begin": 767,
+            "end": 771,
+            "length": 4,
+            "active_width": 16,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 15115095
+          },
+          {
+            "begin": 613,
+            "end": 624,
+            "length": 11,
+            "active_width": 14,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 9319442
+          },
+          {
+            "begin": 772,
+            "end": 776,
+            "length": 4,
+            "active_width": 15,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 8015329
+          },
+          {
+            "begin": 601,
+            "end": 612,
+            "length": 11,
+            "active_width": 13,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 4927979
+          },
+          {
+            "begin": 777,
+            "end": 780,
+            "length": 3,
+            "active_width": 14,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 2748754
+          },
+          {
+            "begin": 592,
+            "end": 600,
+            "length": 8,
+            "active_width": 12,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 1855706
+          },
+          {
+            "begin": 781,
+            "end": 783,
+            "length": 2,
+            "active_width": 13,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 1338323
+          },
+          {
+            "begin": 583,
+            "end": 591,
+            "length": 8,
+            "active_width": 11,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 858853
+          },
+          {
+            "begin": 784,
+            "end": 787,
+            "length": 3,
+            "active_width": 12,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 696085
+          },
+          {
+            "begin": 574,
+            "end": 582,
+            "length": 8,
+            "active_width": 10,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 487509
+          },
+          {
+            "begin": 788,
+            "end": 792,
+            "length": 4,
+            "active_width": 11,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 485150
+          },
+          {
+            "begin": 211,
+            "end": 232,
+            "length": 21,
+            "active_width": 8,
+            "x_rank": 7,
+            "all_x": true,
+            "nanoseconds": 439156
+          },
+          {
+            "begin": 565,
+            "end": 573,
+            "length": 8,
+            "active_width": 9,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 310441
+          },
+          {
+            "begin": 793,
+            "end": 796,
+            "length": 3,
+            "active_width": 10,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 210282
+          },
+          {
+            "begin": 509,
+            "end": 534,
+            "length": 25,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 190899
+          },
+          {
+            "begin": 816,
+            "end": 841,
+            "length": 25,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 185867
+          },
+          {
+            "begin": 172,
+            "end": 183,
+            "length": 11,
+            "active_width": 7,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 158548
+          },
+          {
+            "begin": 559,
+            "end": 564,
+            "length": 5,
+            "active_width": 8,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 117997
+          },
+          {
+            "begin": 154,
+            "end": 162,
+            "length": 8,
+            "active_width": 5,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 113041
+          },
+          {
+            "begin": 203,
+            "end": 210,
+            "length": 7,
+            "active_width": 7,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 103330
+          },
+          {
+            "begin": 163,
+            "end": 171,
+            "length": 8,
+            "active_width": 6,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 88033
+          },
+          {
+            "begin": 184,
+            "end": 188,
+            "length": 4,
+            "active_width": 8,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 83499
+          },
+          {
+            "begin": 553,
+            "end": 558,
+            "length": 5,
+            "active_width": 7,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 71205
+          },
+          {
+            "begin": 541,
+            "end": 546,
+            "length": 5,
+            "active_width": 5,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 67511
+          },
+          {
+            "begin": 797,
+            "end": 799,
+            "length": 2,
+            "active_width": 9,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 62833
+          },
+          {
+            "begin": 547,
+            "end": 552,
+            "length": 5,
+            "active_width": 6,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 60262
+          },
+          {
+            "begin": 138,
+            "end": 144,
+            "length": 6,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 49680
+          },
+          {
+            "begin": 800,
+            "end": 802,
+            "length": 2,
+            "active_width": 8,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 48526
+          },
+          {
+            "begin": 148,
+            "end": 153,
+            "length": 5,
+            "active_width": 4,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 44624
+          },
+          {
+            "begin": 809,
+            "end": 810,
+            "length": 1,
+            "active_width": 5,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 35150
+          },
+          {
+            "begin": 805,
+            "end": 808,
+            "length": 3,
+            "active_width": 6,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 34779
+          },
+          {
+            "begin": 254,
+            "end": 256,
+            "length": 2,
+            "active_width": 7,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 30731
+          },
+          {
+            "begin": 63,
+            "end": 66,
+            "length": 3,
+            "active_width": 1,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 26628
+          },
+          {
+            "begin": 811,
+            "end": 813,
+            "length": 2,
+            "active_width": 4,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 22771
+          },
+          {
+            "begin": 145,
+            "end": 147,
+            "length": 2,
+            "active_width": 3,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 21283
+          },
+          {
+            "begin": 538,
+            "end": 540,
+            "length": 2,
+            "active_width": 4,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 18286
+          },
+          {
+            "begin": 535,
+            "end": 537,
+            "length": 2,
+            "active_width": 3,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 18131
+          },
+          {
+            "begin": 286,
+            "end": 287,
+            "length": 1,
+            "active_width": 5,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 17366
+          },
+          {
+            "begin": 814,
+            "end": 815,
+            "length": 1,
+            "active_width": 3,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 17268
+          },
+          {
+            "begin": 803,
+            "end": 804,
+            "length": 1,
+            "active_width": 7,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 14299
+          },
+          {
+            "begin": 894,
+            "end": 895,
+            "length": 1,
+            "active_width": 1,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 11258
+          },
+          {
+            "begin": 318,
+            "end": 319,
+            "length": 1,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 11189
+          },
+          {
+            "begin": 293,
+            "end": 294,
+            "length": 1,
+            "active_width": 4,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 10854
+          }
+        ]
+      },
+      "public_api_plan_sha256": "7fc7f3b32119ee254311a9aa3b23677b384b58901456ec2a3ceb9798b99192bb",
+      "instrumentation_wall_ratio": 0.9294474753481012,
+      "actions_file": "wan_bottleneck_full_actions.json",
+      "actions_sha256": "d81208ba117024ee8a2d5f06aca9d758db014a2d8cc2e5fb793bf4ae3f65adb3",
+      "perf": {
+        "event": "cycles:u",
+        "frequency_hz": 499,
+        "scope": "Whole process including compilation and startup",
+        "summary_lines": [
+          "71.20%  untimed  untimed               [.] clifft::sampling::apply_direct_rotation_avx512(clifft::sampling::State&, clifft::sampling::PreparedRotation const&, clifft::sampling::DirectRotationKernel, bool)",
+          "10.52%  untimed  untimed               [.] clifft::sampling::collapse_active_measurement_avx512(clifft::sampling::State&, clifft::sampling::PreparedMeasurement const&, clifft::sampling::ActiveMeasurementKernel, bool, double)",
+          "7.77%  untimed  untimed               [.] clifft::sampling::apply_promotion(clifft::sampling::State&, clifft::sampling::PreparedPromotion const&, bool)",
+          "7.61%  untimed  untimed               [.] clifft::sampling::active_measurement_probabilities_avx512(clifft::sampling::State const&, clifft::sampling::PreparedMeasurement const&, clifft::sampling::ActiveMeasurementKernel)",
+          "1.07%  untimed  untimed               [.] clifft::DormantSubspace::commutes_with_all(clifft::BasicMaskView<unsigned long const>, clifft::BasicMaskView<unsigned long const>, unsigned int*) const"
+        ]
+      }
+    },
+    "postselected": {
+      "untimed": {
+        "shots": 1024,
+        "seed": 91301,
+        "accepted": 167,
+        "errors": 0,
+        "nanoseconds": 32544003203,
+        "accepted_ns": 15698932936,
+        "rejected_ns": 16845070267,
+        "record_hash": "5078827987920322075",
+        "peak_active_width": 22,
+        "actions": 897
+      },
+      "timed": {
+        "shots": 1024,
+        "seed": 91301,
+        "accepted": 167,
+        "errors": 0,
+        "nanoseconds": 32090236293,
+        "accepted_ns": 15520970941,
+        "rejected_ns": 16569265352,
+        "record_hash": "5078827987920322075",
+        "peak_active_width": 22,
+        "groups": {
+          "region": {
+            "prefix": {
+              "accepted_ns": 3016257,
+              "rejected_ns": 11277018,
+              "accepted_visits": 80995,
+              "rejected_visits": 290322
+            },
+            "first_large_check": {
+              "accepted_ns": 6754302011,
+              "rejected_ns": 8479874273,
+              "accepted_visits": 28223,
+              "rejected_visits": 36478
+            },
+            "terminal_projection": {
+              "accepted_ns": 1713082080,
+              "rejected_ns": 1475390788,
+              "accepted_visits": 13360,
+              "rejected_visits": 8069
+            },
+            "second_large_check": {
+              "accepted_ns": 7041099427,
+              "rejected_ns": 6584256736,
+              "accepted_visits": 26720,
+              "rejected_visits": 27100
+            },
+            "logical_readout": {
+              "accepted_ns": 95579,
+              "rejected_ns": 0,
+              "accepted_visits": 501,
+              "rejected_visits": 0
+            }
+          },
+          "kind": {
+            "RECORD_CLASSICAL": {
+              "accepted_ns": 1995537,
+              "rejected_ns": 5812353,
+              "accepted_visits": 61957,
+              "rejected_visits": 198757
+            },
+            "MEASURE_DORMANT": {
+              "accepted_ns": 223914,
+              "rejected_ns": 977292,
+              "accepted_visits": 1002,
+              "rejected_visits": 4810
+            },
+            "PROMOTE": {
+              "accepted_ns": 1257502594,
+              "rejected_ns": 1466741011,
+              "accepted_visits": 5177,
+              "rejected_visits": 11262
+            },
+            "ROTATE": {
+              "accepted_ns": 11342041167,
+              "rejected_ns": 12034372794,
+              "accepted_visits": 56613,
+              "rejected_visits": 103861
+            },
+            "WRITE_DETECTOR": {
+              "accepted_ns": 870715,
+              "rejected_ns": 1372729,
+              "accepted_visits": 19706,
+              "rejected_visits": 35038
+            },
+            "MEASURE_ACTIVE": {
+              "accepted_ns": 2908905140,
+              "rejected_ns": 3041522636,
+              "accepted_visits": 5177,
+              "rejected_visits": 8241
+            },
+            "WRITE_OBSERVABLE": {
+              "accepted_ns": 56287,
+              "rejected_ns": 0,
+              "accepted_visits": 167,
+              "rejected_visits": 0
+            }
+          },
+          "width": {
+            "0": {
+              "accepted_ns": 516404,
+              "rejected_ns": 2251865,
+              "accepted_visits": 10688,
+              "rejected_visits": 53991
+            },
+            "1": {
+              "accepted_ns": 1292977,
+              "rejected_ns": 2105752,
+              "accepted_visits": 41249,
+              "rejected_visits": 70640
+            },
+            "2": {
+              "accepted_ns": 809947,
+              "rejected_ns": 2483855,
+              "accepted_visits": 22378,
+              "rejected_visits": 73721
+            },
+            "3": {
+              "accepted_ns": 221584,
+              "rejected_ns": 533629,
+              "accepted_visits": 4843,
+              "rejected_visits": 15791
+            },
+            "4": {
+              "accepted_ns": 116290,
+              "rejected_ns": 348587,
+              "accepted_visits": 3173,
+              "rejected_visits": 9497
+            },
+            "5": {
+              "accepted_ns": 280899,
+              "rejected_ns": 873015,
+              "accepted_visits": 7014,
+              "rejected_visits": 23029
+            },
+            "6": {
+              "accepted_ns": 186121,
+              "rejected_ns": 504235,
+              "accepted_visits": 4175,
+              "rejected_visits": 11767
+            },
+            "7": {
+              "accepted_ns": 463700,
+              "rejected_ns": 1668584,
+              "accepted_visits": 11022,
+              "rejected_visits": 39380
+            },
+            "8": {
+              "accepted_ns": 540497,
+              "rejected_ns": 1805487,
+              "accepted_visits": 6012,
+              "rejected_visits": 19224
+            },
+            "9": {
+              "accepted_ns": 278872,
+              "rejected_ns": 340124,
+              "accepted_visits": 2004,
+              "rejected_visits": 2415
+            },
+            "10": {
+              "accepted_ns": 725902,
+              "rejected_ns": 849203,
+              "accepted_visits": 2171,
+              "rejected_visits": 2560
+            },
+            "11": {
+              "accepted_ns": 1649730,
+              "rejected_ns": 1993632,
+              "accepted_visits": 2338,
+              "rejected_visits": 2705
+            },
+            "12": {
+              "accepted_ns": 3045215,
+              "rejected_ns": 3609725,
+              "accepted_visits": 2171,
+              "rejected_visits": 2560
+            },
+            "13": {
+              "accepted_ns": 5147165,
+              "rejected_ns": 6208055,
+              "accepted_visits": 2505,
+              "rejected_visits": 3075
+            },
+            "14": {
+              "accepted_ns": 10418036,
+              "rejected_ns": 12579324,
+              "accepted_visits": 2672,
+              "rejected_visits": 3220
+            },
+            "15": {
+              "accepted_ns": 21894314,
+              "rejected_ns": 25974534,
+              "accepted_visits": 2338,
+              "rejected_visits": 2705
+            },
+            "16": {
+              "accepted_ns": 39047758,
+              "rejected_ns": 45202637,
+              "accepted_visits": 2338,
+              "rejected_visits": 2705
+            },
+            "17": {
+              "accepted_ns": 81957762,
+              "rejected_ns": 95873133,
+              "accepted_visits": 2171,
+              "rejected_visits": 2560
+            },
+            "18": {
+              "accepted_ns": 219423190,
+              "rejected_ns": 259576794,
+              "accepted_visits": 2672,
+              "rejected_visits": 3220
+            },
+            "19": {
+              "accepted_ns": 353207545,
+              "rejected_ns": 414134248,
+              "accepted_visits": 2338,
+              "rejected_visits": 2705
+            },
+            "20": {
+              "accepted_ns": 1312682693,
+              "rejected_ns": 1428173595,
+              "accepted_visits": 2338,
+              "rejected_visits": 2705
+            },
+            "21": {
+              "accepted_ns": 6912594341,
+              "rejected_ns": 7243860211,
+              "accepted_visits": 9686,
+              "rejected_visits": 10189
+            },
+            "22": {
+              "accepted_ns": 6545094412,
+              "rejected_ns": 6999848591,
+              "accepted_visits": 1503,
+              "rejected_visits": 1605
+            }
+          },
+          "kernel": {
+            "none": {
+              "accepted_ns": 1260649047,
+              "rejected_ns": 1474903385,
+              "accepted_visits": 88009,
+              "rejected_visits": 249867
+            },
+            "scalar": {
+              "accepted_ns": 611213,
+              "rejected_ns": 1139293,
+              "accepted_visits": 13527,
+              "rejected_visits": 25337
+            },
+            "lane_paired": {
+              "accepted_ns": 39864,
+              "rejected_ns": 94639,
+              "accepted_visits": 835,
+              "rejected_visits": 1967
+            },
+            "high_pivot": {
+              "accepted_ns": 11341547751,
+              "rejected_ns": 12033301849,
+              "accepted_visits": 43086,
+              "rejected_visits": 78063
+            },
+            "diagonal": {
+              "accepted_ns": 2908747479,
+              "rejected_ns": 3041359649,
+              "accepted_visits": 4342,
+              "rejected_visits": 6735
+            }
+          }
+        },
+        "rotation_runs": [
+          {
+            "begin": 682,
+            "end": 693,
+            "length": 11,
+            "active_width": 21,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 5442236057
+          },
+          {
+            "begin": 739,
+            "end": 743,
+            "length": 4,
+            "active_width": 22,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 4757954729
+          },
+          {
+            "begin": 694,
+            "end": 697,
+            "length": 3,
+            "active_width": 22,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 4241256031
+          },
+          {
+            "begin": 730,
+            "end": 738,
+            "length": 8,
+            "active_width": 21,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 3173313031
+          },
+          {
+            "begin": 744,
+            "end": 748,
+            "length": 4,
+            "active_width": 21,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 2505404089
+          },
+          {
+            "begin": 749,
+            "end": 753,
+            "length": 4,
+            "active_width": 20,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 1078311922
+          },
+          {
+            "begin": 673,
+            "end": 681,
+            "length": 8,
+            "active_width": 20,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 977284968
+          },
+          {
+            "begin": 664,
+            "end": 672,
+            "length": 8,
+            "active_width": 19,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 360796361
+          },
+          {
+            "begin": 652,
+            "end": 663,
+            "length": 11,
+            "active_width": 18,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 316582091
+          },
+          {
+            "begin": 754,
+            "end": 758,
+            "length": 4,
+            "active_width": 19,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 175057523
+          },
+          {
+            "begin": 643,
+            "end": 651,
+            "length": 8,
+            "active_width": 17,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 103188966
+          },
+          {
+            "begin": 759,
+            "end": 762,
+            "length": 3,
+            "active_width": 18,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 70062577
+          },
+          {
+            "begin": 634,
+            "end": 642,
+            "length": 8,
+            "active_width": 16,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 45825330
+          },
+          {
+            "begin": 763,
+            "end": 766,
+            "length": 3,
+            "active_width": 17,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 31935260
+          },
+          {
+            "begin": 625,
+            "end": 633,
+            "length": 8,
+            "active_width": 15,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 27805245
+          },
+          {
+            "begin": 767,
+            "end": 771,
+            "length": 4,
+            "active_width": 16,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 18287254
+          },
+          {
+            "begin": 613,
+            "end": 624,
+            "length": 11,
+            "active_width": 14,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 13953585
+          },
+          {
+            "begin": 772,
+            "end": 776,
+            "length": 4,
+            "active_width": 15,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 10030006
+          },
+          {
+            "begin": 601,
+            "end": 612,
+            "length": 11,
+            "active_width": 13,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 7537572
+          },
+          {
+            "begin": 592,
+            "end": 600,
+            "length": 8,
+            "active_width": 12,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 4360189
+          },
+          {
+            "begin": 777,
+            "end": 780,
+            "length": 3,
+            "active_width": 14,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 3805110
+          },
+          {
+            "begin": 583,
+            "end": 591,
+            "length": 8,
+            "active_width": 11,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 1416397
+          },
+          {
+            "begin": 211,
+            "end": 232,
+            "length": 21,
+            "active_width": 8,
+            "x_rank": 7,
+            "all_x": true,
+            "nanoseconds": 1365329
+          },
+          {
+            "begin": 781,
+            "end": 783,
+            "length": 2,
+            "active_width": 13,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 1359344
+          },
+          {
+            "begin": 784,
+            "end": 787,
+            "length": 3,
+            "active_width": 12,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 1126693
+          },
+          {
+            "begin": 574,
+            "end": 582,
+            "length": 8,
+            "active_width": 10,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 911048
+          },
+          {
+            "begin": 788,
+            "end": 792,
+            "length": 4,
+            "active_width": 11,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 601865
+          },
+          {
+            "begin": 172,
+            "end": 183,
+            "length": 11,
+            "active_width": 7,
+            "x_rank": 5,
+            "all_x": true,
+            "nanoseconds": 552493
+          },
+          {
+            "begin": 565,
+            "end": 573,
+            "length": 8,
+            "active_width": 9,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 385385
+          },
+          {
+            "begin": 154,
+            "end": 162,
+            "length": 8,
+            "active_width": 5,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 360175
+          },
+          {
+            "begin": 203,
+            "end": 210,
+            "length": 7,
+            "active_width": 7,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 334227
+          },
+          {
+            "begin": 163,
+            "end": 171,
+            "length": 8,
+            "active_width": 6,
+            "x_rank": 4,
+            "all_x": true,
+            "nanoseconds": 312844
+          },
+          {
+            "begin": 793,
+            "end": 796,
+            "length": 3,
+            "active_width": 10,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 308551
+          },
+          {
+            "begin": 509,
+            "end": 534,
+            "length": 25,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 291931
+          },
+          {
+            "begin": 184,
+            "end": 188,
+            "length": 4,
+            "active_width": 8,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 281886
+          },
+          {
+            "begin": 816,
+            "end": 841,
+            "length": 25,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 227077
+          },
+          {
+            "begin": 148,
+            "end": 153,
+            "length": 5,
+            "active_width": 4,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 166604
+          },
+          {
+            "begin": 138,
+            "end": 144,
+            "length": 6,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 162893
+          },
+          {
+            "begin": 559,
+            "end": 564,
+            "length": 5,
+            "active_width": 8,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 155832
+          },
+          {
+            "begin": 63,
+            "end": 66,
+            "length": 3,
+            "active_width": 1,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 127622
+          },
+          {
+            "begin": 541,
+            "end": 546,
+            "length": 5,
+            "active_width": 5,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 122715
+          },
+          {
+            "begin": 254,
+            "end": 256,
+            "length": 2,
+            "active_width": 7,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 110403
+          },
+          {
+            "begin": 553,
+            "end": 558,
+            "length": 5,
+            "active_width": 7,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 106454
+          },
+          {
+            "begin": 547,
+            "end": 552,
+            "length": 5,
+            "active_width": 6,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 91682
+          },
+          {
+            "begin": 145,
+            "end": 147,
+            "length": 2,
+            "active_width": 3,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 88526
+          },
+          {
+            "begin": 797,
+            "end": 799,
+            "length": 2,
+            "active_width": 9,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 77504
+          },
+          {
+            "begin": 809,
+            "end": 810,
+            "length": 1,
+            "active_width": 5,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 51861
+          },
+          {
+            "begin": 800,
+            "end": 802,
+            "length": 2,
+            "active_width": 8,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 50327
+          },
+          {
+            "begin": 286,
+            "end": 287,
+            "length": 1,
+            "active_width": 5,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 49046
+          },
+          {
+            "begin": 805,
+            "end": 808,
+            "length": 3,
+            "active_width": 6,
+            "x_rank": 3,
+            "all_x": true,
+            "nanoseconds": 42381
+          },
+          {
+            "begin": 293,
+            "end": 294,
+            "length": 1,
+            "active_width": 4,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 35930
+          },
+          {
+            "begin": 318,
+            "end": 319,
+            "length": 1,
+            "active_width": 2,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 29715
+          },
+          {
+            "begin": 535,
+            "end": 537,
+            "length": 2,
+            "active_width": 3,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 26687
+          },
+          {
+            "begin": 538,
+            "end": 540,
+            "length": 2,
+            "active_width": 4,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 26649
+          },
+          {
+            "begin": 811,
+            "end": 813,
+            "length": 2,
+            "active_width": 4,
+            "x_rank": 2,
+            "all_x": true,
+            "nanoseconds": 24257
+          },
+          {
+            "begin": 814,
+            "end": 815,
+            "length": 1,
+            "active_width": 3,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 19290
+          },
+          {
+            "begin": 803,
+            "end": 804,
+            "length": 1,
+            "active_width": 7,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 17619
+          },
+          {
+            "begin": 894,
+            "end": 895,
+            "length": 1,
+            "active_width": 1,
+            "x_rank": 1,
+            "all_x": true,
+            "nanoseconds": 6823
+          }
+        ]
+      },
+      "public_api_plan_sha256": "0e33e8fe83571028985399c3e057d0cfb90aeed4c8f380f34718ad3a5a264ec4",
+      "instrumentation_wall_ratio": 0.9860568195261802,
+      "actions_file": "wan_bottleneck_postselected_actions.json",
+      "actions_sha256": "3757c7c38b0ca3c954fd6f49f9bd44721e51e5fd2673bb227049b31b7add3d22",
+      "perf": {
+        "event": "cycles:u",
+        "frequency_hz": 499,
+        "scope": "Whole process including compilation and startup",
+        "summary_lines": [
+          "72.02%  untimed  untimed               [.] clifft::sampling::apply_direct_rotation_avx512(clifft::sampling::State&, clifft::sampling::PreparedRotation const&, clifft::sampling::DirectRotationKernel, bool)",
+          "10.38%  untimed  untimed               [.] clifft::sampling::collapse_active_measurement_avx512(clifft::sampling::State&, clifft::sampling::PreparedMeasurement const&, clifft::sampling::ActiveMeasurementKernel, bool, double)",
+          "8.15%  untimed  untimed               [.] clifft::sampling::apply_promotion(clifft::sampling::State&, clifft::sampling::PreparedPromotion const&, bool)",
+          "7.27%  untimed  untimed               [.] clifft::sampling::active_measurement_probabilities_avx512(clifft::sampling::State const&, clifft::sampling::PreparedMeasurement const&, clifft::sampling::ActiveMeasurementKernel)",
+          "0.83%  untimed  untimed               [.] clifft::DormantSubspace::commutes_with_all(clifft::BasicMaskView<unsigned long const>, clifft::BasicMaskView<unsigned long const>, unsigned int*) const"
+        ]
+      }
+    }
+  },
+  "fold_d3_instrumentation_control": {
+    "timed": {
+      "shots": 256,
+      "seed": 91301,
+      "accepted": 197,
+      "errors": 0,
+      "nanoseconds": 2986467,
+      "accepted_ns": 2316615,
+      "rejected_ns": 669852,
+      "record_hash": "5419925420654286747",
+      "peak_active_width": 8,
+      "actions": 175
+    },
+    "untimed": {
+      "shots": 256,
+      "seed": 91301,
+      "accepted": 197,
+      "errors": 0,
+      "nanoseconds": 735475,
+      "accepted_ns": 548299,
+      "rejected_ns": 187176,
+      "record_hash": "5419925420654286747",
+      "peak_active_width": 8,
+      "actions": 175
+    },
+    "circuit_sha256": "1bbe3684c1c1bd7c1109c80b078f397f1a3ca2f245d2496150e128a1f7125906"
+  }
+}

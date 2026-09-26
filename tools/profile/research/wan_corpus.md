@@ -6,6 +6,11 @@ generalization of the existing folded specialization: all eight imported
 cases fall back. Continue a bounded Sahay d=5 certificate investigation;
 defer generalizing or merging the current experimental specialization.
 
+Follow-up: the [latest-main bottleneck study](wan_bottleneck.md) compares the
+shipped scheduler budget with unlimited search and attributes the remaining
+cost to the large checking region. Its decision replaces the immediate next
+experiment below with an offline comparison against broader commuting fusion.
+
 ## Pinned inputs and transformations
 
 - Upstream: [exact_ler_for_msc](https://github.com/kh428/exact_ler_for_msc/tree/b99452de7e300324e7bbf5cd9347241c3e289bae),
