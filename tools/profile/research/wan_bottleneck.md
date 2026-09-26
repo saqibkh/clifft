@@ -16,6 +16,10 @@ In particular, the supplied Sahay d5 case is a native-T reconstruction with
 2,116 physical noise sites, not a matched author-supplied noisy T export. It
 excludes escape and decoding.
 
+Follow-up: the [larger-distance scaling screen](wan_scaling.md) compares the
+two candidates, identifies an effective offline syndrome-order choice, and
+measures contraction kernels through d9 with scope-only bounds through d11.
+
 ## Latest-main baseline and opt-in pass
 
 The recently landed pass is `ActiveWidthSchedulePass` from main's `e401286a`
