@@ -1,0 +1,68 @@
+{
+  "integrity": {
+    "manifest_files": 402
+  },
+  "rp2-d3": {
+    "orders": 5,
+    "prime_pairs": 3,
+    "irrational_parts": "proved zero"
+  },
+  "fold-d3": {
+    "orders": 5,
+    "prime_pairs": 3,
+    "irrational_parts": "proved zero"
+  },
+  "chan-v1-d3": {
+    "orders": 10,
+    "prime_pairs": 6,
+    "irrational_parts": "proved zero"
+  },
+  "rp2-d5": {
+    "batches": 17306,
+    "compatible_six_class_sets": 1274321786151,
+    "L6": "428120035103643799/20736000000"
+  },
+  "fold-d5": {
+    "fifth_order_batches": 23543,
+    "sixth_order_batches": 23542,
+    "L6": "241056568979596536874210373/32012033131008000000"
+  },
+  "chan-v1-d5": {
+    "orders": 7,
+    "primes": 3,
+    "coefficients_reconstructed": 16
+  },
+  "chan-four-round-d5": {
+    "orders": 6,
+    "partial_reconstruction_primes": 2,
+    "held_out_primes": 1,
+    "growth_coverage": "complete"
+  },
+  "comparisons": {
+    "rp2_raw_counts": "matched",
+    "proxy_B_inside_published_bars": 4,
+    "native_B_inside_published_bars": 3
+  },
+  "zx": {
+    "chan-v1-d5": {
+      "records": 48,
+      "totals": {
+        "reference": 0.9999999999999999,
+        "good": 3.0294024803940195e-33,
+        "bad": 0.2499999999999999
+      },
+      "arithmetic": "complex floating scalars, tolerance 1e-12"
+    },
+    "chan-four-round-d5": {
+      "records": 48,
+      "totals": {
+        "reference": 0.9999999999999999,
+        "good": 0.0,
+        "bad": 0.0
+      },
+      "arithmetic": "complex floating scalars, tolerance 1e-12"
+    }
+  },
+  "scope": "Saved records, arithmetic and coverage; native contractions are not rerun.",
+  "upstream_revision": "b99452de7e300324e7bbf5cd9347241c3e289bae"
+}

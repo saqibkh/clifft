@@ -1,0 +1,1627 @@
+{
+  "upstream_revision": "b99452de7e300324e7bbf5cd9347241c3e289bae",
+  "corpus_p": 0.001,
+  "python": "3.13.11 (main, Jan 28 2026, 00:01:45) [Clang 21.1.4 ]",
+  "platform": "Linux-6.12.93-x86_64-with-glibc2.39",
+  "package": "/tmp/clifft-495-current",
+  "extension_sha256": "b65355e7a20ed34d459f2fff15f7600606c69a7dbafe4a3ac902a221eb846446",
+  "cpu_affinity": [
+    0
+  ],
+  "cases": {
+    "rp2-d3": {
+      "circuit_sha256": "21045f16ebaa9ce05d5b54312fc9a7f5284dab73cb0ed6170c313cd82bbac55d",
+      "model_sha256": "19d363e691fe96791bda026814e30a454805d85cf58684ec601ecca59773b49b",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.0033101290464401245,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 21419,
+          "sample_seconds": [
+            0.05969812488183379,
+            0.060335600981488824,
+            0.05937680695205927
+          ],
+          "counts": [
+            {
+              "attempts": 21419,
+              "accepted": 10997,
+              "errors": 0,
+              "A": 0.5134226621224147,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 21419,
+              "accepted": 10993,
+              "errors": 0,
+              "A": 0.5132359120407115,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 21419,
+              "accepted": 11196,
+              "errors": 0,
+              "A": 0.5227134786871469,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.7871574248019884
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.003693892154842615,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 32768,
+          "sample_seconds": [
+            0.07207126705907285,
+            0.07263029390014708,
+            0.07282591005787253
+          ],
+          "counts": [
+            {
+              "attempts": 32768,
+              "accepted": 16859,
+              "errors": 0,
+              "A": 0.514495849609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 16883,
+              "errors": 0,
+              "A": 0.515228271484375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 16969,
+              "errors": 0,
+              "A": 0.517852783203125,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.2165006683394495
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.0019610540475696325,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.002575475024059415,
+            0.0025257300585508347,
+            0.002501143142580986
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.4665332603035495
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.0018115569837391376,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.0025640579406172037,
+            0.002615696983411908,
+            0.0025765770114958286
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.516188487788895
+        }
+      }
+    },
+    "rp2-d5": {
+      "circuit_sha256": "abec7835b49db1b51a32894fc7098be7dcd73ed1209a3da2c7faec0ee2bb010a",
+      "model_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.020317208021879196,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 75,
+          "sample_seconds": [
+            0.2695420461241156,
+            0.26689860690385103,
+            0.2649292608257383
+          ],
+          "counts": [
+            {
+              "attempts": 75,
+              "accepted": 12,
+              "errors": 0,
+              "A": 0.16,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 75,
+              "accepted": 8,
+              "errors": 0,
+              "A": 0.10666666666666667,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 75,
+              "accepted": 10,
+              "errors": 0,
+              "A": 0.13333333333333333,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 3558.6480920513472
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.01777486316859722,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 265,
+          "sample_seconds": [
+            0.2735053659416735,
+            0.21476246090605855,
+            0.3079650900326669
+          ],
+          "counts": [
+            {
+              "attempts": 265,
+              "accepted": 32,
+              "errors": 0,
+              "A": 0.12075471698113208,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 265,
+              "accepted": 18,
+              "errors": 0,
+              "A": 0.06792452830188679,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 265,
+              "accepted": 37,
+              "errors": 0,
+              "A": 0.13962264150943396,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 1032.0957205346172
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.010613503167405725,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 81,
+          "sample_seconds": [
+            0.2877967469394207,
+            0.28832237515598536,
+            0.29384243581444025
+          ],
+          "counts": [
+            {
+              "attempts": 81,
+              "accepted": 81,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 81,
+              "accepted": 81,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 81,
+              "accepted": 81,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 3559.5354957529057
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.010527973994612694,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 82,
+          "sample_seconds": [
+            0.29398809699341655,
+            0.29451665794476867,
+            0.31029883096925914
+          ],
+          "counts": [
+            {
+              "attempts": 82,
+              "accepted": 82,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 82,
+              "accepted": 82,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 82,
+              "accepted": 82,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 3591.666560302057
+        }
+      }
+    },
+    "fold-d3": {
+      "circuit_sha256": "1bbe3684c1c1bd7c1109c80b078f397f1a3ca2f245d2496150e128a1f7125906",
+      "model_sha256": "3a872108fe6874071006d7e05c994b03c325ed3179efcd58c825ab7304bb9368",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.003117186948657036,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 25976,
+          "sample_seconds": [
+            0.15464388811960816,
+            0.15023887995630503,
+            0.150751446839422
+          ],
+          "counts": [
+            {
+              "attempts": 25976,
+              "accepted": 19533,
+              "errors": 0,
+              "A": 0.7519633507853403,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 25976,
+              "accepted": 19379,
+              "errors": 0,
+              "A": 0.746034801355097,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 25976,
+              "accepted": 19500,
+              "errors": 0,
+              "A": 0.7506929473360024,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 5.80348963810525
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.0031867821235209703,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 32768,
+          "sample_seconds": [
+            0.1522711319848895,
+            0.14864308992400765,
+            0.1485827579163015
+          ],
+          "counts": [
+            {
+              "attempts": 32768,
+              "accepted": 24649,
+              "errors": 0,
+              "A": 0.752227783203125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 24458,
+              "errors": 0,
+              "A": 0.74639892578125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 24595,
+              "errors": 0,
+              "A": 0.750579833984375,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 4.536227109497304
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.0020268429070711136,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.01065790094435215,
+            0.010625002207234502,
+            0.010590388905256987
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 10.375978718002443
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.0020005640108138323,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.011054622940719128,
+            0.010995222022756934,
+            0.011182547081261873
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 10.795530215546023
+        }
+      }
+    },
+    "fold-d5": {
+      "circuit_sha256": "58f4e323b9a97da50b0cbfca9722ba1babb2ece0cdc60a350cf639dca28fe4ff",
+      "model_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.033568802988156676,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 8,
+          "sample_seconds": [
+            5.068240171065554,
+            4.982319416012615,
+            5.078807237092406
+          ],
+          "counts": [
+            {
+              "attempts": 8,
+              "accepted": 3,
+              "errors": 0,
+              "A": 0.375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 0,
+              "errors": 0,
+              "A": 0.0,
+              "B": 0.0,
+              "LER": null
+            },
+            {
+              "attempts": 8,
+              "accepted": 2,
+              "errors": 0,
+              "A": 0.25,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 633530.0213831943
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.03506804793141782,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 8,
+          "sample_seconds": [
+            1.9005507349502295,
+            0.7301594568416476,
+            1.2621838168706745
+          ],
+          "counts": [
+            {
+              "attempts": 8,
+              "accepted": 3,
+              "errors": 0,
+              "A": 0.375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 0,
+              "errors": 0,
+              "A": 0.0,
+              "B": 0.0,
+              "LER": null
+            },
+            {
+              "attempts": 8,
+              "accepted": 0,
+              "errors": 0,
+              "A": 0.0,
+              "B": 0.0,
+              "LER": null
+            }
+          ],
+          "median_us_per_attempt": 157772.9771088343
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.022196911042556167,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 8,
+          "sample_seconds": [
+            5.228777940152213,
+            5.1590981690678746,
+            5.169113181997091
+          ],
+          "counts": [
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 646139.1477496363
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.022856491850689054,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 8,
+          "sample_seconds": [
+            5.202614037087187,
+            5.446912789950147,
+            5.28430484700948
+          ],
+          "counts": [
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 660538.105876185
+        }
+      }
+    },
+    "chan-v1-d3": {
+      "circuit_sha256": "d7b72b53fb9f0fddc7301b4a5c0c418b15c48afa423c58bcac29046eecb6d5ff",
+      "model_sha256": "642a6f63df80f4a1cbe42e1f8a00a2684a396ef2d96a41ae2f46350af9d89fcd",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.0022716049570590258,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 32768,
+          "sample_seconds": [
+            0.03251277678646147,
+            0.03233786206692457,
+            0.03271902003325522
+          ],
+          "counts": [
+            {
+              "attempts": 32768,
+              "accepted": 20804,
+              "errors": 0,
+              "A": 0.6348876953125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21019,
+              "errors": 0,
+              "A": 0.641448974609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21014,
+              "errors": 0,
+              "A": 0.64129638671875,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.9922112056415244
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.0026728129014372826,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 32768,
+          "sample_seconds": [
+            0.02858190587721765,
+            0.027995176846161485,
+            0.027898068074136972
+          ],
+          "counts": [
+            {
+              "attempts": 32768,
+              "accepted": 20834,
+              "errors": 0,
+              "A": 0.63580322265625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21006,
+              "errors": 0,
+              "A": 0.64105224609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21083,
+              "errors": 0,
+              "A": 0.643402099609375,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.8543449965259242
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.0011804611422121525,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.0008942671120166779,
+            0.0008764800149947405,
+            0.0009746390860527754
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.873307726578787
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.0011072789784520864,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.0008954880759119987,
+            0.0008749770931899548,
+            0.0008748869877308607
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.8544698175683152
+        }
+      }
+    },
+    "chan-v1-d5": {
+      "circuit_sha256": "617a2c4986dd7762d66d47b5d43b401dd01516484043f27e3ab79175f0de85bd",
+      "model_sha256": "1c145d4b750345e57fcc64dabb87512903a0825543c55f323fef8e385c8ed393",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.020213074050843716,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 5071,
+          "batch_shots": 8378,
+          "sample_seconds": [
+            0.1504792789928615,
+            0.14671240700408816,
+            0.14641913096420467
+          ],
+          "counts": [
+            {
+              "attempts": 8378,
+              "accepted": 877,
+              "errors": 0,
+              "A": 0.1046789209835283,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8378,
+              "accepted": 895,
+              "errors": 0,
+              "A": 0.10682740510861781,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8378,
+              "accepted": 893,
+              "errors": 0,
+              "A": 0.10658868465027453,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 17.511626522330886
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.021047189831733704,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 5071,
+          "batch_shots": 9293,
+          "sample_seconds": [
+            0.16461280384100974,
+            0.16420688782818615,
+            0.1684318259358406
+          ],
+          "counts": [
+            {
+              "attempts": 9293,
+              "accepted": 976,
+              "errors": 0,
+              "A": 0.1050252878510707,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 9293,
+              "accepted": 992,
+              "errors": 0,
+              "A": 0.10674701388141612,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 9293,
+              "accepted": 1030,
+              "errors": 0,
+              "A": 0.11083611320348649,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 17.7136343313257
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.007251696893945336,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 4963,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.015439906157553196,
+            0.01554106897674501,
+            0.015726630110293627
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 15.176825172602548
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.007448296062648296,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 4963,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.015591195086017251,
+            0.015772530110552907,
+            0.01559123513288796
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 15.225815559460898
+        }
+      }
+    },
+    "chan-four-round-d5": {
+      "circuit_sha256": "f3b4dbdc995778c24c5141bc07506a9a36008a1f6fef967d401d0bb15f36e34b",
+      "model_sha256": "18587ca9d3363ee9dfd66b13a6a0cc9514c507a8cb250a5f9c500c6fbe162b8c",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.024097084067761898,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5537,
+          "batch_shots": 7832,
+          "sample_seconds": [
+            0.1450898558832705,
+            0.14250077004544437,
+            0.14455551700666547
+          ],
+          "counts": [
+            {
+              "attempts": 7832,
+              "accepted": 628,
+              "errors": 0,
+              "A": 0.08018386108273749,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 7832,
+              "accepted": 678,
+              "errors": 0,
+              "A": 0.08656792645556691,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 7832,
+              "accepted": 646,
+              "errors": 0,
+              "A": 0.08248212461695607,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 18.45703741147414
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.02561046020127833,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5537,
+          "batch_shots": 8410,
+          "sample_seconds": [
+            0.14968906086869538,
+            0.1520993469748646,
+            0.15244991891086102
+          ],
+          "counts": [
+            {
+              "attempts": 8410,
+              "accepted": 668,
+              "errors": 0,
+              "A": 0.07942925089179548,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8410,
+              "accepted": 709,
+              "errors": 0,
+              "A": 0.08430439952437574,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8410,
+              "accepted": 763,
+              "errors": 0,
+              "A": 0.09072532699167657,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 18.085534717581996
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.007965530036017299,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5411,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.01570059102959931,
+            0.01576747209765017,
+            0.01559324818663299
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 15.332608427343075
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.00808374909684062,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5411,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.016111713834106922,
+            0.01602870784699917,
+            0.016013605054467916
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 15.653035006835125
+        }
+      }
+    },
+    "soft-d5": {
+      "circuit_sha256": "eeadbfef1862a1bfd588464b977d2b50ba9465b402e62a5f352222e8987a2339",
+      "model_sha256": null,
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.015420956071466208,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3564,
+          "batch_shots": 10872,
+          "sample_seconds": [
+            0.14154355903156102,
+            0.14189642295241356,
+            0.14142650202848017
+          ],
+          "counts": [
+            {
+              "attempts": 10872,
+              "accepted": 1549,
+              "errors": 0,
+              "A": 0.14247608535688006,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 10872,
+              "accepted": 1488,
+              "errors": 0,
+              "A": 0.1368653421633554,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 10872,
+              "accepted": 1644,
+              "errors": 0,
+              "A": 0.15121412803532008,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 13.01909115448501
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.01589577691629529,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3564,
+          "batch_shots": 15248,
+          "sample_seconds": [
+            0.07117788610048592,
+            0.0698016278911382,
+            0.07041442790068686
+          ],
+          "counts": [
+            {
+              "attempts": 15248,
+              "accepted": 2201,
+              "errors": 0,
+              "A": 0.14434679958027283,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 15248,
+              "accepted": 2175,
+              "errors": 0,
+              "A": 0.14264165792235048,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 15248,
+              "accepted": 2337,
+              "errors": 0,
+              "A": 0.1532660020986359,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 4.61794516662427
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.004336636979132891,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3471,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.011336721945554018,
+            0.01149369077757001,
+            0.011425877921283245
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 11.158083907503169
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.004987253108993173,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3471,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.011866727145388722,
+            0.011759625049307942,
+            0.011696798959746957
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 11.484008837214787
+        }
+      }
+    }
+  },
+  "peak_process_rss_kib": 126552,
+  "fixed_faults": {
+    "chan-v1-d5": {
+      "faults": {
+        "3246": 1,
+        "3794": 1,
+        "2700": 1,
+        "4913": 12
+      },
+      "reference": {
+        "A": 1.0,
+        "B": 0.0,
+        "expected_A": 1,
+        "expected_B": 0,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.00040141912177205086,
+        "probabilities": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "four_faults": {
+        "A": 0.2500000000000001,
+        "B": 0.2500000000000001,
+        "expected_A": 0.25,
+        "expected_B": 0.25,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.0003144671209156513,
+        "probabilities": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007
+        ]
+      }
+    },
+    "chan-four-round-d5": {
+      "faults": {
+        "3246": 1,
+        "3794": 1,
+        "2700": 1,
+        "5379": 12
+      },
+      "reference": {
+        "A": 1.0,
+        "B": 0.0,
+        "expected_A": 1,
+        "expected_B": 0,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.0003328851889818907,
+        "probabilities": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "four_faults": {
+        "A": 0.0,
+        "B": 0.0,
+        "expected_A": 0,
+        "expected_B": 0,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.0002255819272249937,
+        "probabilities": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "soft_acceptance": {
+    "A": 0.14675148653375306,
+    "expected_A": 0.143955584096,
+    "attempts": 45744,
+    "standard_error": 0.0016413278487313974,
+    "z": 1.7034393463280555
+  },
+  "clifft_source_revision": "a8350dfe027bd08a58525c85da7692d3c5b52d59",
+  "active_width_schedule": false,
+  "cpu": "AMD EPYC 9554P",
+  "compiler": "GCC 13.3.0 Release native AVX-512"
+}

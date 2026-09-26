@@ -1,0 +1,1851 @@
+{
+  "upstream_revision": "b99452de7e300324e7bbf5cd9347241c3e289bae",
+  "corpus_p": 0.001,
+  "python": "3.13.11 (main, Jan 28 2026, 00:01:45) [Clang 21.1.4 ]",
+  "platform": "Linux-6.12.93-x86_64-with-glibc2.39",
+  "package": "/tmp/clifft-495-current",
+  "extension_sha256": "b65355e7a20ed34d459f2fff15f7600606c69a7dbafe4a3ac902a221eb846446",
+  "cpu_affinity": [
+    0
+  ],
+  "active_width_schedule": true,
+  "cases": {
+    "rp2-d3": {
+      "circuit_sha256": "21045f16ebaa9ce05d5b54312fc9a7f5284dab73cb0ed6170c313cd82bbac55d",
+      "model_sha256": "19d363e691fe96791bda026814e30a454805d85cf58684ec601ecca59773b49b",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.005844976054504514,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 23358,
+          "sample_seconds": [
+            0.050899041816592216,
+            0.05699545005336404,
+            0.056855187052860856
+          ],
+          "counts": [
+            {
+              "attempts": 23358,
+              "accepted": 11981,
+              "errors": 0,
+              "A": 0.5129291891429061,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 23358,
+              "accepted": 11989,
+              "errors": 0,
+              "A": 0.5132716842195394,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 23358,
+              "accepted": 12164,
+              "errors": 0,
+              "A": 0.5207637640208922,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.434077705833584,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 6790.0,
+            "result_dense_work": 4498.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.0061410050839185715,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 32768,
+          "sample_seconds": [
+            0.05719024618156254,
+            0.0573660631198436,
+            0.05626345006749034
+          ],
+          "counts": [
+            {
+              "attempts": 32768,
+              "accepted": 16856,
+              "errors": 0,
+              "A": 0.514404296875,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 16883,
+              "errors": 0,
+              "A": 0.515228271484375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 16967,
+              "errors": 0,
+              "A": 0.517791748046875,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 1.7453078058338178,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 6790.0,
+            "result_dense_work": 4498.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.0043449909426271915,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.0020137650426477194,
+            0.00199966412037611,
+            0.0020208449568599463
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 1.9665674244606635,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 6790.0,
+            "result_dense_work": 4498.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.004289216129109263,
+          "peak_active_width": 8,
+          "qubits": 107,
+          "measurements": 47,
+          "detectors": 44,
+          "noise_sites": 678,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.002052944153547287,
+            0.002032653894275427,
+            0.002069928916171193
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.0048282749485224,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 6790.0,
+            "result_dense_work": 4498.0
+          }
+        }
+      }
+    },
+    "rp2-d5": {
+      "circuit_sha256": "abec7835b49db1b51a32894fc7098be7dcd73ed1209a3da2c7faec0ee2bb010a",
+      "model_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.05023781908676028,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 163,
+          "sample_seconds": [
+            0.2720111720263958,
+            0.26401297887787223,
+            0.25510720908641815
+          ],
+          "counts": [
+            {
+              "attempts": 163,
+              "accepted": 21,
+              "errors": 0,
+              "A": 0.12883435582822086,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 163,
+              "accepted": 13,
+              "errors": 0,
+              "A": 0.07975460122699386,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 163,
+              "accepted": 17,
+              "errors": 0,
+              "A": 0.10429447852760736,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 1619.711526858112,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.05139877018518746,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 353,
+          "sample_seconds": [
+            0.12995375506579876,
+            0.10829339805059135,
+            0.14611497218720615
+          ],
+          "counts": [
+            {
+              "attempts": 353,
+              "accepted": 38,
+              "errors": 0,
+              "A": 0.10764872521246459,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 353,
+              "accepted": 28,
+              "errors": 0,
+              "A": 0.07932011331444759,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 353,
+              "accepted": 53,
+              "errors": 0,
+              "A": 0.1501416430594901,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 368.14094919489736,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.041331527987495065,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 166,
+          "sample_seconds": [
+            0.2562628020532429,
+            0.25218285294249654,
+            0.2559558558277786
+          ],
+          "counts": [
+            {
+              "attempts": 166,
+              "accepted": 166,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 166,
+              "accepted": 166,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 166,
+              "accepted": 166,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 1541.9027459504734,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.04159725201316178,
+          "peak_active_width": 18,
+          "qubits": 257,
+          "measurements": 141,
+          "detectors": 132,
+          "noise_sites": 2405,
+          "batch_shots": 170,
+          "sample_seconds": [
+            0.26690977392718196,
+            0.2656650459393859,
+            0.2726315639447421
+          ],
+          "counts": [
+            {
+              "attempts": 170,
+              "accepted": 170,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 170,
+              "accepted": 170,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 170,
+              "accepted": 170,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 1570.0574936893056,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 18,
+            "result_peak": 18,
+            "incumbent_dense_work": 13533886.0,
+            "result_dense_work": 6128478.0
+          }
+        }
+      }
+    },
+    "fold-d3": {
+      "circuit_sha256": "1bbe3684c1c1bd7c1109c80b078f397f1a3ca2f245d2496150e128a1f7125906",
+      "model_sha256": "3a872108fe6874071006d7e05c994b03c325ed3179efcd58c825ab7304bb9368",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.017493295948952436,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 26679,
+          "sample_seconds": [
+            0.07565712905488908,
+            0.07523806416429579,
+            0.0754054980352521
+          ],
+          "counts": [
+            {
+              "attempts": 26679,
+              "accepted": 20082,
+              "errors": 0,
+              "A": 0.7527268638254807,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 26679,
+              "accepted": 19898,
+              "errors": 0,
+              "A": 0.7458300536002099,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 26679,
+              "accepted": 20033,
+              "errors": 0,
+              "A": 0.7508902132763596,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.826398966799809,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 19602.0,
+            "result_dense_work": 7704.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.017280854983255267,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 24778,
+          "sample_seconds": [
+            0.05991965578868985,
+            0.06084435898810625,
+            0.05985044105909765
+          ],
+          "counts": [
+            {
+              "attempts": 24778,
+              "accepted": 18613,
+              "errors": 0,
+              "A": 0.7511905722818629,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 24778,
+              "accepted": 18457,
+              "errors": 0,
+              "A": 0.744894664621842,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 24778,
+              "accepted": 18608,
+              "errors": 0,
+              "A": 0.7509887803696828,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.4182603837553414,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 19602.0,
+            "result_dense_work": 7704.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.015839708968997,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.002814409090206027,
+            0.0028144200332462788,
+            0.002841921988874674
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.748457063717069,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 19602.0,
+            "result_dense_work": 7704.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.015788841992616653,
+          "peak_active_width": 8,
+          "qubits": 131,
+          "measurements": 27,
+          "detectors": 26,
+          "noise_sites": 374,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.002850373974069953,
+            0.0028353410307317972,
+            0.002832225989550352
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 2.7688877253240207,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 8,
+            "result_peak": 8,
+            "incumbent_dense_work": 19602.0,
+            "result_dense_work": 7704.0
+          }
+        }
+      }
+    },
+    "fold-d5": {
+      "circuit_sha256": "58f4e323b9a97da50b0cbfca9722ba1babb2ece0cdc60a350cf639dca28fe4ff",
+      "model_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.5204876351635903,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 8,
+          "sample_seconds": [
+            0.7040801800321788,
+            0.649424129165709,
+            0.6755420998670161
+          ],
+          "counts": [
+            {
+              "attempts": 8,
+              "accepted": 3,
+              "errors": 0,
+              "A": 0.375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 0,
+              "errors": 0,
+              "A": 0.0,
+              "B": 0.0,
+              "LER": null
+            },
+            {
+              "attempts": 8,
+              "accepted": 2,
+              "errors": 0,
+              "A": 0.25,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 84442.76248337701,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 128363144.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.5318018898833543,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 9,
+          "sample_seconds": [
+            0.2659617781173438,
+            0.1355498160701245,
+            0.2798475809395313
+          ],
+          "counts": [
+            {
+              "attempts": 9,
+              "accepted": 3,
+              "errors": 0,
+              "A": 0.3333333333333333,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 9,
+              "accepted": 0,
+              "errors": 0,
+              "A": 0.0,
+              "B": 0.0,
+              "LER": null
+            },
+            {
+              "attempts": 9,
+              "accepted": 1,
+              "errors": 0,
+              "A": 0.1111111111111111,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 29551.308679704864,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 128363144.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.4962622590828687,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 8,
+          "sample_seconds": [
+            0.6923352079465985,
+            0.666113471146673,
+            0.698865425074473
+          ],
+          "counts": [
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 86541.90099332482,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 128363144.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.5364754740148783,
+          "peak_active_width": 22,
+          "qubits": 416,
+          "measurements": 123,
+          "detectors": 118,
+          "noise_sites": 2116,
+          "batch_shots": 8,
+          "sample_seconds": [
+            0.6661241189576685,
+            0.6525582110043615,
+            0.6329120290465653
+          ],
+          "counts": [
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8,
+              "accepted": 8,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 81569.77637554519,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 22,
+            "result_peak": 22,
+            "incumbent_dense_work": 719447418.0,
+            "result_dense_work": 128363144.0
+          }
+        }
+      }
+    },
+    "chan-v1-d3": {
+      "circuit_sha256": "d7b72b53fb9f0fddc7301b4a5c0c418b15c48afa423c58bcac29046eecb6d5ff",
+      "model_sha256": "642a6f63df80f4a1cbe42e1f8a00a2684a396ef2d96a41ae2f46350af9d89fcd",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.003313126042485237,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 32768,
+          "sample_seconds": [
+            0.03184246411547065,
+            0.03178796195425093,
+            0.03205839195288718
+          ],
+          "counts": [
+            {
+              "attempts": 32768,
+              "accepted": 20804,
+              "errors": 0,
+              "A": 0.6348876953125,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21019,
+              "errors": 0,
+              "A": 0.641448974609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21014,
+              "errors": 0,
+              "A": 0.64129638671875,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.9717548863363845,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 4,
+            "result_peak": 4,
+            "incumbent_dense_work": 462.0,
+            "result_dense_work": 454.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.003410233883187175,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 32768,
+          "sample_seconds": [
+            0.02681855414994061,
+            0.026830941904336214,
+            0.027024466078728437
+          ],
+          "counts": [
+            {
+              "attempts": 32768,
+              "accepted": 20808,
+              "errors": 0,
+              "A": 0.635009765625,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21019,
+              "errors": 0,
+              "A": 0.641448974609375,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 32768,
+              "accepted": 21071,
+              "errors": 0,
+              "A": 0.643035888671875,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.8188153657329167,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 4,
+            "result_peak": 4,
+            "incumbent_dense_work": 462.0,
+            "result_dense_work": 454.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.002140347147360444,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.0008855231571942568,
+            0.0009079170413315296,
+            0.0008828889112919569
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.8647687081975164,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 4,
+            "result_peak": 4,
+            "incumbent_dense_work": 462.0,
+            "result_dense_work": 454.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.001957019092515111,
+          "peak_active_width": 4,
+          "qubits": 17,
+          "measurements": 23,
+          "detectors": 22,
+          "noise_sites": 658,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.0008897900115698576,
+            0.0009014969691634178,
+            0.0008780220523476601
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 0.8689355581736891,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 4,
+            "result_peak": 4,
+            "incumbent_dense_work": 462.0,
+            "result_dense_work": 454.0
+          }
+        }
+      }
+    },
+    "chan-v1-d5": {
+      "circuit_sha256": "617a2c4986dd7762d66d47b5d43b401dd01516484043f27e3ab79175f0de85bd",
+      "model_sha256": "1c145d4b750345e57fcc64dabb87512903a0825543c55f323fef8e385c8ed393",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.03095800313167274,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 5071,
+          "batch_shots": 9397,
+          "sample_seconds": [
+            0.1479673848953098,
+            0.1475992661435157,
+            0.14687936403788626
+          ],
+          "counts": [
+            {
+              "attempts": 9397,
+              "accepted": 987,
+              "errors": 0,
+              "A": 0.10503352133659678,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 9397,
+              "accepted": 1013,
+              "errors": 0,
+              "A": 0.10780036181760136,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 9397,
+              "accepted": 1000,
+              "errors": 0,
+              "A": 0.10641694157709908,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 15.707062482017209,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.032279047183692455,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 5071,
+          "batch_shots": 14790,
+          "sample_seconds": [
+            0.09957125922665,
+            0.09896403690800071,
+            0.09934593713842332
+          ],
+          "counts": [
+            {
+              "attempts": 14790,
+              "accepted": 1550,
+              "errors": 0,
+              "A": 0.10480054090601758,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 14790,
+              "accepted": 1514,
+              "errors": 0,
+              "A": 0.10236646382691007,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 14790,
+              "accepted": 1552,
+              "errors": 0,
+              "A": 0.10493576741041244,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 6.717101902530312,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.017608982976526022,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 4963,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.01375773106701672,
+            0.013776548905298114,
+            0.013760434929281473
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 13.437924735626439,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.017799451015889645,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 127,
+          "detectors": 122,
+          "noise_sites": 4963,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.014780462021008134,
+            0.014256337890401483,
+            0.014458413003012538
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 14.119543948254432,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        }
+      }
+    },
+    "chan-four-round-d5": {
+      "circuit_sha256": "f3b4dbdc995778c24c5141bc07506a9a36008a1f6fef967d401d0bb15f36e34b",
+      "model_sha256": "18587ca9d3363ee9dfd66b13a6a0cc9514c507a8cb250a5f9c500c6fbe162b8c",
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.03611240186728537,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5537,
+          "batch_shots": 8458,
+          "sample_seconds": [
+            0.15572027605958283,
+            0.1539218279067427,
+            0.15400780900381505
+          ],
+          "counts": [
+            {
+              "attempts": 8458,
+              "accepted": 675,
+              "errors": 0,
+              "A": 0.07980610073303382,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8458,
+              "accepted": 722,
+              "errors": 0,
+              "A": 0.08536296996925988,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 8458,
+              "accepted": 705,
+              "errors": 0,
+              "A": 0.08335303854339088,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 18.208537361529327,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.037120271008461714,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5537,
+          "batch_shots": 11490,
+          "sample_seconds": [
+            0.08426956599578261,
+            0.0878165359608829,
+            0.0931601740885526
+          ],
+          "counts": [
+            {
+              "attempts": 11490,
+              "accepted": 968,
+              "errors": 0,
+              "A": 0.08424717145343777,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 11490,
+              "accepted": 939,
+              "errors": 0,
+              "A": 0.08172323759791122,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 11490,
+              "accepted": 938,
+              "errors": 0,
+              "A": 0.08163620539599652,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 7.642866489197815,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.01889069681055844,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5411,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.014081401051953435,
+            0.014022952876985073,
+            0.0139964718837291
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 13.694289918930735,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.019181568175554276,
+          "peak_active_width": 10,
+          "qubits": 55,
+          "measurements": 145,
+          "detectors": 140,
+          "noise_sites": 5411,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.018549870001152158,
+            0.01850241795182228,
+            0.018499272875487804
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 18.068767531076446,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 62010.0,
+            "result_dense_work": 56078.0
+          }
+        }
+      }
+    },
+    "soft-d5": {
+      "circuit_sha256": "eeadbfef1862a1bfd588464b977d2b50ba9465b402e62a5f352222e8987a2339",
+      "model_sha256": null,
+      "noisy": {
+        "full": {
+          "p": 0.001,
+          "compile_seconds": 0.02448908006772399,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3564,
+          "batch_shots": 12593,
+          "sample_seconds": [
+            0.1157401071395725,
+            0.11627833289094269,
+            0.11770833190530539
+          ],
+          "counts": [
+            {
+              "attempts": 12593,
+              "accepted": 1799,
+              "errors": 0,
+              "A": 0.14285714285714285,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 12593,
+              "accepted": 1739,
+              "errors": 0,
+              "A": 0.13809259112205194,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 12593,
+              "accepted": 1882,
+              "errors": 0,
+              "A": 0.1494481060906853,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 9.233568878817017,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 41710.0,
+            "result_dense_work": 23542.0
+          }
+        },
+        "postselected": {
+          "p": 0.001,
+          "compile_seconds": 0.025185595965012908,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3564,
+          "batch_shots": 17197,
+          "sample_seconds": [
+            0.05915961507707834,
+            0.05947047704830766,
+            0.06002770201303065
+          ],
+          "counts": [
+            {
+              "attempts": 17197,
+              "accepted": 2481,
+              "errors": 0,
+              "A": 0.14426934930511134,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 17197,
+              "accepted": 2458,
+              "errors": 0,
+              "A": 0.14293190672791767,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 17197,
+              "accepted": 2554,
+              "errors": 0,
+              "A": 0.14851427574576961,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 3.4581890474098773,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 41710.0,
+            "result_dense_work": 23542.0
+          }
+        }
+      },
+      "noiseless": {
+        "full": {
+          "p": 0,
+          "compile_seconds": 0.012667306000366807,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3471,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.007874746108427644,
+            0.008410769049078226,
+            0.008508667116984725
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 8.213641649490455,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 41710.0,
+            "result_dense_work": 23542.0
+          }
+        },
+        "postselected": {
+          "p": 0,
+          "compile_seconds": 0.013087974861264229,
+          "peak_active_width": 10,
+          "qubits": 42,
+          "measurements": 112,
+          "detectors": 107,
+          "noise_sites": 3471,
+          "batch_shots": 1024,
+          "sample_seconds": [
+            0.007737568113952875,
+            0.0077277428936213255,
+            0.007738880114629865
+          ],
+          "counts": [
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            },
+            {
+              "attempts": 1024,
+              "accepted": 1024,
+              "errors": 0,
+              "A": 1.0,
+              "B": 0.0,
+              "LER": 0.0
+            }
+          ],
+          "median_us_per_attempt": 7.556218861282105,
+          "scheduler": {
+            "applied": true,
+            "incumbent_peak": 10,
+            "result_peak": 10,
+            "incumbent_dense_work": 41710.0,
+            "result_dense_work": 23542.0
+          }
+        }
+      }
+    }
+  },
+  "peak_process_rss_kib": 128184,
+  "fixed_faults": {
+    "chan-v1-d5": {
+      "faults": {
+        "3246": 1,
+        "3794": 1,
+        "2700": 1,
+        "4913": 12
+      },
+      "reference": {
+        "A": 1.0,
+        "B": 0.0,
+        "expected_A": 1,
+        "expected_B": 0,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.00037996587343513966,
+        "probabilities": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "four_faults": {
+        "A": 0.2500000000000001,
+        "B": 0.2500000000000001,
+        "expected_A": 0.25,
+        "expected_B": 0.25,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.0002931049093604088,
+        "probabilities": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007,
+          0.015625000000000007
+        ]
+      }
+    },
+    "chan-four-round-d5": {
+      "faults": {
+        "3246": 1,
+        "3794": 1,
+        "2700": 1,
+        "5379": 12
+      },
+      "reference": {
+        "A": 1.0,
+        "B": 0.0,
+        "expected_A": 1,
+        "expected_B": 0,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.0002874459605664015,
+        "probabilities": [
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0625,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "four_faults": {
+        "A": 0.0,
+        "B": 0.0,
+        "expected_A": 0,
+        "expected_B": 0,
+        "accepted_record_dimension": 5,
+        "records": 32,
+        "peak_active_width": 10,
+        "seconds": 0.00014564115554094315,
+        "probabilities": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "soft_acceptance": {
+    "A": 0.14523851059293288,
+    "expected_A": 0.143955584096,
+    "attempts": 51591,
+    "standard_error": 0.0015455228642352469,
+    "z": 0.8300922144996471
+  },
+  "clifft_source_revision": "a8350dfe027bd08a58525c85da7692d3c5b52d59",
+  "cpu": "AMD EPYC 9554P",
+  "compiler": "GCC 13.3.0 Release native AVX-512"
+}

@@ -1,0 +1,80 @@
+{
+  "integrity": {
+    "manifest_files": 402
+  },
+  "exact_d5_points": [
+    {
+      "p": "1/2000",
+      "LER": "2.84616550107209976184585543510E-10",
+      "reconstruction_primes": 347,
+      "held_out_primes": 1,
+      "characters_checked": 2784,
+      "denominator_bits": 21137
+    },
+    {
+      "p": "3/4000",
+      "LER": "1.16552788909410927254029692204E-9",
+      "reconstruction_primes": 336,
+      "held_out_primes": 1,
+      "characters_checked": 2696,
+      "denominator_bits": 20477
+    },
+    {
+      "p": "1/1000",
+      "LER": "3.32842537141804345097245631814E-9",
+      "reconstruction_primes": 324,
+      "held_out_primes": 1,
+      "characters_checked": 2600,
+      "denominator_bits": 19737
+    },
+    {
+      "p": "3/2000",
+      "LER": "1.59126680652956773671847729964E-8",
+      "reconstruction_primes": 299,
+      "held_out_primes": 1,
+      "characters_checked": 2400,
+      "denominator_bits": 18186
+    },
+    {
+      "p": "1/500",
+      "LER": "5.17510236614222092465978436443E-8",
+      "reconstruction_primes": 297,
+      "held_out_primes": 1,
+      "characters_checked": 2384,
+      "denominator_bits": 18080
+    }
+  ],
+  "series": [
+    {
+      "distance": 3,
+      "raw_coefficients_checked": 22,
+      "LER_coefficients_checked": 11,
+      "through_order": 10,
+      "reconstruction_primes": 2,
+      "held_out_primes": 1,
+      "maximum_conservative_height_bits": 115
+    },
+    {
+      "distance": 5,
+      "raw_coefficients_checked": 22,
+      "LER_coefficients_checked": 11,
+      "through_order": 10,
+      "reconstruction_primes": 3,
+      "held_out_primes": 0,
+      "maximum_conservative_height_bits": 158
+    }
+  ],
+  "pointwise_tail_checks": 12,
+  "ZX_saved_records": {
+    "saved_numerical_records_checked": 9,
+    "fresh_ZX_runs": 0,
+    "qualification": "Graph transformations may be exact; these stored scalar probabilities were evaluated in floating point."
+  },
+  "growth_saved_membership": {
+    "saved_records_checked": 16,
+    "fresh_stabiliser_calculations": 0
+  },
+  "complete": true,
+  "scope": "Reconstruction from the supplied character residues, coefficient residues and saved ZX probabilities.",
+  "upstream_revision": "b99452de7e300324e7bbf5cd9347241c3e289bae"
+}

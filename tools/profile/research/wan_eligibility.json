@@ -1,0 +1,88 @@
+{
+  "upstream_revision": "b99452de7e300324e7bbf5cd9347241c3e289bae",
+  "corpus_p": 0.001,
+  "python": "3.13.11 (main, Jan 28 2026, 00:01:45) [Clang 21.1.4 ]",
+  "platform": "Linux-6.12.93-x86_64-with-glibc2.39",
+  "package": "/tmp/folded-bench-current",
+  "extension_sha256": "9d1118e4e30b06f5ffd957a7761738496a9c4d5f21ab7f92546633df6d1f2e57",
+  "cpu_affinity": [
+    0
+  ],
+  "active_width_schedule": false,
+  "cases": {
+    "rp2-d3": {
+      "circuit_sha256": "21045f16ebaa9ce05d5b54312fc9a7f5284dab73cb0ed6170c313cd82bbac55d",
+      "model_sha256": "19d363e691fe96791bda026814e30a454805d85cf58684ec601ecca59773b49b",
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 8
+    },
+    "rp2-d5": {
+      "circuit_sha256": "abec7835b49db1b51a32894fc7098be7dcd73ed1209a3da2c7faec0ee2bb010a",
+      "model_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 18
+    },
+    "fold-d3": {
+      "circuit_sha256": "1bbe3684c1c1bd7c1109c80b078f397f1a3ca2f245d2496150e128a1f7125906",
+      "model_sha256": "3a872108fe6874071006d7e05c994b03c325ed3179efcd58c825ab7304bb9368",
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 8
+    },
+    "fold-d5": {
+      "circuit_sha256": "58f4e323b9a97da50b0cbfca9722ba1babb2ece0cdc60a350cf639dca28fe4ff",
+      "model_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 22
+    },
+    "chan-v1-d3": {
+      "circuit_sha256": "d7b72b53fb9f0fddc7301b4a5c0c418b15c48afa423c58bcac29046eecb6d5ff",
+      "model_sha256": "642a6f63df80f4a1cbe42e1f8a00a2684a396ef2d96a41ae2f46350af9d89fcd",
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 4
+    },
+    "chan-v1-d5": {
+      "circuit_sha256": "617a2c4986dd7762d66d47b5d43b401dd01516484043f27e3ab79175f0de85bd",
+      "model_sha256": "1c145d4b750345e57fcc64dabb87512903a0825543c55f323fef8e385c8ed393",
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 10
+    },
+    "chan-four-round-d5": {
+      "circuit_sha256": "f3b4dbdc995778c24c5141bc07506a9a36008a1f6fef967d401d0bb15f36e34b",
+      "model_sha256": "18587ca9d3363ee9dfd66b13a6a0cc9514c507a8cb250a5f9c500c6fbe162b8c",
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 10
+    },
+    "soft-d5": {
+      "circuit_sha256": "eeadbfef1862a1bfd588464b977d2b50ba9465b402e62a5f352222e8987a2339",
+      "model_sha256": null,
+      "selected": false,
+      "reason": "unsupported operation or target in folded candidate",
+      "public_api_selected": false,
+      "fallback_peak_active_width": 10
+    }
+  },
+  "positive_control": {
+    "circuit_sha256": "8254687fbff582b466ad1f037fd5128046e2415b23b765d2f66f989eadd0be73",
+    "selected": true,
+    "peak_active_width": 1
+  },
+  "peak_process_rss_kib": 64204,
+  "clifft_source_revision": "b87c0da396b4bbde54fbee5535aeac1116170605",
+  "python_sources_verified_against_revision": true,
+  "cpu": "AMD EPYC 9554P",
+  "compiler": "GCC 13.3.0 Release native AVX-512"
+}
