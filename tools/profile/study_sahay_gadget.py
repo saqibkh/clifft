@@ -106,7 +106,7 @@ def draw_syndrome(
     syndrome = np.zeros(gadget.rank, dtype=np.uint8)
     for k, original in enumerate(gadget.order):
         zero = kernel.marginal(bound, syndrome, k + 1)
-        if zero > mass + 1e-9:
+        if zero > mass * (1 + 1e-8):
             raise AssertionError("Prefix probability increased")
         zero = min(zero, mass)
         if rng.random() * mass >= zero:
@@ -116,8 +116,10 @@ def draw_syndrome(
             mass = zero
     amplitudes = kernel.amplitudes(bound, syndrome)
     norm = float(np.vdot(amplitudes, amplitudes).real)
-    if abs(norm - mass) > 1e-9 or norm < 1e-14:
-        raise AssertionError("Full marginal and output amplitudes disagree")
+    # Individual complete records can be exponentially rare at larger distance.
+    # Their absolute probability is not a validity threshold.
+    if norm <= 0 or abs(norm - mass) > 1e-8 * max(norm, mass):
+        raise AssertionError(("Full marginal and output amplitudes disagree", norm, mass))
     return syndrome, amplitudes, norm
 
 

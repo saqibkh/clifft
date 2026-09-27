@@ -1,5 +1,8 @@
 # Complete Sahay d5 gadget experiment
 
+Follow-up: [larger-distance constructed controls](constructed_folded.md) reports
+complete reconstructed f7 attempts and constructed d7/d9 terminal gadgets.
+
 2026-09-27. **The supplied Sahay Fold d5 model now has a working experimental
 replacement for its two large checks and terminal code projection.** Ordinary
 Clifft runs the original prefix; the replacement samples the remaining physical

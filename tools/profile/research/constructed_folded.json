@@ -1,0 +1,420 @@
+{
+  "main_revision": "63fc77ab7753220f396a87c274e9d2252a4b1b71",
+  "reference_revision": "b87c0da396b4bbde54fbee5535aeac1116170605",
+  "source_sha256": {
+    "study_constructed_folded.py": "0a4a0352d95bfbdb43728690d113d3f5c5278c261dfb88b4fe766c8255017b81",
+    "constructed_folded.py": "f6a2095847192983387e52ca6b7785b1bacb1ffefa91a712f8a8c2c91f3b23df",
+    "quadratic_oracle.py": "d2ce83927770d532c35b9ba8e460db436336271bf31ffedfc905aeb7531f3485",
+    "sahay_gadget.py": "e773a5294ccae1923b9a7013665dfa22ad31c86a39e220cd5ff2e74456a970b1",
+    "sahay_kernel.py": "2124732dba0c3cf82efe5d84cb2b6fedcfcf97182daa6942adefd57e0fcede25",
+    "sahay_contraction_kernel.cc": "b3b4e4f572a7b96c6a07a16141fd60185fcc196bde60018969cb7941f9b51348",
+    "study_sahay_gadget.py": "8e5efe7b876c1a2e59a23b673bc9817e4d2b85fb9f27abc10ea3d40f8ab7aca3",
+    "study_wan_scaling.py": "5f00eb88a10c0dc0061e5b639740720d97824b92757e2c071043b7631180d68b",
+    "benchmark_wan_scaling.py": "fca0969fd62f4fbbfa9659562b90340503a9165b3615e2824fed8ef3570f65cf"
+  },
+  "cpu_affinity": 0,
+  "extension_sha256": "200bf00efa2e2406b6bee11c1802849fa6f8bff8a94972ff969c044aa1438c74",
+  "quadratic_oracle_validation": {
+    "cases": 216,
+    "maximum_absolute_error": 0.0,
+    "reference": "exhaustive binary sums"
+  },
+  "cases": [
+    {
+      "distance": 3,
+      "provenance": "constructed terminal-gadget control; no injection, growth or escape",
+      "model_sha256": "9e47b5e968a026919eda3fbeb9db13c0b8ee592a171e2b322a868296484a1686",
+      "certificate": {
+        "symbolic_inputs": 98,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 8,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 13,
+        "x_generators": 6,
+        "data_pair_factors": 4,
+        "physical_noise_sites": 52,
+        "prefix_event_stop": 4,
+        "projection_event_start": 104
+      },
+      "records": 21,
+      "syndrome_order": [
+        0,
+        5,
+        1,
+        2,
+        3,
+        4
+      ],
+      "syndrome_order_policy": "amplitude min-scope elimination order",
+      "peak_contraction_entries": 16,
+      "numeric_payload_bytes": 19780,
+      "setup_seconds": 1.5142978690564632,
+      "ideal_projector": {
+        "states": 6,
+        "outcome_pairs": 4,
+        "maximum_absolute_error": 9.992007221626409e-16
+      },
+      "independent_contraction_check": {
+        "cases": 6,
+        "comparisons": 144,
+        "maximum_absolute_error": 3.925231146709438e-16,
+        "noncancelling_relative_checks": 82,
+        "maximum_relative_error": 1.554312234475225e-15,
+        "minimum_positive_probability": 0.0039062499999999853
+      },
+      "physical_reference": {
+        "cases": 6,
+        "comparisons": 96,
+        "peak_active_width": 6,
+        "maximum_absolute_error": 4.996003610813204e-16
+      },
+      "benchmark": {
+        "contract": "entire constructed terminal gadget from a supplied encoded boundary",
+        "probability": 0.001,
+        "shots_per_trial": 16,
+        "seconds_per_shot": [
+          0.0018632338178576902,
+          0.001935260690515861,
+          0.0019162618118571118
+        ],
+        "median_seconds_per_shot": 0.0019162618118571118,
+        "record_hashes": [
+          "52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29",
+          "52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29",
+          "52a3e0804d93dc525ec3c67ef8ac5b01756ecf0513e36f3c19435e4c82cb5d29"
+        ],
+        "attempts_with_nonzero_records": [
+          0,
+          0,
+          0
+        ],
+        "early_rejection": false
+      }
+    },
+    {
+      "distance": 5,
+      "provenance": "constructed terminal-gadget control; no injection, growth or escape",
+      "model_sha256": "22c5d436ec0a275c7c6d02139fbb79af0ceff7185ed4673ca489e1d55909d04e",
+      "certificate": {
+        "symbolic_inputs": 212,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 12,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 41,
+        "x_generators": 20,
+        "data_pair_factors": 16,
+        "physical_noise_sites": 100,
+        "prefix_event_stop": 6,
+        "projection_event_start": 200
+      },
+      "records": 53,
+      "syndrome_order": [
+        0,
+        19,
+        4,
+        1,
+        15,
+        18,
+        3,
+        5,
+        8,
+        14,
+        11,
+        16,
+        2,
+        10,
+        6,
+        7,
+        9,
+        12,
+        13,
+        17
+      ],
+      "syndrome_order_policy": "amplitude min-scope elimination order",
+      "peak_contraction_entries": 64,
+      "numeric_payload_bytes": 477032,
+      "setup_seconds": 1.565997369820252,
+      "ideal_projector": {
+        "states": 6,
+        "outcome_pairs": 4,
+        "maximum_absolute_error": 1.3322676295501878e-15
+      },
+      "independent_contraction_check": {
+        "cases": 6,
+        "comparisons": 144,
+        "maximum_absolute_error": 5.551115123125783e-17,
+        "noncancelling_relative_checks": 88,
+        "maximum_relative_error": 1.3322676295501894e-15,
+        "minimum_positive_probability": 9.536743164062492e-07
+      },
+      "physical_reference": {
+        "cases": 6,
+        "comparisons": 96,
+        "peak_active_width": 8,
+        "maximum_absolute_error": 8.239936510889834e-18
+      },
+      "benchmark": {
+        "contract": "entire constructed terminal gadget from a supplied encoded boundary",
+        "probability": 0.001,
+        "shots_per_trial": 16,
+        "seconds_per_shot": [
+          0.007765784554067068,
+          0.007805005443515256,
+          0.007890322434832342
+        ],
+        "median_seconds_per_shot": 0.007805005443515256,
+        "record_hashes": [
+          "30e155bd1fcf453372e55220d0b6e4aeb9e7133c888f524f2ac41f90d417bcf6",
+          "89b15a4327787f73a428c9618eec931057511d2517cb82f67fc2dd879454637c",
+          "4925b9b6329f24346bce043f2cdabb940199fd87188f3ae77c9559bf7cfa9f43"
+        ],
+        "attempts_with_nonzero_records": [
+          1,
+          2,
+          0
+        ],
+        "early_rejection": false
+      }
+    },
+    {
+      "distance": 7,
+      "provenance": "constructed terminal-gadget control; no injection, growth or escape",
+      "model_sha256": "3a2eee3075e4a85a4b048ce55c4a8e77351199a1644ee43864428efcf331f6f6",
+      "certificate": {
+        "symbolic_inputs": 374,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 16,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 85,
+        "x_generators": 42,
+        "data_pair_factors": 36,
+        "physical_noise_sites": 164,
+        "prefix_event_stop": 8,
+        "projection_event_start": 328
+      },
+      "records": 101,
+      "syndrome_order": [
+        0,
+        41,
+        6,
+        1,
+        35,
+        40,
+        5,
+        7,
+        12,
+        2,
+        34,
+        29,
+        36,
+        39,
+        13,
+        8,
+        18,
+        3,
+        20,
+        27,
+        11,
+        23,
+        30,
+        37,
+        9,
+        21,
+        16,
+        4,
+        24,
+        28,
+        33,
+        10,
+        14,
+        15,
+        17,
+        19,
+        22,
+        25,
+        26,
+        31,
+        32,
+        38
+      ],
+      "syndrome_order_policy": "amplitude min-scope elimination order",
+      "peak_contraction_entries": 4096,
+      "numeric_payload_bytes": 6919044,
+      "setup_seconds": 2.5032122461125255,
+      "ideal_projector": {
+        "states": 6,
+        "outcome_pairs": 4,
+        "maximum_absolute_error": 1.3322676295501878e-15
+      },
+      "independent_contraction_check": {
+        "cases": 6,
+        "comparisons": 144,
+        "maximum_absolute_error": 8.326672684688674e-17,
+        "noncancelling_relative_checks": 80,
+        "maximum_relative_error": 6.661338147750949e-16,
+        "minimum_positive_probability": 1.8626451492309558e-09
+      },
+      "benchmark": {
+        "contract": "entire constructed terminal gadget from a supplied encoded boundary",
+        "probability": 0.001,
+        "shots_per_trial": 16,
+        "seconds_per_shot": [
+          0.08150493125140201,
+          0.08562142912705895,
+          0.08143571292748675
+        ],
+        "median_seconds_per_shot": 0.08150493125140201,
+        "record_hashes": [
+          "8a2543d41a35e346ad587c74a5f35411afc89c36108a5e26cc7e35edbf478a90",
+          "5a95c72bfe2ce9e1039613d39293c0cc996113038b46cd41ed8ec30ec2663594",
+          "821983b4cc2e086e7a9186f2eb3071b8195a8bad39a72e164c8647b115507751"
+        ],
+        "attempts_with_nonzero_records": [
+          2,
+          0,
+          1
+        ],
+        "early_rejection": false
+      }
+    },
+    {
+      "distance": 9,
+      "provenance": "constructed terminal-gadget control; no injection, growth or escape",
+      "model_sha256": "3eb64f66dc30f800d10e703f04955f0f02e84f9cc0e4235b145f58dfd3201c6a",
+      "certificate": {
+        "symbolic_inputs": 584,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 20,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 145,
+        "x_generators": 72,
+        "data_pair_factors": 64,
+        "physical_noise_sites": 244,
+        "prefix_event_stop": 10,
+        "projection_event_start": 488
+      },
+      "records": 165,
+      "syndrome_order": [
+        0,
+        71,
+        8,
+        1,
+        63,
+        70,
+        7,
+        9,
+        16,
+        2,
+        62,
+        55,
+        64,
+        69,
+        4,
+        17,
+        10,
+        24,
+        26,
+        35,
+        44,
+        53,
+        66,
+        6,
+        47,
+        56,
+        15,
+        68,
+        3,
+        19,
+        28,
+        31,
+        32,
+        37,
+        54,
+        61,
+        46,
+        60,
+        13,
+        22,
+        11,
+        18,
+        25,
+        33,
+        39,
+        67,
+        59,
+        42,
+        12,
+        40,
+        38,
+        45,
+        52,
+        51,
+        57,
+        20,
+        27,
+        34,
+        41,
+        5,
+        14,
+        21,
+        23,
+        29,
+        30,
+        36,
+        43,
+        48,
+        49,
+        50,
+        58,
+        65
+      ],
+      "syndrome_order_policy": "amplitude min-scope elimination order",
+      "peak_contraction_entries": 8192,
+      "numeric_payload_bytes": 30052688,
+      "setup_seconds": 5.7968729441054165,
+      "ideal_projector": {
+        "states": 6,
+        "outcome_pairs": 4,
+        "maximum_absolute_error": 1.3322676295501878e-15
+      },
+      "independent_contraction_check": {
+        "cases": 6,
+        "comparisons": 144,
+        "maximum_absolute_error": 1.3877787807814457e-16,
+        "noncancelling_relative_checks": 86,
+        "maximum_relative_error": 1.887379141862764e-15,
+        "minimum_positive_probability": 3.4694469519536057e-18
+      },
+      "benchmark": {
+        "contract": "entire constructed terminal gadget from a supplied encoded boundary",
+        "probability": 0.001,
+        "shots_per_trial": 16,
+        "seconds_per_shot": [
+          0.5570031520619523,
+          0.5655277244368335,
+          0.5602748221135698
+        ],
+        "median_seconds_per_shot": 0.5602748221135698,
+        "record_hashes": [
+          "ddd073d4aab127405a80bab584931c9eb44db8640ff8f746db9df52b251f9718",
+          "0a7774d3d2601c5db0cc77ddb6a49964ac619dee186d2dea8796a2a4ed881e32",
+          "87a6a0d3480016dec9456d916041a4245264b3ee18ccca27f9353e5c5b87e8e2"
+        ],
+        "attempts_with_nonzero_records": [
+          3,
+          2,
+          4
+        ],
+        "early_rejection": false
+      }
+    }
+  ]
+}

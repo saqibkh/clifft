@@ -1,0 +1,1588 @@
+{
+  "provenance": "pinned local full f7 reconstruction, not an author-supplied d7 export",
+  "main_revision": "63fc77ab7753220f396a87c274e9d2252a4b1b71",
+  "reference_revision": "b87c0da396b4bbde54fbee5535aeac1116170605",
+  "core_sha256": "589459d141033d235464c0c846339d595d231aebefcad027e28bfb70d5e3e294",
+  "sampler_sha256": "cc1e7a08ac7b24f1ac7d942e212946742bbfd7c057a5cb209425b2ee390d2bf7",
+  "replay_sha256": "8a68d3c1000c815c599995ced1a94959f7e906dcce4e741473a113654be1e749",
+  "driver_sha256": "82181f3ae62456991f410469c504529e93f3ae01ec4678d688579c16826be905",
+  "reference_source_sha256": {
+    "tools/profile/README.md": "1e82dc01b4c87bd69502112577942f5075a708a85f9c83b18eaa4f620d08fe29",
+    "tools/profile/audit_folded_contraction.py": "c489cc33ed4b5d194446b91168d9b9cf995c04e29908880e524ee1a7db359033",
+    "tools/profile/audit_folded_growth_handoff.py": "3f0979ca5e78f24d0acf88e0849084327a6c8d9324a9f71058656f5b8455e872",
+    "tools/profile/audit_folded_msc_family.py": "d078a15315904709fc4b20793369bfb7a6d5738a2ffe02394397f0fb2f9c145e",
+    "tools/profile/audit_folded_protocol.py": "3b6142e9b127ce505af85ffd16de09f5b80797ae2c3494f96378c97137ab18a1",
+    "tools/profile/audit_scheduled_baseline.py": "441b837f87701b40303fa2fab2f5b96444d8b558efa93ba9b011c3ee9de30bd9",
+    "tools/profile/audit_terminal_coverage.py": "81e8291b5f46a3094c16674843a7994f006afcd9dce58688ec9b1dfce92a1d3a",
+    "tools/profile/benchmark_clifford_gadget.py": "f32ad30587bf1a9b3b8ca010b447f6eba8ddf59d4250a8ab3966f0056c515ef7",
+    "tools/profile/benchmark_folded_integration.py": "b6fb127033e9533d512327a6c4dcfe1917472e7857a987703948038ad722ed23",
+    "tools/profile/benchmark_folded_msc.py": "4f76f7dc136fa1f812a88c39313f8e38b8115f6eb75ccff3161c903be57c38f7",
+    "tools/profile/benchmark_folded_protocol.py": "a889aaad17b4bc37d5ae2047a6127d10d3f88ff21a1130d347f5b27d2b460d95",
+    "tools/profile/benchmark_gadget_contraction.py": "79cffcb8c3844b6092211760bee1c24fd673b32805ca70ce4e2c46c4c0318211",
+    "tools/profile/benchmark_gadget_family.py": "191ba4953968eb9408a49b352241c8a03c032bd4827110b169c279f817715069",
+    "tools/profile/benchmark_native_terminal.py": "6fdf93112150b1fd4a3ecd1735dcad8135d733c2107911705756bf0d469cfce9",
+    "tools/profile/benchmark_scheduled_baseline.py": "4e06e30c05ff6af013aab127f38074e53388cd546352f7dab94032ed8e87efca",
+    "tools/profile/clifford_gadget.py": "cb8feffe8f71dbe59fc43f3a78ed2757cb5e4c2f96f8650ca4f768a2dbca9dec",
+    "tools/profile/compile_folded_growth.py": "b21c4d7d1b0c1ecd982363e898367563b1ee6b48ae548e1b06b2c0143a9dc002",
+    "tools/profile/compile_folded_protocol.py": "f090d5718d9bfc940440845c5901fe1206567d929f4eb0ec3a958d40114a601e",
+    "tools/profile/compile_terminal_gadget.py": "afd8c137c785c7894425b418776edbd09aba23fa28faad1ddaeb158557e0724d",
+    "tools/profile/compiled_gadget_contraction.py": "849d63556de461306fbc00b750bd4a27dc43953aff6fc86896b8796eac23915f",
+    "tools/profile/cultivation_pauli_oracle.py": "c547eb669bdc40c51e1f38dd0a3827f1b0226937e42b20d144a7151382dd0ed2",
+    "tools/profile/cultivation_study.py": "b1abdb7c31e2ea9a5c7a61a318f172047833315274e913030904678100b858e7",
+    "tools/profile/fixtures/active_width5_sustained.stim": "d7a552b48ff970100e4e860fff4806c5de88a1970afb38868f62566721702049",
+    "tools/profile/fixtures/active_width5_transient.stim": "8c58a1ff387a7414d1a78b4fc3c0be24648ed0e6d3796e7b1265729fa65120d9",
+    "tools/profile/fixtures/cliffordea/LICENSE": "276ce8c4b74f1bee8e42eec2e6a8fca70b220edc15936f41d6b97a6d2256bcaa",
+    "tools/profile/fixtures/cliffordea/README.md": "5655598b2a4d27bcc3e3b877c3126111dc05a1343451929e9bb03fba2c64ada6",
+    "tools/profile/fixtures/cliffordea/d3a6_inject+cultivate_p1e-3.stim": "5003995c48830329a84e50560c49c1433b9dd8d23c06266a74272b6fce2d5afa",
+    "tools/profile/fixtures/cliffordea/d3a6f2_inject+cultivate_p1e-3.stim": "d9dc26be494547c21a71eb24ca0c53e45e85ab6a0c762fea6c8cf72a16cc01a9",
+    "tools/profile/fixtures/cliffordea/d5a19_inject+cultivate_p1e-3.stim": "00759f0270f267a20e05cdfe483d5bc4f0b0dd4fcf4843122eaa8c987d001180",
+    "tools/profile/fixtures/cliffordea/d5a19f13_inject+cultivate_p1e-3.stim": "a0187f92a8cfc2fcd294836abb47e7b199e8f9efcaae004448adeba0840c09f8",
+    "tools/profile/fixtures/cliffordea/manifest.json": "905006c61d9ebfc9c433a6e99379ff38b2cc617af22f928e37e2a1d44357864d",
+    "tools/profile/fixtures/folded_msc/f3_fed_p1e-3.json": "c794c5fcc8db28620818732051190f3f41828740f309f52eb63f7fdd78de1269",
+    "tools/profile/fixtures/folded_msc/f3_fed_p1e-3.stim": "8254687fbff582b466ad1f037fd5128046e2415b23b765d2f66f989eadd0be73",
+    "tools/profile/fixtures/folded_msc/f5_fed_p1e-3.json": "d5128bed6964247767bdbebdc9b58c844725f01c03599c5db5158ba6506364e5",
+    "tools/profile/fixtures/folded_msc/f5_fed_p1e-3.stim": "b9e261d861fc691c1586822d4d334a2e3d3888cc2733df641e0cbd17279cc40c",
+    "tools/profile/fixtures/folded_msc/f7_fed_p1e-3.stim": "fff72e8f48a0509a00d52133d8cb334a1743fc7c74ce1f40eeeccc9785909545",
+    "tools/profile/fixtures/soft/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "tools/profile/fixtures/soft/MSC_circuit_d7_p0.0005.stim": "83760fdb1e71be32c1e1eb83bbbf4176e9d32adb48384b14b818b294e7bf25f5",
+    "tools/profile/fixtures/soft/README.md": "6b7fae8c3a83a2b43955936329629b5ac63ef2c5c255e093318c5ea032f866ac",
+    "tools/profile/fixtures/soft/manifest.json": "c45f3ecd3904ab1abdc6a443288152348456bd072f81c9d3be39f38e712a2472",
+    "tools/profile/fixtures/soft/upstream_config.json": "2a525ce37fc980fd0ce906db88fc82596a0c041b0e68f44284e2b93a417b3ce8",
+    "tools/profile/folded_check_contraction.py": "02176b77f48b83e20c280f7bed2df7f228a1229dc6812732cf4a58ebada88fa8",
+    "tools/profile/folded_growth.py": "98e56bb3e4caa6535d059d1d3680cb705f803942febfebb210e711e58a7bb93c",
+    "tools/profile/folded_msc.py": "75f6b6a78b159a3689b2a0c588903a045376cad24f1ace4b6a4cfe7ae8354373",
+    "tools/profile/folded_msc_f7.py": "78fe6c2067147baf56feb0d7da8197e87b09d3778d726adcce3bfef32d913bec",
+    "tools/profile/folded_msc_family.py": "ed1e88cb10d8d7575090b0406a1b521f74d608d37df409042c2350ef68b89d19",
+    "tools/profile/folded_msc_oracle.py": "85e6a087986adbd22e44bd2c56258c3c2cc6f31418f160958895234f9177348c",
+    "tools/profile/folded_sampling_kernel.h": "58a0c7fb3a2a85d3bb3a7d3cf538ff8f5b7eae83c8fe11560e65bb81faa4c65d",
+    "tools/profile/gadget_contraction_kernel.h": "9deac9b695b7152745d136e69f6475943b045071354d62631d215bef7bfbc527",
+    "tools/profile/gadget_family.py": "580a130d48528966a71ef9648de94ee086981bae5ce85cdec160aeeffaa128ae",
+    "tools/profile/measure_scheduled_memory.py": "217533103bd0074f03fc0d86bce00801e95ed808e35c6cfcb0f5eebd5b8cd3bc",
+    "tools/profile/plot_gadget_family.py": "5e9bdecbf5b8c7eb7987834a3e0208cad81869922d4a541c9855711b3676c25d",
+    "tools/profile/profile_compile.cpp": "5495c22ed88160639c2590616aeab7b69aca2aa1ece1aa2f76975526650eb203",
+    "tools/profile/profile_cultivation.cpp": "2f688bbde1cc4cd4a8fd5cc7b36da67c3c0a6f4931eec4e38970875fd7dfcd81",
+    "tools/profile/profile_gadget_contraction.cpp": "35b547bfa5566e3311481c05bca281f18bc52013dc39d927a696c17866109d14",
+    "tools/profile/profile_probability.cpp": "f8a1978b33ac66b2c5c360d3c72a1943f78eb3002dbfc1f2c9e6c949ef3d906e",
+    "tools/profile/profile_sample.cpp": "ef5d15395078017c1be311d2afd5c772ee9902fc41f917c2716ae22eb75e71aa",
+    "tools/profile/replay_cultivation.cpp": "35cf3f307b79aedd3ca1fec78d02cf21dc7e5e73b6e0e86265fc50f3b72e6e84",
+    "tools/profile/research/clifford_gadget.md": "c7f30a5bed3e2fa372f0f8331539386dc42652213ac6155df37aa741eed5539c",
+    "tools/profile/research/clifford_gadget_data.json": "4ae6d9f849e58e11cd9df916744648138f19e6d47fb3de950facd7159fd0d9ae",
+    "tools/profile/research/cultivation_aer_data.json": "2bc2b9485686289a79e0df853466297c3b52d2b06e3d0aa5d528664c2f5a5bd1",
+    "tools/profile/research/cultivation_corpus.md": "7324ec766548e64516a8f204d2876180ca063b7ef83655cf036b8e5349811896",
+    "tools/profile/research/cultivation_corpus_data.json": "a7bfc6fa3196287ee8955d5ae0b0af2a0e2b1cb512d212fe6f6fd1fb5557fccc",
+    "tools/profile/research/folded_cleanup.md": "0941469c1970c121abac815d80f82bde21bf0dc76cffd5971dcadfe0a450ddb5",
+    "tools/profile/research/folded_cleanup_benchmark.json": "29e209b2f4973ce881299b45a55c4f571342bf87bb1616557c9505711de1cc23",
+    "tools/profile/research/folded_cleanup_validation.json": "233491b7ab463f7d1683d6e68aca3982a050f61cbbab6caa27df4798f80fe3d1",
+    "tools/profile/research/folded_contraction.md": "30ede70805d0ff49450cf5a4670ce8d345d3ac49060af1a7bac1ff169d99aeb7",
+    "tools/profile/research/folded_contraction_f3.json": "51ded940e508cf1e1447d4a0f4d3615bb4d0ba5735513e801d23bcc90de09c5f",
+    "tools/profile/research/folded_contraction_f5.json": "eb6897d96063d1b2b2b39db96db3f747a9ab0921b853996ece45a7e53684ea79",
+    "tools/profile/research/folded_growth_handoff.json": "6e64379fbcf16990e9e2aee330aab46f2f2ae77bf66cf2d10a15965c5dd72fa7",
+    "tools/profile/research/folded_growth_handoff.md": "0f663f04ecef90d8502a520e13ebc9ce5646ad532d3c34d76e621d628106eb96",
+    "tools/profile/research/folded_integration.md": "56ecb52dfec1163f503c2672be32872b03b03f314b512a284f0f3d81b6692ea0",
+    "tools/profile/research/folded_integration_benchmark.json": "5a3c8b9792fcb92c3ea9ed8f0c866533418cbb5dc1c3d7b3e90639313bd1132a",
+    "tools/profile/research/folded_integration_controls.json": "8ec546c1e48d95ada544d1e3cd093807f65fb80088c00b53869b9261840a357e",
+    "tools/profile/research/folded_memory.md": "57acbd367bbc1e13e5bd550575d31ed54b4fac89a57e18060a4e9608dba1ba9b",
+    "tools/profile/research/folded_memory_benchmark.json": "7db972902b3d45767258e1c3589c58539cd839323d014c185b6074d952deb052",
+    "tools/profile/research/folded_memory_compact32_validation.json": "97b51fbe95af611b58d4241844b6910e5af9557b8388b6a104bc4b1c98b00fbf",
+    "tools/profile/research/folded_memory_context.json": "ae17eb58256e9ab6c3b9ce626bb34450a245355468c1d1aad236fea7354b9b2e",
+    "tools/profile/research/folded_memory_validation.json": "a86b57610af5d8fb4fe86772b0237ec3438215637faecaeaa7dc4c12020e9d27",
+    "tools/profile/research/folded_msc.md": "94494912767431f2ca1bd67a04e9899736d1040c3d1f00af0ceff692921c63e0",
+    "tools/profile/research/folded_msc_benchmark.json": "fac1e0ca61087011df75ac5f69e67dfe7b27d7b7a4d4c22e31016674e72316b7",
+    "tools/profile/research/folded_msc_f5.md": "a365bcf61ac7114a76f7d3f16907b65c8301f8d3b185d872164db83cfad435cf",
+    "tools/profile/research/folded_msc_f5_benchmark.json": "f5661a6c382d91b8156ab3518de4a35e86b7cfd862d0c46f3abd49319dc77db0",
+    "tools/profile/research/folded_msc_f5_stages.json": "2e427bd39c881524e51c7ab245c6257284676bb0110dedffd958d6df7565d124",
+    "tools/profile/research/folded_msc_f5_validation.json": "6fcc27268ee6037bc8d7f2b1b572c0c92810ba9056c588057e98d73d0301ade7",
+    "tools/profile/research/folded_msc_validation.json": "cb0aa416588ba38bb41162291f0ceefa320927f4f3066b9e601f494d1afe19ee",
+    "tools/profile/research/folded_native_growth.md": "12b4bb959b54be3b679168ab7dc3dbcfa2c319155bc86c5d38983e3097977d7a",
+    "tools/profile/research/folded_native_growth_benchmark.json": "efd29048b49e815f979600f5802e90c7ebdfbce27890a6df86b4fe2e50c6b890",
+    "tools/profile/research/folded_native_growth_context.json": "78b2af77b1a9302298074adf1c2546e044fae6e5181f356e68d5fc753050eae1",
+    "tools/profile/research/folded_native_growth_validation.json": "c6a0ba264b93958b017a9e354a5f0d7ef7bfa12ba10ac739921b44fac7e811fb",
+    "tools/profile/research/folded_protocol.md": "5cea29901308306c1e9922aa3431eb5fa0c97f00c8991fa2a4d56c5acd80f6db",
+    "tools/profile/research/folded_protocol_benchmark.json": "356ea754488d94122ba4c323865395d261dd19576284f328bb7c29474c19d706",
+    "tools/profile/research/folded_protocol_context.json": "6572d82d329266c5fda818439bdd4132dbde19bd5a70d923d52838d25aaf8f82",
+    "tools/profile/research/folded_protocol_f7.md": "eacc17befaeab37ad0c998d72b76818b60990758b2492946260a0c8e8f493f08",
+    "tools/profile/research/folded_protocol_f7_benchmark.json": "c5ef490f889497ae91515a0fcb73e33c5618ba3aa409228f90eb1a09b3d63a60",
+    "tools/profile/research/folded_protocol_f7_context.json": "6f55f66729a915bd2a296dfd6b2bb0760dcb2eadd6d3b5af1593a94213e9677a",
+    "tools/profile/research/folded_protocol_f7_validation.json": "d0586ef0c7d87e7d174fff30fdb0637c497307abad02114f9a35fb375faef8d3",
+    "tools/profile/research/folded_protocol_validation.json": "87f2c5673f19f1f9805fcd5fe7f26acedd0fa1b39fcb0e3ee764070239e7f441",
+    "tools/profile/research/gadget_contraction.md": "e563eb69e71a595ae4dd10a038803cba1b7164a6550f5ce17acf610474aa0ea6",
+    "tools/profile/research/gadget_contraction_data.json": "3a0fb53963dbc5262f326ae31b296f4fac8afa5a3362e7be9bba2d9f1faded0f",
+    "tools/profile/research/gadget_family.md": "4f8a434595eaf14e46f7ec4ba83c882b1473a1b26ed6bdf20f999c560de5830c",
+    "tools/profile/research/gadget_family.png": "fb0ea95ada6d8ad11d3899b634e238dfd45701871808e180a4e47a1d491f1ec6",
+    "tools/profile/research/gadget_family_data.json": "29e96bc0ce876177622856cab8a5ac8c68053ab796d8b4b9e8949bc88dd072d2",
+    "tools/profile/research/native_terminal.md": "d65f9da772f35ba3abbdeafbea5caaf137d6468fe55405a7aff29434bec600ac",
+    "tools/profile/research/native_terminal_data.json": "08aac139e5ec66a809f4cbf11de71687c319f50c5e021dd7a02f85e4a76bf484",
+    "tools/profile/research/non_clifford_candidates.md": "4d93dfed9a396052340ac1d4fd49efdd12dcb8200c779e678e6d646367a08c95",
+    "tools/profile/research/protocol_sources.md": "ed57e8a60d6390397219ad121bb472258903ef6f83106ea0aaf17a996615446f",
+    "tools/profile/research/scheduled_baseline.md": "2a254110c865f5c0dc299f39ed1ebc49b9b44a2cb545099fe1e2181e9d74d0e0",
+    "tools/profile/research/scheduled_baseline_memory.json": "ed9271d8f073bcb726c50b6210eb3f815883fb15c2cd439f9f9ad59c3123a7c9",
+    "tools/profile/research/scheduled_baseline_validation.json": "b3039a73700e184654b86d0ebd059205034aaf6900aba08339bb158ebdf8dd02",
+    "tools/profile/research/scheduled_folded_baseline.json": "577d31c530ef242d8b815a01d8dd6fc8610bde3a4c110fa6dd08ded15fd4280f",
+    "tools/profile/research/scheduled_gadget_baseline.json": "9a07eb5c3dfa391202554d2b621fe88dc9a3ad9239d6029377793e33919529f4",
+    "tools/profile/research/soft_cultivation.md": "bf9c85731700b320ccf7791c33de5eec67dd35dd364703dfc1a74be693e71000",
+    "tools/profile/research/soft_cultivation_data.json": "ecb665402a66ea733832106d350cff76f177d85c5ce42ab04a0ad5635608f8f3",
+    "tools/profile/research/soft_cultivation_exact.json": "4f0aedaa133655c343bd2598a4c4804088aa9deaffba60d184640c4955a057b3",
+    "tools/profile/research/terminal_coverage.md": "43d18f35eb76384f209ac5f57cd7c0c05528d83948aaef0138a1438d8fa9d760",
+    "tools/profile/research/terminal_coverage_data.json": "d13af047aea42587d9ab2c893eb929c6b92a887354658e73381ad6deb73b6eb1",
+    "tools/profile/run_sampling_mode_matrix.py": "522f36d86d12fd9b56bdfdfec437647f14364354eaa80f1ea9552b553e284c8b",
+    "tools/profile/sample_folded_checks.cpp": "5e8f94262da1c4b05b6a4a1048deda1f17d9643a930d27e7781cfc2abbb566fa",
+    "tools/profile/sample_folded_protocol.cpp": "94f310d913d22f3606a648b1a17029bc8b6c8447d7c70f84968f5536b07031e1",
+    "tools/profile/sample_terminal_gadget.cpp": "2e3574ec51f6ee7f546ee1ff1d7a27c95d9e47fd6a4636eaacc44e45a3c8ecc6",
+    "tools/profile/snapshot_cultivation.cpp": "a48e40c7a164097dab1227f49cf8fc9d0e2dd43db9e25e08c422c51067ce40ad",
+    "tools/profile/soft_cultivation_study.py": "cb88dfae1746f96da19b136f93c28418284e743b2bde737d70f604415299098b",
+    "tools/profile/study_schedule.h": "e666cdc9863cfc2ab23b8b3d5d4f3f842965dea7cb6d59845ae6a9e9616ba488",
+    "tools/profile/test_clifford_gadget.py": "ba32dbdbba29516b9e6e29e29d2bca607e229dc0162bb96c3dcbc60690eda0aa",
+    "tools/profile/test_contraction_workspace.py": "e82f5c8524c6f28a3afd54543b35f57002372dfb09005ff209db68b4c1fdbcd8",
+    "tools/profile/test_cultivation_aer.py": "63d9406cdfe95d34dea495f54760f1607620df168348d65087503262e483324a",
+    "tools/profile/test_cultivation_study.py": "87de050c31eefe75b8f0d5fa4d243a28b100f26f8b1f0bb753d3890c95f82da9",
+    "tools/profile/test_folded_check_contraction.py": "451f30cc8069167380cd962b64bb0138b5bdf74aa7bb8af64aa34920eaa7397f",
+    "tools/profile/test_folded_msc.py": "b71bf7013531f221810af4749b280876d72d35ec126372f3c54c4a65527a7470",
+    "tools/profile/test_folded_msc_f7.py": "73c24711d04fad4cfb30a9de9eb3b3e388cf36c75f3072e4d38036994cdb792d",
+    "tools/profile/test_folded_msc_family.py": "5d0c1272339d5c9c975b35c8979fee1c3dd7a56bbd202331e63f9b74e2f0ae27",
+    "tools/profile/test_folded_protocol.py": "b42672be718fb481dc61570ca5840eb39f94decd7bea24efe725c6faca389d7d",
+    "tools/profile/test_gadget_contraction.py": "ca6f820a0728444212b8a3bbfc73c5cf026e6dd520685c405eb71b6730b01c9e",
+    "tools/profile/test_gadget_family.py": "534b6c4386290ff6039c3380e6311339bac341de5373fd3e2286bf880cef9d6a",
+    "tools/profile/test_native_terminal.py": "ab237955156d701af5cfa9f7f80b648de90b615f0f58d2271d931ccf1c7756ef",
+    "tools/profile/test_soft_cultivation_study.py": "e5de0c8147805acd5edd404fb5465750fedeff5934ad1cc14d3f9920feb72b4b",
+    "tools/profile/validate_cultivation_aer.py": "9dd787d01981d282f07a841e22bdcfabe806534d417c17a7d000deb4f54c8a1f",
+    "tools/profile/validate_folded_msc.py": "d9e2dbef02e0cbcf913a2faaca16e579d7f407a47bde05c5beb76bc2e53ccfe6"
+  },
+  "commands": [
+    [
+      "c++",
+      "-std=c++20",
+      "-O3",
+      "-march=native",
+      "-fopenmp",
+      "-I/home/exedev/.codex/worktrees/a1aa/clifft-codex/src",
+      "-I/tmp/clifft-495-scaling-reference/tools/profile",
+      "/tmp/clifft-495-scaling-reference/tools/profile/sample_folded_protocol.cpp",
+      "/tmp/clifft-495-build/src/clifft/libclifft_core.a",
+      "-o",
+      "/tmp/clifft-495-reconstructed-f7-v1/sampler"
+    ],
+    [
+      "c++",
+      "-std=c++20",
+      "-O3",
+      "-march=native",
+      "-fopenmp",
+      "-I/home/exedev/.codex/worktrees/a1aa/clifft-codex/src",
+      "-I/tmp/clifft-495-scaling-reference/tools/profile",
+      "/tmp/clifft-495-scaling-reference/tools/profile/replay_cultivation.cpp",
+      "/tmp/clifft-495-build/src/clifft/libclifft_core.a",
+      "-o",
+      "/tmp/clifft-495-reconstructed-f7-v1/replay"
+    ],
+    [
+      "/tmp/clifft-495-env/bin/python",
+      "/tmp/clifft-495-scaling-reference/tools/profile/audit_folded_protocol.py",
+      "--sampler",
+      "/tmp/clifft-495-reconstructed-f7-v1/sampler",
+      "--reference",
+      "/tmp/clifft-495-reconstructed-f7-v1/replay",
+      "--distances",
+      "7",
+      "--probabilities",
+      "0",
+      "0.001",
+      "0.03",
+      "--cases",
+      "4",
+      "--oracle-cases",
+      "4",
+      "--schedule",
+      "unbounded",
+      "--native-growth",
+      "--output",
+      "/tmp/clifft-495-reconstructed-f7-v1/audit.json"
+    ],
+    [
+      "/tmp/clifft-495-env/bin/python",
+      "/tmp/clifft-495-scaling-reference/tools/profile/compile_folded_protocol.py",
+      "--distance",
+      "7",
+      "--probability",
+      "0.001",
+      "--native-growth",
+      "--output",
+      "/tmp/clifft-495-reconstructed-f7-v1/bundle"
+    ],
+    [
+      "taskset",
+      "-c",
+      "1",
+      "/tmp/clifft-495-reconstructed-f7-v1/sampler",
+      "/tmp/clifft-495-reconstructed-f7-v1/bundle",
+      "32",
+      "0",
+      "18412",
+      "0",
+      "unbounded",
+      "0"
+    ]
+  ],
+  "cpu_affinity": 1,
+  "early_rejection": false,
+  "circuit_sha256": "fff72e8f48a0509a00d52133d8cb334a1743fc7c74ce1f40eeeccc9785909545",
+  "visible_records": 351,
+  "hidden_records": 436,
+  "audit": [
+    {
+      "distance": 7,
+      "native_growth": true,
+      "probability": 0.0,
+      "circuit_sha256": "adad8761e21919d416c98128abf07293e50bf55fe70deb798487f913484b4988",
+      "schedule": "unbounded",
+      "checks": [
+        {
+          "faults": 0,
+          "log_probability_error": 1.5543122344752192e-15,
+          "oracle_error": 1.5543122344752192e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": true,
+          "observable": 0
+        },
+        {
+          "faults": 0,
+          "log_probability_error": 1.5543122344752192e-15,
+          "oracle_error": 1.5543122344752192e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": true,
+          "observable": 0
+        },
+        {
+          "faults": 0,
+          "log_probability_error": 1.5543122344752192e-15,
+          "oracle_error": 1.5543122344752192e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": true,
+          "observable": 0
+        },
+        {
+          "faults": 0,
+          "log_probability_error": 1.5543122344752192e-15,
+          "oracle_error": 1.5543122344752192e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": true,
+          "observable": 0
+        }
+      ],
+      "samples": [
+        {
+          "kind": "sample",
+          "records": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111000000001111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "detectors": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "observable": 0,
+          "conditional_log_probability": -1.3862943611198895,
+          "prefix_faults": [],
+          "suffix_faults": [],
+          "earlier_faults": [],
+          "growth_faults": []
+        },
+        {
+          "kind": "sample",
+          "records": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "detectors": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "observable": 0,
+          "conditional_log_probability": -1.3862943611198895,
+          "prefix_faults": [],
+          "suffix_faults": [],
+          "earlier_faults": [],
+          "growth_faults": []
+        },
+        {
+          "kind": "sample",
+          "records": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "detectors": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "observable": 0,
+          "conditional_log_probability": -1.3862943611198895,
+          "prefix_faults": [],
+          "suffix_faults": [],
+          "earlier_faults": [],
+          "growth_faults": []
+        },
+        {
+          "kind": "sample",
+          "records": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "detectors": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "observable": 0,
+          "conditional_log_probability": -1.3862943611198895,
+          "prefix_faults": [],
+          "suffix_faults": [],
+          "earlier_faults": [],
+          "growth_faults": []
+        }
+      ],
+      "benchmark": {
+        "kind": "benchmark",
+        "setup_seconds": 0.091083065,
+        "baseline_setup_seconds": 1.0986579,
+        "shots_per_batch": 1,
+        "baseline_shots_per_batch": 0,
+        "prefix_peak_width": 8,
+        "ordinary_peak_width": 44,
+        "native_peak_rss_kib": 285332,
+        "contraction_lookup_bytes": 9023524,
+        "contraction_workspace_bytes": 2570720,
+        "normalization_error": 4.440892098500626e-16,
+        "continuation_error": 2.220446049250313e-16,
+        "seconds": [
+          0.171896408,
+          0.176191868,
+          0.170862378
+        ],
+        "baseline_seconds": [
+          3e-08,
+          3e-08,
+          3e-08
+        ],
+        "accepted": [
+          1,
+          1,
+          1
+        ],
+        "logical_failures": [
+          0,
+          0,
+          0
+        ],
+        "baseline_accepted": [
+          0,
+          0,
+          0
+        ],
+        "baseline_logical_failures": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "distance": 7,
+      "native_growth": true,
+      "probability": 0.001,
+      "circuit_sha256": "fff72e8f48a0509a00d52133d8cb334a1743fc7c74ce1f40eeeccc9785909545",
+      "schedule": "unbounded",
+      "checks": [
+        {
+          "faults": 2,
+          "log_probability_error": 1.7763568394002505e-15,
+          "oracle_error": 1.7763568394002505e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 1
+        },
+        {
+          "faults": 3,
+          "log_probability_error": 2.220446049250313e-15,
+          "oracle_error": 2.220446049250313e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 1
+        },
+        {
+          "faults": 2,
+          "log_probability_error": 1.7763568394002505e-15,
+          "oracle_error": 1.7763568394002505e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 1
+        },
+        {
+          "faults": 2,
+          "log_probability_error": 1.5543122344752192e-15,
+          "oracle_error": 1.5543122344752192e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 0
+        }
+      ],
+      "samples": [
+        {
+          "kind": "sample",
+          "records": "0000000000000000000100000000000000000000001000100000000000000100000000000000000000000000000100000100000000000000000000000000010000010100000100000000000000111111000010001111110000100000000000000001000001000000000000000000000000000000000001000001010000010000000000000000000000000001000001000000000000000000000000000000000001000001010000010000000000000010000000000000000000000000000000000000000000000000000000000000100000000000000000000001000100000000000000000010000000000000000000000000000000000000000000000000000000000000000000001000001000000000000000000000000000100000101000001000000000000000000000000000000010001111110000000000000010000010000000000000000000000000000000000010000010100000100000000000000000000000000010000010000000000000000000000000000000000010000010100000100000000000000",
+          "detectors": "000000000000000000010000000000000000000000100010000000000000010000000000000000000000000000010000010000000000000000000000000001000001010000010000000000000000000000010000000000001000000000000000010000010000000000000000000000000000000000010000010100000100000000000000000000000000010000010000000000000000000000000000000000010000010100000100000000000000",
+          "observable": 1,
+          "conditional_log_probability": -5.545177444479561,
+          "prefix_faults": [
+            [
+              281,
+              8
+            ]
+          ],
+          "suffix_faults": [],
+          "earlier_faults": [
+            [
+              96,
+              2
+            ]
+          ],
+          "growth_faults": []
+        },
+        {
+          "kind": "sample",
+          "records": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000010000000000000000000000000000000000010000010000100000100111111000000000000000000000000000000000100000000001000010000010000010000000000000000000000001000001000010011010000000000000100000000001000010000010000010000000000000000000000001000001000010011010010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000100000000000000000000000000000000000100000100001000001000000000000000000000001111110000000000001000000000010000100000100000100000000000000000000000010000010000100110100000000000001000000000010000100000100000100000000000000000000000010000010000100110100",
+          "detectors": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100001000000000000000000000000000000000001000001000010000010000000000000000000000000000000000000001000000000010000100000100000100000000000000000000000010000010000100110100000000000001000000000010000100000100000100000000000000000000000010000010000100110100",
+          "observable": 1,
+          "conditional_log_probability": -3.4657359027997257,
+          "prefix_faults": [],
+          "suffix_faults": [
+            [
+              348,
+              14
+            ]
+          ],
+          "earlier_faults": [],
+          "growth_faults": [
+            [
+              313,
+              13
+            ],
+            [
+              344,
+              7
+            ]
+          ]
+        },
+        {
+          "kind": "sample",
+          "records": "0000000000000000000000000000000000000000000000000100100000000100000100000000000000000000000010000100000000000000000000000000000000000010000100000000000000000000000000001111110000000000000000000000000000000000000000000000000000000000000000000001001000010000000000000000000000000000000000000000000000000000000000000000000000000000001000010000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100100000000000010000000000000000000000000000000000000000000000000000000000000000000000100001000000000000000000000000000000000000100001000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000010010000100000000000000000000000000000000000000000000000000000000000000000000000000000010000100000000000000",
+          "detectors": "000000000000000000000000000000000000000000000000010010000000010000010000000000000000000000001000010000000000000000000000000000000000001000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010010000100000000000000000000000000000000000000000000000000000000000000000000000000000010000100000000000000",
+          "observable": 1,
+          "conditional_log_probability": -4.852030263919617,
+          "prefix_faults": [
+            [
+              383,
+              5
+            ]
+          ],
+          "suffix_faults": [
+            [
+              699,
+              1
+            ]
+          ],
+          "earlier_faults": [],
+          "growth_faults": []
+        },
+        {
+          "kind": "sample",
+          "records": "0000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001111110000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "detectors": "000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "observable": 0,
+          "conditional_log_probability": -1.3862943611198895,
+          "prefix_faults": [
+            [
+              75,
+              1
+            ]
+          ],
+          "suffix_faults": [
+            [
+              479,
+              1
+            ]
+          ],
+          "earlier_faults": [],
+          "growth_faults": []
+        }
+      ],
+      "benchmark": {
+        "kind": "benchmark",
+        "setup_seconds": 0.088989435,
+        "baseline_setup_seconds": 1.019833933,
+        "shots_per_batch": 1,
+        "baseline_shots_per_batch": 0,
+        "prefix_peak_width": 8,
+        "ordinary_peak_width": 44,
+        "native_peak_rss_kib": 287856,
+        "contraction_lookup_bytes": 9023524,
+        "contraction_workspace_bytes": 2570720,
+        "normalization_error": 6.661338147750939e-16,
+        "continuation_error": 4.440892098500626e-16,
+        "seconds": [
+          0.167784863,
+          0.16842889,
+          0.1676781
+        ],
+        "baseline_seconds": [
+          3e-08,
+          2e-08,
+          3e-08
+        ],
+        "accepted": [
+          0,
+          0,
+          0
+        ],
+        "logical_failures": [
+          0,
+          0,
+          0
+        ],
+        "baseline_accepted": [
+          0,
+          0,
+          0
+        ],
+        "baseline_logical_failures": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "distance": 7,
+      "native_growth": true,
+      "probability": 0.03,
+      "circuit_sha256": "45d3c1a84cc7b997b30d5dd29c1b31a874803ad678a0eeefe1b15578b1b0658b",
+      "schedule": "unbounded",
+      "checks": [
+        {
+          "faults": 52,
+          "log_probability_error": 3.552713678800501e-15,
+          "oracle_error": 3.552713678800501e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 1
+        },
+        {
+          "faults": 53,
+          "log_probability_error": 0.0,
+          "oracle_error": 0.0,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 1
+        },
+        {
+          "faults": 56,
+          "log_probability_error": 3.552713678800501e-15,
+          "oracle_error": 3.552713678800501e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 1
+        },
+        {
+          "faults": 50,
+          "log_probability_error": 2.6645352591003757e-15,
+          "oracle_error": 2.6645352591003757e-15,
+          "full_reference": "coherent-Clifford",
+          "aer_reference_error": null,
+          "accepted": false,
+          "observable": 1
+        }
+      ],
+      "samples": [
+        {
+          "kind": "sample",
+          "records": "0010010101000000000001000001000110001010001011111010000100000100110100010000011110000101100001001100000010100001011011101000010111010101000001001000000000111111000010001101111010000100110001010011100010010100110000010010100110110100100010000001011100110100101100100001010000010010100001111110110100111010100110110110100010101000011100111100101100000010000000000000000100101010000000000000000000000000000000000000001000001000110001010001011111010000100000000010000000000000000000000000000000000000000000000010100000111100001011000010011000000101000010110111010000101110101010000010010000000000100100000000000010001111111001100010100111000100101001100000100101001101101001000100000010111001101001011001000010100000100101000011111101101001110101001101101101000101010000111001111001011000000",
+          "detectors": "001001010100000000000100000100011000101000101111101000010000010011010001000001111000010110000100110000001010000101101110100001011101010100000100100000000000000000010000100010100001001100010100111000100101001100000100101001101101001000100000010111001101001011001000010100000100101000011111101101001110101001101101101000101010000111001111001011000000",
+          "observable": 1,
+          "conditional_log_probability": -23.567004139038136,
+          "prefix_faults": [
+            [
+              9,
+              2
+            ],
+            [
+              78,
+              9
+            ],
+            [
+              91,
+              5
+            ],
+            [
+              100,
+              2
+            ],
+            [
+              166,
+              3
+            ],
+            [
+              197,
+              10
+            ],
+            [
+              255,
+              4
+            ],
+            [
+              257,
+              11
+            ],
+            [
+              264,
+              2
+            ],
+            [
+              417,
+              1
+            ],
+            [
+              473,
+              1
+            ]
+          ],
+          "suffix_faults": [
+            [
+              64,
+              3
+            ],
+            [
+              83,
+              7
+            ],
+            [
+              104,
+              51
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              178,
+              4
+            ],
+            [
+              183,
+              2
+            ],
+            [
+              249,
+              14
+            ],
+            [
+              270,
+              3
+            ],
+            [
+              410,
+              10
+            ],
+            [
+              413,
+              14
+            ],
+            [
+              435,
+              13
+            ],
+            [
+              460,
+              15
+            ],
+            [
+              523,
+              10
+            ],
+            [
+              601,
+              1
+            ],
+            [
+              636,
+              9
+            ],
+            [
+              654,
+              6
+            ],
+            [
+              668,
+              11
+            ],
+            [
+              676,
+              1
+            ],
+            [
+              699,
+              1
+            ],
+            [
+              786,
+              6
+            ],
+            [
+              810,
+              1
+            ]
+          ],
+          "earlier_faults": [
+            [
+              67,
+              1
+            ],
+            [
+              96,
+              1
+            ]
+          ],
+          "growth_faults": [
+            [
+              43,
+              1
+            ],
+            [
+              57,
+              1
+            ],
+            [
+              91,
+              2
+            ],
+            [
+              96,
+              14
+            ],
+            [
+              113,
+              8
+            ],
+            [
+              191,
+              5
+            ],
+            [
+              225,
+              6
+            ],
+            [
+              251,
+              1
+            ],
+            [
+              267,
+              1
+            ],
+            [
+              301,
+              1
+            ],
+            [
+              308,
+              1
+            ],
+            [
+              367,
+              14
+            ],
+            [
+              392,
+              11
+            ],
+            [
+              459,
+              1
+            ],
+            [
+              477,
+              9
+            ],
+            [
+              478,
+              1
+            ],
+            [
+              550,
+              1
+            ],
+            [
+              600,
+              10
+            ]
+          ]
+        },
+        {
+          "kind": "sample",
+          "records": "0000110000000000100000000100010000001000000110100000001100000000000100010100011100000011010011000100000110100100000110000000011000001000000111000101001100111111110001000000000000100101010001111100000000110010010111101111110000111010000101100010001000011000010010101101010011001110000000110010010111101110110000111000000001100010001000011000010010101110000000000000000001100000000000000000000000000000000000000000000000100010000001000000110100000001100100000000000000000000000000000000000000000000000000000000101000111000000110100110001000001101001000001100000000110000010000001110001010011000100000000000110001001111110010100011111000000001100100101111011111100001110100001011000100010000110000100101011010100110011100000001100100101111011101100001110000000011000100010000110000100101011",
+          "detectors": "000011000000000010000000010001000000100000011010000000110000000000010001010001110000001101001100010000011010010000011000000001100000100000011100010100110000000110001000000000001001010100011111000000001100100101111011111100001110100001011000100010000110000100101011010100110011100000001100100101111011101100001110000000011000100010000110000100101011",
+          "observable": 1,
+          "conditional_log_probability": -13.16979643063896,
+          "prefix_faults": [
+            [
+              14,
+              2
+            ],
+            [
+              15,
+              9
+            ],
+            [
+              23,
+              3
+            ],
+            [
+              70,
+              3
+            ],
+            [
+              123,
+              1
+            ],
+            [
+              191,
+              1
+            ],
+            [
+              216,
+              1
+            ],
+            [
+              262,
+              13
+            ],
+            [
+              324,
+              1
+            ],
+            [
+              445,
+              14
+            ],
+            [
+              453,
+              8
+            ]
+          ],
+          "suffix_faults": [
+            [
+              85,
+              23
+            ],
+            [
+              128,
+              1
+            ],
+            [
+              191,
+              2
+            ],
+            [
+              229,
+              22
+            ],
+            [
+              348,
+              1
+            ],
+            [
+              354,
+              6
+            ],
+            [
+              477,
+              15
+            ],
+            [
+              540,
+              11
+            ],
+            [
+              551,
+              1
+            ],
+            [
+              616,
+              1
+            ],
+            [
+              651,
+              1
+            ],
+            [
+              695,
+              3
+            ],
+            [
+              725,
+              15
+            ]
+          ],
+          "earlier_faults": [
+            [
+              15,
+              3
+            ]
+          ],
+          "growth_faults": [
+            [
+              8,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              42,
+              1
+            ],
+            [
+              45,
+              1
+            ],
+            [
+              62,
+              2
+            ],
+            [
+              102,
+              11
+            ],
+            [
+              107,
+              14
+            ],
+            [
+              256,
+              5
+            ],
+            [
+              261,
+              1
+            ],
+            [
+              267,
+              1
+            ],
+            [
+              271,
+              1
+            ],
+            [
+              287,
+              10
+            ],
+            [
+              302,
+              2
+            ],
+            [
+              310,
+              11
+            ],
+            [
+              313,
+              1
+            ],
+            [
+              344,
+              1
+            ],
+            [
+              345,
+              8
+            ],
+            [
+              417,
+              2
+            ],
+            [
+              464,
+              1
+            ],
+            [
+              505,
+              7
+            ],
+            [
+              509,
+              10
+            ],
+            [
+              510,
+              3
+            ],
+            [
+              554,
+              12
+            ],
+            [
+              560,
+              4
+            ],
+            [
+              636,
+              12
+            ],
+            [
+              641,
+              9
+            ],
+            [
+              669,
+              1
+            ],
+            [
+              671,
+              10
+            ]
+          ]
+        },
+        {
+          "kind": "sample",
+          "records": "0000000011000101110000000010000010100000100000101101110001000100000000001101000100000000010010000101011100001011000000001100000000010011011110001010000001000000110000011111110000100010000010000011000111001100000101110111010000000010110010000000011000100110100010000110100110100011000111101100000101110100100000000010110000000001011000100110100110000010000000000000000000000110000010000000000000000000000000000010000000010000010100000100000101101110001110000010000000000000000000000000000000000000000000000000011010001000000000100100001010111000010110000000011000000000100110111100010100000010000000000000110000010000000100000100000110001110011000001011101110100000000101100100000000110001001101000100001101001101000110001111011000001011101001000000000101100000000010110001001101001100000",
+          "detectors": "000000001100010111000000001000001010000010000010110111000100010000000000110100010000000001001000010101110000101100000000110000000001001101111000101000000100000110000010000000001000100000100000110001110011000001011101110100000000101100100000000110001001101000100001101001101000110001111011000001011101001000000000101100000000010110001001101001100000",
+          "observable": 1,
+          "conditional_log_probability": -18.021826694558573,
+          "prefix_faults": [
+            [
+              94,
+              1
+            ],
+            [
+              100,
+              10
+            ],
+            [
+              118,
+              1
+            ],
+            [
+              124,
+              1
+            ],
+            [
+              133,
+              1
+            ],
+            [
+              165,
+              4
+            ],
+            [
+              243,
+              14
+            ],
+            [
+              276,
+              3
+            ],
+            [
+              304,
+              10
+            ],
+            [
+              310,
+              4
+            ],
+            [
+              382,
+              13
+            ],
+            [
+              431,
+              4
+            ],
+            [
+              497,
+              1
+            ],
+            [
+              505,
+              9
+            ]
+          ],
+          "suffix_faults": [
+            [
+              15,
+              3
+            ],
+            [
+              28,
+              7
+            ],
+            [
+              42,
+              1
+            ],
+            [
+              66,
+              3
+            ],
+            [
+              86,
+              12
+            ],
+            [
+              90,
+              33
+            ],
+            [
+              157,
+              3
+            ],
+            [
+              183,
+              2
+            ],
+            [
+              243,
+              15
+            ],
+            [
+              346,
+              14
+            ],
+            [
+              373,
+              11
+            ],
+            [
+              466,
+              10
+            ],
+            [
+              474,
+              1
+            ],
+            [
+              545,
+              3
+            ],
+            [
+              551,
+              1
+            ],
+            [
+              576,
+              15
+            ],
+            [
+              655,
+              13
+            ],
+            [
+              662,
+              5
+            ],
+            [
+              699,
+              1
+            ],
+            [
+              721,
+              6
+            ],
+            [
+              823,
+              4
+            ]
+          ],
+          "earlier_faults": [
+            [
+              28,
+              3
+            ]
+          ],
+          "growth_faults": [
+            [
+              6,
+              1
+            ],
+            [
+              74,
+              10
+            ],
+            [
+              120,
+              7
+            ],
+            [
+              144,
+              1
+            ],
+            [
+              156,
+              2
+            ],
+            [
+              202,
+              2
+            ],
+            [
+              213,
+              1
+            ],
+            [
+              284,
+              1
+            ],
+            [
+              303,
+              9
+            ],
+            [
+              348,
+              1
+            ],
+            [
+              362,
+              1
+            ],
+            [
+              380,
+              1
+            ],
+            [
+              394,
+              2
+            ],
+            [
+              410,
+              3
+            ],
+            [
+              426,
+              1
+            ],
+            [
+              436,
+              9
+            ],
+            [
+              449,
+              2
+            ],
+            [
+              451,
+              11
+            ],
+            [
+              521,
+              4
+            ],
+            [
+              598,
+              1
+            ]
+          ]
+        },
+        {
+          "kind": "sample",
+          "records": "0001010100000000000001001000000000110010000100000001000001000100000100100010011111001110000011000100011000001001000000010010001010010000000110010000000010001100000010001111110000010100001001101000111000001001010100001100101100000011000000010011101000001001001010101000000001010000111000001001001000001000100000000011000000000011100000011101000110001010000000000000000010101000000000000000000000000000000000000000001001000000000110010000100000001000001000000010000000000000000000000000000000000000000000000001000100111110011100000110001000110000010010000000100100010100100000001100100000000100100000000000000010000011000000010011010001110000010010101000011001011000000110000000100111010000010010010101010000000010100001110000010010010000010001000000000110000000000111000000111010001100010",
+          "detectors": "000101010000000000000100100000000011001000010000000100000100010000010010001001111100111000001100010001100000100100000001001000101001000000011001000000001001100000010000000000000101000010011010001110000010010101000011001011000000110000000100111010000010010010101010000000010100001110000010010010000010001000000000110000000000111000000111010001100010",
+          "observable": 1,
+          "conditional_log_probability": -6.931471805599451,
+          "prefix_faults": [
+            [
+              61,
+              1
+            ],
+            [
+              77,
+              2
+            ],
+            [
+              92,
+              1
+            ],
+            [
+              178,
+              1
+            ],
+            [
+              179,
+              1
+            ],
+            [
+              372,
+              2
+            ],
+            [
+              378,
+              1
+            ],
+            [
+              399,
+              15
+            ],
+            [
+              469,
+              15
+            ],
+            [
+              500,
+              13
+            ],
+            [
+              531,
+              2
+            ]
+          ],
+          "suffix_faults": [
+            [
+              14,
+              1
+            ],
+            [
+              15,
+              2
+            ],
+            [
+              27,
+              6
+            ],
+            [
+              40,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              219,
+              62
+            ],
+            [
+              259,
+              1
+            ],
+            [
+              261,
+              1
+            ],
+            [
+              290,
+              1
+            ],
+            [
+              321,
+              3
+            ],
+            [
+              373,
+              5
+            ],
+            [
+              409,
+              2
+            ],
+            [
+              415,
+              1
+            ],
+            [
+              473,
+              3
+            ],
+            [
+              479,
+              1
+            ],
+            [
+              584,
+              1
+            ],
+            [
+              607,
+              12
+            ],
+            [
+              608,
+              15
+            ],
+            [
+              670,
+              1
+            ],
+            [
+              712,
+              1
+            ],
+            [
+              728,
+              15
+            ],
+            [
+              745,
+              2
+            ],
+            [
+              792,
+              7
+            ],
+            [
+              810,
+              1
+            ],
+            [
+              818,
+              10
+            ]
+          ],
+          "earlier_faults": [
+            [
+              32,
+              1
+            ]
+          ],
+          "growth_faults": [
+            [
+              130,
+              1
+            ],
+            [
+              152,
+              1
+            ],
+            [
+              164,
+              1
+            ],
+            [
+              215,
+              8
+            ],
+            [
+              308,
+              1
+            ],
+            [
+              375,
+              5
+            ],
+            [
+              428,
+              15
+            ],
+            [
+              451,
+              13
+            ],
+            [
+              511,
+              8
+            ],
+            [
+              544,
+              1
+            ],
+            [
+              560,
+              8
+            ],
+            [
+              668,
+              1
+            ],
+            [
+              687,
+              6
+            ]
+          ]
+        }
+      ],
+      "benchmark": {
+        "kind": "benchmark",
+        "setup_seconds": 0.089569463,
+        "baseline_setup_seconds": 1.029435194,
+        "shots_per_batch": 1,
+        "baseline_shots_per_batch": 0,
+        "prefix_peak_width": 8,
+        "ordinary_peak_width": 44,
+        "native_peak_rss_kib": 289704,
+        "contraction_lookup_bytes": 9023524,
+        "contraction_workspace_bytes": 2570720,
+        "normalization_error": 6.661338147750939e-16,
+        "continuation_error": 2.7755575615628914e-17,
+        "seconds": [
+          0.171698,
+          0.170370315,
+          0.17096643
+        ],
+        "baseline_seconds": [
+          2e-08,
+          3e-08,
+          3.1e-08
+        ],
+        "accepted": [
+          0,
+          0,
+          0
+        ],
+        "logical_failures": [
+          0,
+          0,
+          0
+        ],
+        "baseline_accepted": [
+          0,
+          0,
+          0
+        ],
+        "baseline_logical_failures": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "benchmark": {
+    "kind": "benchmark",
+    "setup_seconds": 0.090462449,
+    "baseline_setup_seconds": 1.031874074,
+    "shots_per_batch": 32,
+    "baseline_shots_per_batch": 0,
+    "prefix_peak_width": 8,
+    "ordinary_peak_width": 44,
+    "native_peak_rss_kib": 23240,
+    "contraction_lookup_bytes": 9023524,
+    "contraction_workspace_bytes": 2570720,
+    "normalization_error": 6.661338147750939e-16,
+    "continuation_error": 4.440892098500626e-16,
+    "seconds": [
+      5.472655134,
+      5.599402091,
+      5.503329448
+    ],
+    "baseline_seconds": [
+      3e-08,
+      3e-08,
+      3e-08
+    ],
+    "accepted": [
+      6,
+      5,
+      2
+    ],
+    "logical_failures": [
+      0,
+      0,
+      0
+    ],
+    "baseline_accepted": [
+      0,
+      0,
+      0
+    ],
+    "baseline_logical_failures": [
+      0,
+      0,
+      0
+    ],
+    "median_seconds_per_attempt": 0.17197904525
+  },
+  "ordinary_coefficient_bytes": 281474976710656,
+  "ordinary_sampling": "skipped before allocating the dense coefficient array"
+}
