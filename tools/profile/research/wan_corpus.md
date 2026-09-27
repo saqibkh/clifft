@@ -6,6 +6,10 @@ generalization of the existing folded specialization: all eight imported
 cases fall back. Continue a bounded Sahay d=5 certificate investigation;
 defer generalizing or merging the current experimental specialization.
 
+Later result: the [complete Sahay d5 gadget experiment](sahay_gadget.md) validates
+a model-level replacement for both large checks and terminal projection. The
+original circuit-level experimental recognizer described below remains unchanged.
+
 Follow-up: the [latest-main bottleneck study](wan_bottleneck.md) compares the
 shipped scheduler budget with unlimited search and attributes the remaining
 cost to the large checking region. Its decision replaces the immediate next

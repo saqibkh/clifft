@@ -4,6 +4,10 @@
 freshly fetched for this study. Production sources and the isolated installed
 extension are the same as in the [bottleneck study](wan_bottleneck.md).
 
+Follow-up: the [complete Sahay d5 gadget experiment](sahay_gadget.md) implements
+and validates the missing physical binding, connects it to the original prefix,
+and measures full noisy attempts on the supplied external model.
+
 **Prioritize a complete check/projection contraction with offline selection of
 syndrome-sampling order.** Larger distances strengthen the case for replacing
 the dense representation. The current experimental contraction also needs
