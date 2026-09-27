@@ -1,5 +1,9 @@
 # Larger-distance folded controls
 
+Follow-up: the [cross-family applicability audit](cultivation_applicability.md)
+finds related parity instruments in SOFT, Chan and RP2. It recommends validating
+a complete flagged Chan instrument before broader production integration.
+
 2026-09-27. This study continues without waiting for larger circuits from the
 authors. There are two separate experiments: a **complete reconstructed f7
 protocol**, and **constructed terminal gadgets at code distances 3, 5, 7 and 9**.

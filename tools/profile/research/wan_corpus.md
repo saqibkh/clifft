@@ -1,5 +1,8 @@
 # Wan-Zapirain cultivation corpus study
 
+Later audit: [structural applicability across all supplied families](cultivation_applicability.md)
+separates the pattern recognizer's fallback from local algebraic coverage.
+
 2026-09-26. The released code unblocks independent circuit validation and
 provides a concrete expensive folded workload. It does not yet demonstrate
 generalization of the existing folded specialization: all eight imported

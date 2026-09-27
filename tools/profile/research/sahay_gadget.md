@@ -1,5 +1,8 @@
 # Complete Sahay d5 gadget experiment
 
+Release scope and next-step decision: see the later
+[cross-family applicability audit](cultivation_applicability.md).
+
 Follow-up: [larger-distance constructed controls](constructed_folded.md) reports
 complete reconstructed f7 attempts and constructed d7/d9 terminal gadgets.
 

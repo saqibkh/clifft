@@ -1,0 +1,2933 @@
+{
+  "main_revision": "63fc77ab7753220f396a87c274e9d2252a4b1b71",
+  "input_revision": "b99452de7e300324e7bbf5cd9347241c3e289bae",
+  "reference_revision": "b87c0da396b4bbde54fbee5535aeac1116170605",
+  "extension_sha256": "200bf00efa2e2406b6bee11c1802849fa6f8bff8a94972ff969c044aa1438c74",
+  "source_sha256": {
+    "audit_cultivation_applicability.py": "811255a7f7854f877155f84f18169a24a0553a4b652697a14dfaa9534a58a385",
+    "parity_envelope_audit.py": "1a34e75d2083915c4fa72352ee6cd160b2551c5ef9cfc74feefc4b8953dc33ec",
+    "sahay_gadget.py": "e773a5294ccae1923b9a7013665dfa22ad31c86a39e220cd5ff2e74456a970b1",
+    "study_sahay_gadget.py": "8e5efe7b876c1a2e59a23b673bc9817e4d2b85fb9f27abc10ea3d40f8ab7aca3",
+    "study_wan_scaling.py": "5f00eb88a10c0dc0061e5b639740720d97824b92757e2c071043b7631180d68b",
+    "wan_corpus.py": "b63bd3a6a4dd6a304012fa65e624b0308572e38c6644ec0401b6994bc6bc73fa"
+  },
+  "external": {
+    "rp2-d3": {
+      "source_path": "data/alternatives/inputs/rp2-d3/model.json",
+      "source_sha256": "19d363e691fe96791bda026814e30a454805d85cf58684ec601ecca59773b49b",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": {
+        "phase_layer_count": 3,
+        "candidate_envelopes": [
+          {
+            "first_line": 431,
+            "last_line": 880,
+            "phase_widths": [
+              15,
+              15
+            ],
+            "middle_gate_counts": {
+              "RX": 10,
+              "CX": 46,
+              "MX": 10
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                101,
+                102,
+                103,
+                104,
+                105,
+                106
+              ],
+              "phase_signs": {
+                "1": 1,
+                "4": 1,
+                "7": 1,
+                "0": 1,
+                "3": 1,
+                "6": 1,
+                "2": 1,
+                "5": 1,
+                "8": 1,
+                "101": 1,
+                "103": 1,
+                "105": 1,
+                "102": 1,
+                "104": 1,
+                "106": 1
+              },
+              "central_qubit": 4,
+              "flags": {
+                "17": "X",
+                "16": "X",
+                "9": "X",
+                "11": "X",
+                "18": "X",
+                "15": "X",
+                "13": "X",
+                "14": "X",
+                "12": "X"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "2": "X",
+                "3": "X",
+                "4": "X",
+                "5": "X",
+                "6": "X",
+                "7": "X",
+                "8": "X",
+                "101": "X",
+                "102": "X",
+                "103": "X",
+                "104": "X",
+                "105": "X",
+                "106": "X"
+              },
+              "reset_correction": {
+                "4": "Z",
+                "14": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          }
+        ],
+        "accepted_envelopes": 1
+      },
+      "literal_folded_model": {
+        "selected": false,
+        "layer": "model recognizer",
+        "reason": "Expected a one-logical-qubit CSS code"
+      },
+      "terminal_css": {
+        "data_qubits": 9,
+        "physical_data": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "check_counts": {
+          "X": 5,
+          "Z": 5
+        },
+        "independent_ranks": {
+          "X": 4,
+          "Z": 4
+        },
+        "redundant_checks": 2,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "parity_entry": [
+        {
+          "first_line": 431,
+          "tested": false,
+          "reason": "phase support differs from terminal code; needs its intermediate code boundary"
+        }
+      ]
+    },
+    "rp2-d5": {
+      "source_path": "data/alternatives/inputs/rp2-d5/model.json",
+      "source_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": {
+        "phase_layer_count": 5,
+        "candidate_envelopes": [
+          {
+            "first_line": 431,
+            "last_line": 880,
+            "phase_widths": [
+              15,
+              15
+            ],
+            "middle_gate_counts": {
+              "RX": 10,
+              "CX": 46,
+              "MX": 10
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                249,
+                250,
+                251,
+                252,
+                253,
+                254
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                249,
+                250,
+                251,
+                252,
+                253,
+                254
+              ],
+              "phase_signs": {
+                "1": 1,
+                "4": 1,
+                "7": 1,
+                "0": 1,
+                "3": 1,
+                "6": 1,
+                "2": 1,
+                "5": 1,
+                "8": 1,
+                "249": 1,
+                "251": 1,
+                "253": 1,
+                "250": 1,
+                "252": 1,
+                "254": 1
+              },
+              "central_qubit": 4,
+              "flags": {
+                "17": "X",
+                "16": "X",
+                "9": "X",
+                "11": "X",
+                "18": "X",
+                "15": "X",
+                "13": "X",
+                "14": "X",
+                "12": "X"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "2": "X",
+                "3": "X",
+                "4": "X",
+                "5": "X",
+                "6": "X",
+                "7": "X",
+                "8": "X",
+                "249": "X",
+                "250": "X",
+                "251": "X",
+                "252": "X",
+                "253": "X",
+                "254": "X"
+              },
+              "reset_correction": {
+                "4": "Z",
+                "14": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 866,
+            "last_line": 2171,
+            "phase_widths": [
+              15,
+              35
+            ],
+            "middle_gate_counts": {
+              "CX": 255,
+              "R": 39,
+              "RX": 39,
+              "MX": 29,
+              "M": 29,
+              "X": 8,
+              "FEEDBACK": 6
+            },
+            "accepted": false,
+            "reason": "phase layers are not distinct inverses"
+          },
+          {
+            "first_line": 2137,
+            "last_line": 3174,
+            "phase_widths": [
+              35,
+              35
+            ],
+            "middle_gate_counts": {
+              "RX": 16,
+              "CX": 98,
+              "MX": 16
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                247,
+                248,
+                249,
+                250,
+                251,
+                252,
+                253,
+                254,
+                255,
+                256
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                38,
+                39,
+                40,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                247,
+                248,
+                249,
+                250,
+                251,
+                252,
+                253,
+                254,
+                255,
+                256
+              ],
+              "phase_signs": {
+                "19": -1,
+                "23": -1,
+                "20": -1,
+                "22": -1,
+                "247": -1,
+                "248": -1,
+                "0": -1,
+                "2": -1,
+                "3": -1,
+                "5": -1,
+                "249": -1,
+                "250": -1,
+                "24": -1,
+                "25": -1,
+                "26": -1,
+                "27": -1,
+                "251": -1,
+                "252": -1,
+                "28": -1,
+                "29": -1,
+                "6": -1,
+                "8": -1,
+                "253": -1,
+                "254": -1,
+                "30": -1,
+                "34": -1,
+                "31": -1,
+                "33": -1,
+                "255": -1,
+                "256": -1,
+                "21": -1,
+                "1": -1,
+                "4": -1,
+                "7": -1,
+                "32": -1
+              },
+              "central_qubit": 4,
+              "flags": {
+                "42": "X",
+                "47": "X",
+                "16": "X",
+                "11": "X",
+                "38": "X",
+                "43": "X",
+                "15": "X",
+                "39": "X",
+                "40": "X",
+                "45": "X",
+                "46": "X",
+                "13": "X",
+                "14": "X",
+                "12": "X",
+                "44": "X"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "2": "X",
+                "3": "X",
+                "4": "X",
+                "5": "X",
+                "6": "X",
+                "7": "X",
+                "8": "X",
+                "19": "X",
+                "20": "X",
+                "21": "X",
+                "22": "X",
+                "23": "X",
+                "24": "X",
+                "25": "X",
+                "26": "X",
+                "27": "X",
+                "28": "X",
+                "29": "X",
+                "30": "X",
+                "31": "X",
+                "32": "X",
+                "33": "X",
+                "34": "X",
+                "247": "X",
+                "248": "X",
+                "249": "X",
+                "250": "X",
+                "251": "X",
+                "252": "X",
+                "253": "X",
+                "254": "X",
+                "255": "X",
+                "256": "X"
+              },
+              "reset_correction": {
+                "4": "Z",
+                "14": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          }
+        ],
+        "accepted_envelopes": 2
+      },
+      "literal_folded_model": {
+        "selected": false,
+        "layer": "model recognizer",
+        "reason": "Expected a one-logical-qubit CSS code"
+      },
+      "terminal_css": {
+        "data_qubits": 25,
+        "physical_data": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "check_counts": {
+          "X": 13,
+          "Z": 13
+        },
+        "independent_ranks": {
+          "X": 12,
+          "Z": 12
+        },
+        "redundant_checks": 2,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "parity_entry": [
+        {
+          "first_line": 431,
+          "tested": false,
+          "reason": "phase support differs from terminal code; needs its intermediate code boundary"
+        },
+        {
+          "first_line": 2137,
+          "tested": false,
+          "reason": "phase support differs from terminal code; needs its intermediate code boundary"
+        }
+      ]
+    },
+    "fold-d3": {
+      "source_path": "data/alternatives/inputs/fold-d3/model.json",
+      "source_sha256": "3a872108fe6874071006d7e05c994b03c325ed3179efcd58c825ab7304bb9368",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": null,
+      "literal_folded_model": {
+        "selected": false,
+        "layer": "model recognizer",
+        "reason": "Expected a one-logical-qubit CSS code"
+      },
+      "terminal_css": {
+        "data_qubits": 13,
+        "physical_data": [
+          0,
+          4,
+          8,
+          16,
+          20,
+          28,
+          32,
+          36,
+          44,
+          48,
+          56,
+          60,
+          64
+        ],
+        "check_counts": {
+          "X": 6,
+          "Z": 6
+        },
+        "independent_ranks": {
+          "X": 6,
+          "Z": 6
+        },
+        "redundant_checks": 0,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "canonicalization": {
+        "decoder_start_event": 510,
+        "terminal_projection_event": 534,
+        "decoder_elementary_gates": 24,
+        "original_records": 26,
+        "description": "noiseless decoder pulled back to CSS products and logical axes; all records retained",
+        "validation": {
+          "cases": [
+            {
+              "faults": {},
+              "rejected_records": 0,
+              "maximum_absolute_error": 0.0
+            },
+            {
+              "faults": {
+                "120": 1,
+                "173": 2,
+                "223": 2,
+                "287": 3,
+                "303": 2,
+                "334": 3,
+                "343": 1,
+                "352": 8
+              },
+              "rejected_records": 8,
+              "maximum_absolute_error": 0.0
+            },
+            {
+              "faults": {
+                "158": 1,
+                "165": 1,
+                "193": 1,
+                "204": 1,
+                "217": 1,
+                "231": 2,
+                "232": 1,
+                "263": 1,
+                "326": 11,
+                "353": 12
+              },
+              "rejected_records": 8,
+              "maximum_absolute_error": 0.0
+            },
+            {
+              "faults": {
+                "58": 3,
+                "65": 1,
+                "134": 3,
+                "153": 8,
+                "231": 2,
+                "238": 9
+              },
+              "rejected_records": 8,
+              "maximum_absolute_error": 0.0
+            }
+          ],
+          "comparisons": 32,
+          "maximum_absolute_error": 0.0
+        }
+      },
+      "canonical_folded_model": {
+        "selected": true,
+        "certificate": {
+          "symbolic_inputs": 151,
+          "coherent_paths": 4,
+          "hadamards": 4,
+          "classical_records": 6,
+          "branch_independent_records_and_resets": true,
+          "same_code_coset": true,
+          "data_qubits": 13,
+          "x_generators": 6,
+          "data_pair_factors": 4,
+          "physical_noise_sites": 110,
+          "prefix_event_stop": 367,
+          "projection_event_start": 524
+        },
+        "peak_entries": 32,
+        "numeric_payload_bytes": 31736,
+        "plans_over_budget": 0
+      },
+      "canonical_entry": {
+        "shots": 1024,
+        "probes": [
+          "  45 WRITE_EXPECTATION exp_val=v0 w1 I sign=e37",
+          "  46 WRITE_EXPECTATION exp_val=v1 w1 I sign=e38",
+          "  47 WRITE_EXPECTATION exp_val=v2 w1 I sign=e39",
+          "  48 WRITE_EXPECTATION exp_val=v3 w1 I sign=e40",
+          "  49 WRITE_EXPECTATION exp_val=v4 w1 I sign=e41",
+          "  50 WRITE_EXPECTATION exp_val=v5 w1 I sign=e42",
+          "  51 WRITE_EXPECTATION exp_val=v6 w1 I sign=e43",
+          "  52 WRITE_EXPECTATION exp_val=v7 w1 I sign=e44",
+          "  53 WRITE_EXPECTATION exp_val=v8 w1 I sign=e45",
+          "  54 WRITE_EXPECTATION exp_val=v9 w1 I sign=e46",
+          "  55 WRITE_EXPECTATION exp_val=v10 w1 I sign=e47",
+          "  56 WRITE_EXPECTATION exp_val=v11 w1 I sign=e48",
+          "  57 WRITE_EXPECTATION exp_val=v12 w1 Z0 sign=e49",
+          "  58 WRITE_EXPECTATION exp_val=v13 w1 Y0 pair=0 sign=e50",
+          "  59 WRITE_EXPECTATION exp_val=v14 w1 X0 pair=0 sign=e51",
+          "  60 WRITE_EXPECTATION exp_val=v15 w1 I sign=e52",
+          "  61 WRITE_EXPECTATION exp_val=v16 w1 I sign=e53",
+          "  62 WRITE_EXPECTATION exp_val=v17 w1 I sign=e54"
+        ],
+        "prefix_measurements": 8,
+        "prefix_peak_active_width": 1,
+        "maximum_purity_error": 0.0
+      }
+    },
+    "fold-d5": {
+      "source_path": "data/alternatives/inputs/fold-d5/model.json",
+      "source_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": null,
+      "literal_folded_model": {
+        "selected": true,
+        "certificate": {
+          "symbolic_inputs": 811,
+          "coherent_paths": 4,
+          "hadamards": 4,
+          "classical_records": 12,
+          "branch_independent_records_and_resets": true,
+          "same_code_coset": true,
+          "data_qubits": 41,
+          "x_generators": 20,
+          "data_pair_factors": 16,
+          "physical_noise_sites": 698,
+          "prefix_event_stop": 2275,
+          "projection_event_start": 3114
+        },
+        "peak_entries": 64,
+        "numeric_payload_bytes": 477472,
+        "plans_over_budget": 0
+      },
+      "terminal_css": {
+        "data_qubits": 41,
+        "physical_data": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          48,
+          51,
+          53,
+          55,
+          57
+        ],
+        "check_counts": {
+          "X": 20,
+          "Z": 20
+        },
+        "independent_ranks": {
+          "X": 20,
+          "Z": 20
+        },
+        "redundant_checks": 0,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "canonical_entry": {
+        "shots": 1024,
+        "probes": [
+          "  481 WRITE_EXPECTATION exp_val=v0 w1 I sign=e415",
+          "  482 WRITE_EXPECTATION exp_val=v1 w1 I sign=e416",
+          "  483 WRITE_EXPECTATION exp_val=v2 w1 I sign=e417",
+          "  484 WRITE_EXPECTATION exp_val=v3 w1 I sign=e418",
+          "  485 WRITE_EXPECTATION exp_val=v4 w1 I sign=e419",
+          "  486 WRITE_EXPECTATION exp_val=v5 w1 I sign=e420",
+          "  487 WRITE_EXPECTATION exp_val=v6 w1 I sign=e421",
+          "  488 WRITE_EXPECTATION exp_val=v7 w1 I sign=e422",
+          "  489 WRITE_EXPECTATION exp_val=v8 w1 I sign=e423",
+          "  490 WRITE_EXPECTATION exp_val=v9 w1 I sign=e424",
+          "  491 WRITE_EXPECTATION exp_val=v10 w1 I sign=e425",
+          "  492 WRITE_EXPECTATION exp_val=v11 w1 I sign=e426",
+          "  493 WRITE_EXPECTATION exp_val=v12 w1 I sign=e427",
+          "  494 WRITE_EXPECTATION exp_val=v13 w1 I sign=e428",
+          "  495 WRITE_EXPECTATION exp_val=v14 w1 I sign=e429",
+          "  496 WRITE_EXPECTATION exp_val=v15 w1 I sign=e430",
+          "  497 WRITE_EXPECTATION exp_val=v16 w1 I sign=e431",
+          "  498 WRITE_EXPECTATION exp_val=v17 w1 I sign=e432",
+          "  499 WRITE_EXPECTATION exp_val=v18 w1 I sign=e433",
+          "  500 WRITE_EXPECTATION exp_val=v19 w1 I sign=e434",
+          "  501 WRITE_EXPECTATION exp_val=v20 w1 I sign=e435",
+          "  502 WRITE_EXPECTATION exp_val=v21 w1 I sign=e436",
+          "  503 WRITE_EXPECTATION exp_val=v22 w1 I sign=e437",
+          "  504 WRITE_EXPECTATION exp_val=v23 w1 I sign=e438",
+          "  505 WRITE_EXPECTATION exp_val=v24 w1 I sign=e439",
+          "  506 WRITE_EXPECTATION exp_val=v25 w1 I sign=e440",
+          "  507 WRITE_EXPECTATION exp_val=v26 w1 I sign=e441",
+          "  508 WRITE_EXPECTATION exp_val=v27 w1 I sign=e442",
+          "  509 WRITE_EXPECTATION exp_val=v28 w1 I sign=e443",
+          "  510 WRITE_EXPECTATION exp_val=v29 w1 I sign=e444",
+          "  511 WRITE_EXPECTATION exp_val=v30 w1 I sign=e445",
+          "  512 WRITE_EXPECTATION exp_val=v31 w1 I sign=e446",
+          "  513 WRITE_EXPECTATION exp_val=v32 w1 I sign=e447",
+          "  514 WRITE_EXPECTATION exp_val=v33 w1 I sign=e448",
+          "  515 WRITE_EXPECTATION exp_val=v34 w1 I sign=e449",
+          "  516 WRITE_EXPECTATION exp_val=v35 w1 I sign=e450",
+          "  517 WRITE_EXPECTATION exp_val=v36 w1 I sign=e451",
+          "  518 WRITE_EXPECTATION exp_val=v37 w1 I sign=e452",
+          "  519 WRITE_EXPECTATION exp_val=v38 w1 I sign=e453",
+          "  520 WRITE_EXPECTATION exp_val=v39 w1 I sign=e454",
+          "  521 WRITE_EXPECTATION exp_val=v40 w1 Z0 sign=e455",
+          "  522 WRITE_EXPECTATION exp_val=v41 w1 Y0 pair=0 sign=e456",
+          "  523 WRITE_EXPECTATION exp_val=v42 w1 X0 pair=0 sign=e457",
+          "  524 WRITE_EXPECTATION exp_val=v43 w1 I sign=e458",
+          "  525 WRITE_EXPECTATION exp_val=v44 w1 I sign=e459",
+          "  526 WRITE_EXPECTATION exp_val=v45 w1 I sign=e460",
+          "  527 WRITE_EXPECTATION exp_val=v46 w1 I sign=e461",
+          "  528 WRITE_EXPECTATION exp_val=v47 w1 I sign=e462",
+          "  529 WRITE_EXPECTATION exp_val=v48 w1 I sign=e463",
+          "  530 WRITE_EXPECTATION exp_val=v49 w1 I sign=e464"
+        ],
+        "prefix_measurements": 70,
+        "prefix_peak_active_width": 8,
+        "maximum_purity_error": 8.881784197001252e-16
+      }
+    },
+    "chan-v1-d3": {
+      "source_path": "data/alternatives/inputs/chan-v1-d3/model.json",
+      "source_sha256": "642a6f63df80f4a1cbe42e1f8a00a2684a396ef2d96a41ae2f46350af9d89fcd",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": {
+        "phase_layer_count": 5,
+        "candidate_envelopes": [
+          {
+            "first_line": 491,
+            "last_line": 771,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "CX": 32,
+              "R": 2,
+              "MX": 1,
+              "RX": 1,
+              "M": 2
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                8,
+                10,
+                12,
+                14,
+                15
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "phase_signs": {
+                "0": -1,
+                "3": -1,
+                "8": -1,
+                "10": -1,
+                "12": -1,
+                "14": -1,
+                "15": -1
+              },
+              "central_qubit": 8,
+              "flags": {
+                "6": "Z",
+                "11": "Z"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "8": "X",
+                "9": "X",
+                "10": "X",
+                "12": "X",
+                "13": "X",
+                "14": "X",
+                "15": "X",
+                "16": "X"
+              },
+              "reset_correction": {
+                "7": "Z",
+                "8": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 765,
+            "last_line": 830,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "MX": 6
+            },
+            "accepted": false,
+            "reason": "expected exactly one central X measurement followed by its reset"
+          },
+          {
+            "first_line": 824,
+            "last_line": 838,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "MPP": 1
+            },
+            "accepted": false,
+            "reason": "expected exactly one central X measurement followed by its reset"
+          }
+        ],
+        "accepted_envelopes": 1
+      },
+      "literal_folded_model": {
+        "selected": false,
+        "layer": "model recognizer",
+        "reason": "Expected a one-logical-qubit CSS code"
+      },
+      "terminal_css": {
+        "data_qubits": 7,
+        "physical_data": [
+          0,
+          3,
+          8,
+          10,
+          12,
+          14,
+          15
+        ],
+        "check_counts": {
+          "X": 3,
+          "Z": 3
+        },
+        "independent_ranks": {
+          "X": 3,
+          "Z": 3
+        },
+        "redundant_checks": 0,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "parity_entry": [
+        {
+          "first_line": 491,
+          "tested": true,
+          "code_checks_are_tracked_signs": true,
+          "spectator_axes": {
+            "1": [
+              "X"
+            ],
+            "2": [
+              "X"
+            ],
+            "6": [
+              "Z"
+            ],
+            "7": [
+              "X"
+            ],
+            "9": [
+              "X"
+            ],
+            "11": [
+              "Z"
+            ],
+            "13": [
+              "X"
+            ],
+            "16": [
+              "X"
+            ]
+          },
+          "all_spectators_have_tracked_axis": true,
+          "all_selected_probes_at_width_one": true,
+          "selected_probe_lines": [
+            "  41 WRITE_EXPECTATION exp_val=v0 w1 I sign=e34",
+            "  42 WRITE_EXPECTATION exp_val=v1 w1 I sign=e35",
+            "  43 WRITE_EXPECTATION exp_val=v2 w1 I sign=e36",
+            "  44 WRITE_EXPECTATION exp_val=v3 w1 I sign=e37",
+            "  45 WRITE_EXPECTATION exp_val=v4 w1 I sign=e38",
+            "  46 WRITE_EXPECTATION exp_val=v5 w1 I sign=e39",
+            "  47 WRITE_EXPECTATION exp_val=v6 w1 I sign=e40",
+            "  50 WRITE_EXPECTATION exp_val=v9 w1 I sign=e41",
+            "  55 WRITE_EXPECTATION exp_val=v14 w1 I sign=e42",
+            "  56 WRITE_EXPECTATION exp_val=v15 w1 I sign=e43",
+            "  59 WRITE_EXPECTATION exp_val=v18 w1 I sign=e44",
+            "  64 WRITE_EXPECTATION exp_val=v23 w1 I sign=e45",
+            "  65 WRITE_EXPECTATION exp_val=v24 w1 I sign=e46",
+            "  68 WRITE_EXPECTATION exp_val=v27 w1 I sign=e47"
+          ],
+          "prefix_peak_active_width": 1,
+          "sampled_shots": 128,
+          "maximum_signed_probe_deviation": 0.0,
+          "maximum_logical_purity_error": 0.0,
+          "includes_entry_flags": true,
+          "scope": "entry code and single-qubit spectator probes; no full gadget/noise binding or continuation",
+          "unary_code_plan_screen": {
+            "peak_entries": 8,
+            "numeric_payload_bytes": 4040,
+            "plans_over_budget": 0,
+            "scope": "single-bit factors on this code; excludes actual fault binding and continuation"
+          }
+        }
+      ]
+    },
+    "chan-v1-d5": {
+      "source_path": "data/alternatives/inputs/chan-v1-d5/model.json",
+      "source_sha256": "1c145d4b750345e57fcc64dabb87512903a0825543c55f323fef8e385c8ed393",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": {
+        "phase_layer_count": 7,
+        "candidate_envelopes": [
+          {
+            "first_line": 1465,
+            "last_line": 2309,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "CX": 32,
+              "R": 2,
+              "MX": 1,
+              "RX": 1,
+              "M": 2
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                8,
+                10,
+                15,
+                17,
+                22
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                15,
+                16,
+                17,
+                22,
+                23
+              ],
+              "phase_signs": {
+                "3": 1,
+                "15": 1,
+                "17": 1,
+                "0": -1,
+                "8": -1,
+                "10": -1,
+                "22": -1
+              },
+              "central_qubit": 8,
+              "flags": {
+                "6": "Z",
+                "12": "Z"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "8": "X",
+                "9": "X",
+                "10": "X",
+                "15": "X",
+                "16": "X",
+                "17": "X",
+                "22": "X",
+                "23": "X"
+              },
+              "reset_correction": {
+                "7": "Z",
+                "8": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 2303,
+            "last_line": 4590,
+            "phase_widths": [
+              7,
+              19
+            ],
+            "middle_gate_counts": {
+              "MX": 33,
+              "R": 38,
+              "RX": 52,
+              "CX": 322,
+              "M": 32,
+              "FEEDBACK": 17
+            },
+            "accepted": false,
+            "reason": "phase layers are not distinct inverses"
+          },
+          {
+            "first_line": 4572,
+            "last_line": 5682,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "CX": 126,
+              "R": 13,
+              "MX": 1,
+              "RX": 1,
+              "M": 13
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                8,
+                10,
+                15,
+                17,
+                19,
+                22,
+                24,
+                26,
+                28,
+                35,
+                37,
+                39,
+                44,
+                46,
+                49,
+                51,
+                53
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "phase_signs": {
+                "3": 1,
+                "15": 1,
+                "17": 1,
+                "35": 1,
+                "19": 1,
+                "37": 1,
+                "39": 1,
+                "49": 1,
+                "51": 1,
+                "0": -1,
+                "8": -1,
+                "10": -1,
+                "22": -1,
+                "24": -1,
+                "26": -1,
+                "28": -1,
+                "44": -1,
+                "46": -1,
+                "53": -1
+              },
+              "central_qubit": 35,
+              "flags": {
+                "21": "Z",
+                "13": "Z",
+                "30": "Z",
+                "14": "Z",
+                "32": "Z",
+                "33": "Z",
+                "6": "Z",
+                "12": "Z",
+                "48": "Z",
+                "41": "Z",
+                "42": "Z",
+                "31": "Z",
+                "29": "Z"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "8": "X",
+                "10": "X",
+                "15": "X",
+                "16": "X",
+                "17": "X",
+                "18": "X",
+                "19": "X",
+                "22": "X",
+                "23": "X",
+                "24": "X",
+                "26": "X",
+                "28": "X",
+                "35": "X",
+                "36": "X",
+                "37": "X",
+                "38": "X",
+                "39": "X",
+                "40": "X",
+                "44": "X",
+                "45": "X",
+                "46": "X",
+                "49": "X",
+                "50": "X",
+                "51": "X",
+                "53": "X",
+                "54": "X"
+              },
+              "reset_correction": {
+                "34": "Z",
+                "35": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 5664,
+            "last_line": 5830,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "MX": 19
+            },
+            "accepted": false,
+            "reason": "expected exactly one central X measurement followed by its reset"
+          },
+          {
+            "first_line": 5812,
+            "last_line": 5850,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "MPP": 1
+            },
+            "accepted": false,
+            "reason": "expected exactly one central X measurement followed by its reset"
+          }
+        ],
+        "accepted_envelopes": 2
+      },
+      "literal_folded_model": {
+        "selected": false,
+        "layer": "input representation",
+        "reason": "list-event schema"
+      },
+      "terminal_css": {
+        "data_qubits": 19,
+        "physical_data": [
+          0,
+          3,
+          8,
+          10,
+          15,
+          17,
+          19,
+          22,
+          24,
+          26,
+          28,
+          35,
+          37,
+          39,
+          44,
+          46,
+          49,
+          51,
+          53
+        ],
+        "check_counts": {
+          "X": 9,
+          "Z": 9
+        },
+        "independent_ranks": {
+          "X": 9,
+          "Z": 9
+        },
+        "redundant_checks": 0,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "parity_entry": [
+        {
+          "first_line": 1465,
+          "tested": false,
+          "reason": "phase support differs from terminal code; needs its intermediate code boundary"
+        },
+        {
+          "first_line": 4572,
+          "tested": true,
+          "code_checks_are_tracked_signs": true,
+          "spectator_axes": {
+            "1": [
+              "X"
+            ],
+            "2": [
+              "X"
+            ],
+            "6": [
+              "Z"
+            ],
+            "7": [
+              "X"
+            ],
+            "9": [
+              "X"
+            ],
+            "11": [
+              "X"
+            ],
+            "12": [
+              "Z"
+            ],
+            "13": [
+              "Z"
+            ],
+            "14": [
+              "Z"
+            ],
+            "16": [
+              "X"
+            ],
+            "18": [
+              "X"
+            ],
+            "21": [
+              "Z"
+            ],
+            "23": [
+              "X"
+            ],
+            "25": [
+              "X"
+            ],
+            "27": [
+              "X"
+            ],
+            "29": [
+              "Z"
+            ],
+            "30": [
+              "Z"
+            ],
+            "31": [
+              "Z"
+            ],
+            "32": [
+              "Z"
+            ],
+            "33": [
+              "Z"
+            ],
+            "34": [
+              "X"
+            ],
+            "36": [
+              "X"
+            ],
+            "38": [
+              "X"
+            ],
+            "40": [
+              "X"
+            ],
+            "41": [
+              "Z"
+            ],
+            "42": [
+              "Z"
+            ],
+            "43": [
+              "X"
+            ],
+            "45": [
+              "X"
+            ],
+            "48": [
+              "Z"
+            ],
+            "50": [
+              "X"
+            ],
+            "52": [
+              "X"
+            ],
+            "54": [
+              "X"
+            ]
+          },
+          "all_spectators_have_tracked_axis": true,
+          "all_selected_probes_at_width_one": true,
+          "selected_probe_lines": [
+            "  284 WRITE_EXPECTATION exp_val=v0 w1 I sign=e284",
+            "  285 WRITE_EXPECTATION exp_val=v1 w1 I sign=e285",
+            "  286 WRITE_EXPECTATION exp_val=v2 w1 I sign=e286",
+            "  287 WRITE_EXPECTATION exp_val=v3 w1 I sign=e287",
+            "  288 WRITE_EXPECTATION exp_val=v4 w1 I sign=e288",
+            "  289 WRITE_EXPECTATION exp_val=v5 w1 I sign=e289",
+            "  290 WRITE_EXPECTATION exp_val=v6 w1 I sign=e290",
+            "  291 WRITE_EXPECTATION exp_val=v7 w1 I sign=e291",
+            "  292 WRITE_EXPECTATION exp_val=v8 w1 I sign=e292",
+            "  293 WRITE_EXPECTATION exp_val=v9 w1 I sign=e293",
+            "  294 WRITE_EXPECTATION exp_val=v10 w1 I sign=e294",
+            "  295 WRITE_EXPECTATION exp_val=v11 w1 I sign=e295",
+            "  296 WRITE_EXPECTATION exp_val=v12 w1 I sign=e296",
+            "  297 WRITE_EXPECTATION exp_val=v13 w1 I sign=e297",
+            "  298 WRITE_EXPECTATION exp_val=v14 w1 I sign=e298",
+            "  299 WRITE_EXPECTATION exp_val=v15 w1 I sign=e299",
+            "  300 WRITE_EXPECTATION exp_val=v16 w1 I sign=e300",
+            "  301 WRITE_EXPECTATION exp_val=v17 w1 I sign=e301",
+            "  302 WRITE_EXPECTATION exp_val=v18 w1 I sign=e302",
+            "  305 WRITE_EXPECTATION exp_val=v21 w1 I sign=e303",
+            "  310 WRITE_EXPECTATION exp_val=v26 w1 I sign=e304",
+            "  311 WRITE_EXPECTATION exp_val=v27 w1 I sign=e305",
+            "  314 WRITE_EXPECTATION exp_val=v30 w1 I sign=e306",
+            "  317 WRITE_EXPECTATION exp_val=v33 w1 I sign=e307",
+            "  322 WRITE_EXPECTATION exp_val=v38 w1 I sign=e308",
+            "  325 WRITE_EXPECTATION exp_val=v41 w1 I sign=e309",
+            "  328 WRITE_EXPECTATION exp_val=v44 w1 I sign=e310",
+            "  329 WRITE_EXPECTATION exp_val=v45 w1 I sign=e311",
+            "  332 WRITE_EXPECTATION exp_val=v48 w1 I sign=e312",
+            "  337 WRITE_EXPECTATION exp_val=v53 w1 I sign=e313",
+            "  338 WRITE_EXPECTATION exp_val=v54 w1 I sign=e314",
+            "  341 WRITE_EXPECTATION exp_val=v57 w1 I sign=e315",
+            "  344 WRITE_EXPECTATION exp_val=v60 w1 I sign=e316",
+            "  349 WRITE_EXPECTATION exp_val=v65 w1 I sign=e317",
+            "  352 WRITE_EXPECTATION exp_val=v68 w1 I sign=e318",
+            "  355 WRITE_EXPECTATION exp_val=v71 w1 I sign=e319",
+            "  358 WRITE_EXPECTATION exp_val=v74 w1 I sign=e320",
+            "  361 WRITE_EXPECTATION exp_val=v77 w1 I sign=e321",
+            "  362 WRITE_EXPECTATION exp_val=v78 w1 I sign=e322",
+            "  365 WRITE_EXPECTATION exp_val=v81 w1 I sign=e323",
+            "  368 WRITE_EXPECTATION exp_val=v84 w1 I sign=e324",
+            "  371 WRITE_EXPECTATION exp_val=v87 w1 I sign=e325",
+            "  376 WRITE_EXPECTATION exp_val=v92 w1 I sign=e326",
+            "  379 WRITE_EXPECTATION exp_val=v95 w1 I sign=e327",
+            "  380 WRITE_EXPECTATION exp_val=v96 w1 I sign=e328",
+            "  383 WRITE_EXPECTATION exp_val=v99 w1 I sign=e329",
+            "  388 WRITE_EXPECTATION exp_val=v104 w1 I sign=e330",
+            "  389 WRITE_EXPECTATION exp_val=v105 w1 I sign=e331",
+            "  392 WRITE_EXPECTATION exp_val=v108 w1 I sign=e332",
+            "  395 WRITE_EXPECTATION exp_val=v111 w1 I sign=e333"
+          ],
+          "prefix_peak_active_width": 4,
+          "sampled_shots": 128,
+          "maximum_signed_probe_deviation": 0.0,
+          "maximum_logical_purity_error": 8.881784197001252e-16,
+          "includes_entry_flags": true,
+          "scope": "entry code and single-qubit spectator probes; no full gadget/noise binding or continuation",
+          "unary_code_plan_screen": {
+            "peak_entries": 8,
+            "numeric_payload_bytes": 28868,
+            "plans_over_budget": 0,
+            "scope": "single-bit factors on this code; excludes actual fault binding and continuation"
+          }
+        }
+      ]
+    },
+    "chan-four-round-d5": {
+      "source_path": "data/alternatives/inputs/chan-four-round-d5/model.json",
+      "source_sha256": "18587ca9d3363ee9dfd66b13a6a0cc9514c507a8cb250a5f9c500c6fbe162b8c",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": {
+        "phase_layer_count": 7,
+        "candidate_envelopes": [
+          {
+            "first_line": 1465,
+            "last_line": 2309,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "CX": 32,
+              "R": 2,
+              "MX": 1,
+              "RX": 1,
+              "M": 2
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                8,
+                10,
+                15,
+                17,
+                22
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                12,
+                15,
+                16,
+                17,
+                22,
+                23
+              ],
+              "phase_signs": {
+                "3": 1,
+                "15": 1,
+                "17": 1,
+                "0": -1,
+                "8": -1,
+                "10": -1,
+                "22": -1
+              },
+              "central_qubit": 8,
+              "flags": {
+                "6": "Z",
+                "12": "Z"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "8": "X",
+                "9": "X",
+                "10": "X",
+                "15": "X",
+                "16": "X",
+                "17": "X",
+                "22": "X",
+                "23": "X"
+              },
+              "reset_correction": {
+                "7": "Z",
+                "8": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 2303,
+            "last_line": 5176,
+            "phase_widths": [
+              7,
+              19
+            ],
+            "middle_gate_counts": {
+              "MX": 42,
+              "R": 47,
+              "RX": 61,
+              "CX": 424,
+              "M": 41,
+              "FEEDBACK": 17
+            },
+            "accepted": false,
+            "reason": "phase layers are not distinct inverses"
+          },
+          {
+            "first_line": 5158,
+            "last_line": 6268,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "CX": 126,
+              "R": 13,
+              "MX": 1,
+              "RX": 1,
+              "M": 13
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                8,
+                10,
+                15,
+                17,
+                19,
+                22,
+                24,
+                26,
+                28,
+                35,
+                37,
+                39,
+                44,
+                46,
+                49,
+                51,
+                53
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54
+              ],
+              "phase_signs": {
+                "3": 1,
+                "15": 1,
+                "17": 1,
+                "35": 1,
+                "19": 1,
+                "37": 1,
+                "39": 1,
+                "49": 1,
+                "51": 1,
+                "0": -1,
+                "8": -1,
+                "10": -1,
+                "22": -1,
+                "24": -1,
+                "26": -1,
+                "28": -1,
+                "44": -1,
+                "46": -1,
+                "53": -1
+              },
+              "central_qubit": 35,
+              "flags": {
+                "21": "Z",
+                "13": "Z",
+                "30": "Z",
+                "14": "Z",
+                "32": "Z",
+                "33": "Z",
+                "6": "Z",
+                "12": "Z",
+                "48": "Z",
+                "41": "Z",
+                "42": "Z",
+                "31": "Z",
+                "29": "Z"
+              },
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "8": "X",
+                "10": "X",
+                "15": "X",
+                "16": "X",
+                "17": "X",
+                "18": "X",
+                "19": "X",
+                "22": "X",
+                "23": "X",
+                "24": "X",
+                "26": "X",
+                "28": "X",
+                "35": "X",
+                "36": "X",
+                "37": "X",
+                "38": "X",
+                "39": "X",
+                "40": "X",
+                "44": "X",
+                "45": "X",
+                "46": "X",
+                "49": "X",
+                "50": "X",
+                "51": "X",
+                "53": "X",
+                "54": "X"
+              },
+              "reset_correction": {
+                "34": "Z",
+                "35": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 6250,
+            "last_line": 6416,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "MX": 19
+            },
+            "accepted": false,
+            "reason": "expected exactly one central X measurement followed by its reset"
+          },
+          {
+            "first_line": 6398,
+            "last_line": 6436,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "MPP": 1
+            },
+            "accepted": false,
+            "reason": "expected exactly one central X measurement followed by its reset"
+          }
+        ],
+        "accepted_envelopes": 2
+      },
+      "literal_folded_model": {
+        "selected": false,
+        "layer": "input representation",
+        "reason": "list-event schema"
+      },
+      "terminal_css": {
+        "data_qubits": 19,
+        "physical_data": [
+          0,
+          3,
+          8,
+          10,
+          15,
+          17,
+          19,
+          22,
+          24,
+          26,
+          28,
+          35,
+          37,
+          39,
+          44,
+          46,
+          49,
+          51,
+          53
+        ],
+        "check_counts": {
+          "X": 9,
+          "Z": 9
+        },
+        "independent_ranks": {
+          "X": 9,
+          "Z": 9
+        },
+        "redundant_checks": 0,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "parity_entry": [
+        {
+          "first_line": 1465,
+          "tested": false,
+          "reason": "phase support differs from terminal code; needs its intermediate code boundary"
+        },
+        {
+          "first_line": 5158,
+          "tested": true,
+          "code_checks_are_tracked_signs": true,
+          "spectator_axes": {
+            "1": [
+              "X"
+            ],
+            "2": [
+              "X"
+            ],
+            "6": [
+              "Z"
+            ],
+            "7": [
+              "X"
+            ],
+            "9": [
+              "X"
+            ],
+            "11": [
+              "X"
+            ],
+            "12": [
+              "Z"
+            ],
+            "13": [
+              "Z"
+            ],
+            "14": [
+              "Z"
+            ],
+            "16": [
+              "X"
+            ],
+            "18": [
+              "X"
+            ],
+            "21": [
+              "Z"
+            ],
+            "23": [
+              "X"
+            ],
+            "25": [
+              "X"
+            ],
+            "27": [
+              "X"
+            ],
+            "29": [
+              "Z"
+            ],
+            "30": [
+              "Z"
+            ],
+            "31": [
+              "Z"
+            ],
+            "32": [
+              "Z"
+            ],
+            "33": [
+              "Z"
+            ],
+            "34": [
+              "X"
+            ],
+            "36": [
+              "X"
+            ],
+            "38": [
+              "X"
+            ],
+            "40": [
+              "X"
+            ],
+            "41": [
+              "Z"
+            ],
+            "42": [
+              "Z"
+            ],
+            "43": [
+              "X"
+            ],
+            "45": [
+              "X"
+            ],
+            "48": [
+              "Z"
+            ],
+            "50": [
+              "X"
+            ],
+            "52": [
+              "X"
+            ],
+            "54": [
+              "X"
+            ]
+          },
+          "all_spectators_have_tracked_axis": true,
+          "all_selected_probes_at_width_one": true,
+          "selected_probe_lines": [
+            "  338 WRITE_EXPECTATION exp_val=v0 w1 I sign=e338",
+            "  339 WRITE_EXPECTATION exp_val=v1 w1 I sign=e339",
+            "  340 WRITE_EXPECTATION exp_val=v2 w1 I sign=e340",
+            "  341 WRITE_EXPECTATION exp_val=v3 w1 I sign=e341",
+            "  342 WRITE_EXPECTATION exp_val=v4 w1 I sign=e342",
+            "  343 WRITE_EXPECTATION exp_val=v5 w1 I sign=e343",
+            "  344 WRITE_EXPECTATION exp_val=v6 w1 I sign=e344",
+            "  345 WRITE_EXPECTATION exp_val=v7 w1 I sign=e345",
+            "  346 WRITE_EXPECTATION exp_val=v8 w1 I sign=e346",
+            "  347 WRITE_EXPECTATION exp_val=v9 w1 I sign=e347",
+            "  348 WRITE_EXPECTATION exp_val=v10 w1 I sign=e348",
+            "  349 WRITE_EXPECTATION exp_val=v11 w1 I sign=e349",
+            "  350 WRITE_EXPECTATION exp_val=v12 w1 I sign=e350",
+            "  351 WRITE_EXPECTATION exp_val=v13 w1 I sign=e351",
+            "  352 WRITE_EXPECTATION exp_val=v14 w1 I sign=e352",
+            "  353 WRITE_EXPECTATION exp_val=v15 w1 I sign=e353",
+            "  354 WRITE_EXPECTATION exp_val=v16 w1 I sign=e354",
+            "  355 WRITE_EXPECTATION exp_val=v17 w1 I sign=e355",
+            "  356 WRITE_EXPECTATION exp_val=v18 w1 I sign=e356",
+            "  359 WRITE_EXPECTATION exp_val=v21 w1 I sign=e357",
+            "  364 WRITE_EXPECTATION exp_val=v26 w1 I sign=e358",
+            "  365 WRITE_EXPECTATION exp_val=v27 w1 I sign=e359",
+            "  368 WRITE_EXPECTATION exp_val=v30 w1 I sign=e360",
+            "  371 WRITE_EXPECTATION exp_val=v33 w1 I sign=e361",
+            "  376 WRITE_EXPECTATION exp_val=v38 w1 I sign=e362",
+            "  379 WRITE_EXPECTATION exp_val=v41 w1 I sign=e363",
+            "  382 WRITE_EXPECTATION exp_val=v44 w1 I sign=e364",
+            "  383 WRITE_EXPECTATION exp_val=v45 w1 I sign=e365",
+            "  386 WRITE_EXPECTATION exp_val=v48 w1 I sign=e366",
+            "  391 WRITE_EXPECTATION exp_val=v53 w1 I sign=e367",
+            "  392 WRITE_EXPECTATION exp_val=v54 w1 I sign=e368",
+            "  395 WRITE_EXPECTATION exp_val=v57 w1 I sign=e369",
+            "  398 WRITE_EXPECTATION exp_val=v60 w1 I sign=e370",
+            "  403 WRITE_EXPECTATION exp_val=v65 w1 I sign=e371",
+            "  406 WRITE_EXPECTATION exp_val=v68 w1 I sign=e372",
+            "  409 WRITE_EXPECTATION exp_val=v71 w1 I sign=e373",
+            "  412 WRITE_EXPECTATION exp_val=v74 w1 I sign=e374",
+            "  415 WRITE_EXPECTATION exp_val=v77 w1 I sign=e375",
+            "  416 WRITE_EXPECTATION exp_val=v78 w1 I sign=e376",
+            "  419 WRITE_EXPECTATION exp_val=v81 w1 I sign=e377",
+            "  422 WRITE_EXPECTATION exp_val=v84 w1 I sign=e378",
+            "  425 WRITE_EXPECTATION exp_val=v87 w1 I sign=e379",
+            "  430 WRITE_EXPECTATION exp_val=v92 w1 I sign=e380",
+            "  433 WRITE_EXPECTATION exp_val=v95 w1 I sign=e381",
+            "  434 WRITE_EXPECTATION exp_val=v96 w1 I sign=e382",
+            "  437 WRITE_EXPECTATION exp_val=v99 w1 I sign=e383",
+            "  442 WRITE_EXPECTATION exp_val=v104 w1 I sign=e384",
+            "  443 WRITE_EXPECTATION exp_val=v105 w1 I sign=e385",
+            "  446 WRITE_EXPECTATION exp_val=v108 w1 I sign=e386",
+            "  449 WRITE_EXPECTATION exp_val=v111 w1 I sign=e387"
+          ],
+          "prefix_peak_active_width": 4,
+          "sampled_shots": 128,
+          "maximum_signed_probe_deviation": 0.0,
+          "maximum_logical_purity_error": 8.881784197001252e-16,
+          "includes_entry_flags": true,
+          "scope": "entry code and single-qubit spectator probes; no full gadget/noise binding or continuation",
+          "unary_code_plan_screen": {
+            "peak_entries": 8,
+            "numeric_payload_bytes": 28868,
+            "plans_over_budget": 0,
+            "scope": "single-bit factors on this code; excludes actual fault binding and continuation"
+          }
+        }
+      ]
+    },
+    "soft-d3": {
+      "source_path": "data/inputs/clifft_d3_p001.stim",
+      "source_sha256": "094ae095e249c90ac7b0cf82ef187afdf634a0ef8a82331a81b4b9100a902798",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": {
+        "phase_layer_count": 5,
+        "candidate_envelopes": [
+          {
+            "first_line": 135,
+            "last_line": 177,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "CX": 24,
+              "MX": 1,
+              "RX": 1
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                7,
+                9,
+                10,
+                12,
+                13
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "phase_signs": {
+                "0": -1,
+                "3": -1,
+                "7": -1,
+                "9": -1,
+                "10": -1,
+                "12": -1,
+                "13": -1
+              },
+              "central_qubit": 7,
+              "flags": {},
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "7": "X",
+                "8": "X",
+                "9": "X",
+                "10": "X",
+                "11": "X",
+                "12": "X",
+                "13": "X",
+                "14": "X"
+              },
+              "reset_correction": {
+                "6": "Z",
+                "7": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 177,
+            "last_line": 192,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "MX": 6
+            },
+            "accepted": false,
+            "reason": "phase layers are not distinct inverses"
+          },
+          {
+            "first_line": 192,
+            "last_line": 194,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "MPP": 1
+            },
+            "accepted": false,
+            "reason": "expected exactly one central X measurement followed by its reset"
+          }
+        ],
+        "accepted_envelopes": 1
+      },
+      "terminal_css": {
+        "data_qubits": 7,
+        "physical_data": [
+          0,
+          3,
+          7,
+          9,
+          10,
+          12,
+          13
+        ],
+        "check_counts": {
+          "X": 3,
+          "Z": 3
+        },
+        "independent_ranks": {
+          "X": 3,
+          "Z": 3
+        },
+        "redundant_checks": 0,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "parity_entry": [
+        {
+          "first_line": 135,
+          "tested": true,
+          "code_checks_are_tracked_signs": true,
+          "spectator_axes": {
+            "1": [
+              "X"
+            ],
+            "2": [
+              "X"
+            ],
+            "6": [
+              "X"
+            ],
+            "8": [
+              "X"
+            ],
+            "11": [
+              "X"
+            ],
+            "14": [
+              "X"
+            ]
+          },
+          "all_spectators_have_tracked_axis": true,
+          "all_selected_probes_at_width_one": true,
+          "selected_probe_lines": [
+            "  48 WRITE_EXPECTATION exp_val=v0 w1 I sign=e41",
+            "  49 WRITE_EXPECTATION exp_val=v1 w1 I sign=e42",
+            "  50 WRITE_EXPECTATION exp_val=v2 w1 I sign=e43",
+            "  51 WRITE_EXPECTATION exp_val=v3 w1 I sign=e44",
+            "  52 WRITE_EXPECTATION exp_val=v4 w1 I sign=e45",
+            "  53 WRITE_EXPECTATION exp_val=v5 w1 I sign=e46",
+            "  54 WRITE_EXPECTATION exp_val=v6 w1 I sign=e47",
+            "  57 WRITE_EXPECTATION exp_val=v9 w1 I sign=e48",
+            "  60 WRITE_EXPECTATION exp_val=v12 w1 I sign=e49",
+            "  63 WRITE_EXPECTATION exp_val=v15 w1 I sign=e50",
+            "  66 WRITE_EXPECTATION exp_val=v18 w1 I sign=e51",
+            "  69 WRITE_EXPECTATION exp_val=v21 w1 I sign=e52"
+          ],
+          "prefix_peak_active_width": 1,
+          "sampled_shots": 128,
+          "maximum_signed_probe_deviation": 0.0,
+          "maximum_logical_purity_error": 0.0,
+          "includes_entry_flags": true,
+          "scope": "entry code and single-qubit spectator probes; no full gadget/noise binding or continuation",
+          "unary_code_plan_screen": {
+            "peak_entries": 8,
+            "numeric_payload_bytes": 4040,
+            "plans_over_budget": 0,
+            "scope": "single-bit factors on this code; excludes actual fault binding and continuation"
+          }
+        }
+      ]
+    },
+    "soft-d5": {
+      "source_path": "data/inputs/soft_cultivation_d5_p0005.stim",
+      "source_sha256": "859d925c74712efaae8bab1d944f9e5be4e042e226eeafcc6d7bef9d6fbfbae5",
+      "pattern_recognizer": {
+        "selected": false,
+        "reason": "unsupported operation or target in folded candidate"
+      },
+      "inverse_t_envelopes": {
+        "phase_layer_count": 6,
+        "candidate_envelopes": [
+          {
+            "first_line": 143,
+            "last_line": 174,
+            "phase_widths": [
+              7,
+              7
+            ],
+            "middle_gate_counts": {
+              "CX": 24,
+              "MX": 1,
+              "RX": 1
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                7,
+                9,
+                11,
+                13,
+                17
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                17,
+                18
+              ],
+              "phase_signs": {
+                "0": -1,
+                "3": -1,
+                "7": -1,
+                "9": -1,
+                "11": -1,
+                "13": -1,
+                "17": -1
+              },
+              "central_qubit": 7,
+              "flags": {},
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "7": "X",
+                "8": "X",
+                "9": "X",
+                "11": "X",
+                "12": "X",
+                "13": "X",
+                "17": "X",
+                "18": "X"
+              },
+              "reset_correction": {
+                "6": "Z",
+                "7": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 174,
+            "last_line": 392,
+            "phase_widths": [
+              7,
+              19
+            ],
+            "middle_gate_counts": {
+              "MX": 33,
+              "RX": 52,
+              "R": 38,
+              "CX": 322,
+              "M": 32,
+              "FEEDBACK": 17
+            },
+            "accepted": false,
+            "reason": "phase layers are not distinct inverses"
+          },
+          {
+            "first_line": 391,
+            "last_line": 442,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "CX": 74,
+              "MX": 1,
+              "RX": 1
+            },
+            "certificate": {
+              "phase_qubits": [
+                0,
+                3,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29,
+                32,
+                34,
+                36,
+                38,
+                40
+              ],
+              "middle_qubits": [
+                0,
+                1,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "phase_signs": {
+                "0": 1,
+                "11": 1,
+                "17": 1,
+                "19": 1,
+                "36": 1,
+                "40": 1,
+                "3": -1,
+                "7": -1,
+                "9": -1,
+                "13": -1,
+                "15": -1,
+                "21": -1,
+                "23": -1,
+                "25": -1,
+                "27": -1,
+                "29": -1,
+                "32": -1,
+                "34": -1,
+                "38": -1
+              },
+              "central_qubit": 25,
+              "flags": {},
+              "cnot_count": 2,
+              "clifford_networks_are_inverses": true,
+              "flags_have_branch_independent_readouts": true,
+              "parity": {
+                "0": "X",
+                "1": "X",
+                "3": "X",
+                "7": "X",
+                "9": "X",
+                "11": "X",
+                "12": "X",
+                "13": "X",
+                "14": "X",
+                "15": "X",
+                "17": "X",
+                "18": "X",
+                "19": "X",
+                "21": "X",
+                "23": "X",
+                "25": "X",
+                "26": "X",
+                "27": "X",
+                "28": "X",
+                "29": "X",
+                "30": "X",
+                "32": "X",
+                "33": "X",
+                "34": "X",
+                "36": "X",
+                "37": "X",
+                "38": "X",
+                "40": "X",
+                "41": "X"
+              },
+              "reset_correction": {
+                "24": "Z",
+                "25": "Z"
+              },
+              "coherent_terms_per_conditioned_record": 2,
+              "scope": "local fixed-fault inverse-T instrument; no entry-code or contraction-cost proof"
+            },
+            "accepted": true
+          },
+          {
+            "first_line": 441,
+            "last_line": 492,
+            "phase_widths": [
+              19,
+              19
+            ],
+            "middle_gate_counts": {
+              "MX": 19,
+              "MPP": 18
+            },
+            "accepted": false,
+            "reason": "phase layers are not distinct inverses"
+          }
+        ],
+        "accepted_envelopes": 2
+      },
+      "terminal_css": {
+        "data_qubits": 19,
+        "physical_data": [
+          0,
+          3,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          32,
+          34,
+          36,
+          38,
+          40
+        ],
+        "check_counts": {
+          "X": 9,
+          "Z": 9
+        },
+        "independent_ranks": {
+          "X": 9,
+          "Z": 9
+        },
+        "redundant_checks": 0,
+        "commutes": true,
+        "logical_qubits": 1
+      },
+      "parity_entry": [
+        {
+          "first_line": 143,
+          "tested": false,
+          "reason": "phase support differs from terminal code; needs its intermediate code boundary"
+        },
+        {
+          "first_line": 391,
+          "tested": true,
+          "code_checks_are_tracked_signs": true,
+          "spectator_axes": {
+            "1": [
+              "X"
+            ],
+            "2": [
+              "X"
+            ],
+            "6": [
+              "X"
+            ],
+            "8": [
+              "X"
+            ],
+            "10": [
+              "X"
+            ],
+            "12": [
+              "X"
+            ],
+            "14": [
+              "X"
+            ],
+            "18": [
+              "X"
+            ],
+            "20": [
+              "X"
+            ],
+            "22": [
+              "X"
+            ],
+            "24": [
+              "X"
+            ],
+            "26": [
+              "X"
+            ],
+            "28": [
+              "X"
+            ],
+            "30": [
+              "X"
+            ],
+            "31": [
+              "X"
+            ],
+            "33": [
+              "X"
+            ],
+            "37": [
+              "X"
+            ],
+            "39": [
+              "X"
+            ],
+            "41": [
+              "X"
+            ]
+          },
+          "all_spectators_have_tracked_axis": true,
+          "all_selected_probes_at_width_one": true,
+          "selected_probe_lines": [
+            "  347 WRITE_EXPECTATION exp_val=v0 w1 I sign=e278",
+            "  348 WRITE_EXPECTATION exp_val=v1 w1 I sign=e279",
+            "  349 WRITE_EXPECTATION exp_val=v2 w1 I sign=e280",
+            "  350 WRITE_EXPECTATION exp_val=v3 w1 I sign=e281",
+            "  351 WRITE_EXPECTATION exp_val=v4 w1 I sign=e282",
+            "  352 WRITE_EXPECTATION exp_val=v5 w1 I sign=e283",
+            "  353 WRITE_EXPECTATION exp_val=v6 w1 I sign=e284",
+            "  354 WRITE_EXPECTATION exp_val=v7 w1 I sign=e285",
+            "  355 WRITE_EXPECTATION exp_val=v8 w1 I sign=e286",
+            "  356 WRITE_EXPECTATION exp_val=v9 w1 I sign=e287",
+            "  357 WRITE_EXPECTATION exp_val=v10 w1 I sign=e288",
+            "  358 WRITE_EXPECTATION exp_val=v11 w1 I sign=e289",
+            "  359 WRITE_EXPECTATION exp_val=v12 w1 I sign=e290",
+            "  360 WRITE_EXPECTATION exp_val=v13 w1 I sign=e291",
+            "  361 WRITE_EXPECTATION exp_val=v14 w1 I sign=e292",
+            "  362 WRITE_EXPECTATION exp_val=v15 w1 I sign=e293",
+            "  363 WRITE_EXPECTATION exp_val=v16 w1 I sign=e294",
+            "  364 WRITE_EXPECTATION exp_val=v17 w1 I sign=e295",
+            "  365 WRITE_EXPECTATION exp_val=v18 w1 I sign=e296",
+            "  368 WRITE_EXPECTATION exp_val=v21 w1 I sign=e297",
+            "  371 WRITE_EXPECTATION exp_val=v24 w1 I sign=e298",
+            "  374 WRITE_EXPECTATION exp_val=v27 w1 I sign=e299",
+            "  377 WRITE_EXPECTATION exp_val=v30 w1 I sign=e300",
+            "  380 WRITE_EXPECTATION exp_val=v33 w1 I sign=e301",
+            "  383 WRITE_EXPECTATION exp_val=v36 w1 I sign=e302",
+            "  386 WRITE_EXPECTATION exp_val=v39 w1 I sign=e303",
+            "  389 WRITE_EXPECTATION exp_val=v42 w1 I sign=e304",
+            "  392 WRITE_EXPECTATION exp_val=v45 w1 I sign=e305",
+            "  395 WRITE_EXPECTATION exp_val=v48 w1 I sign=e306",
+            "  398 WRITE_EXPECTATION exp_val=v51 w1 I sign=e307",
+            "  401 WRITE_EXPECTATION exp_val=v54 w1 I sign=e308",
+            "  404 WRITE_EXPECTATION exp_val=v57 w1 I sign=e309",
+            "  407 WRITE_EXPECTATION exp_val=v60 w1 I sign=e310",
+            "  410 WRITE_EXPECTATION exp_val=v63 w1 I sign=e311",
+            "  413 WRITE_EXPECTATION exp_val=v66 w1 I sign=e312",
+            "  416 WRITE_EXPECTATION exp_val=v69 w1 I sign=e313",
+            "  419 WRITE_EXPECTATION exp_val=v72 w1 I sign=e314"
+          ],
+          "prefix_peak_active_width": 4,
+          "sampled_shots": 128,
+          "maximum_signed_probe_deviation": 0.0,
+          "maximum_logical_purity_error": 8.881784197001252e-16,
+          "includes_entry_flags": true,
+          "scope": "entry code and single-qubit spectator probes; no full gadget/noise binding or continuation",
+          "unary_code_plan_screen": {
+            "peak_entries": 8,
+            "numeric_payload_bytes": 28868,
+            "plans_over_budget": 0,
+            "scope": "single-bit factors on this code; excludes actual fault binding and continuation"
+          }
+        }
+      ]
+    }
+  },
+  "controls": {
+    "constructed-d3": {
+      "selected": true,
+      "certificate": {
+        "symbolic_inputs": 98,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 8,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 13,
+        "x_generators": 6,
+        "data_pair_factors": 4,
+        "physical_noise_sites": 52,
+        "prefix_event_stop": 4,
+        "projection_event_start": 104
+      },
+      "peak_entries": 16,
+      "numeric_payload_bytes": 19780,
+      "plans_over_budget": 0
+    },
+    "constructed-d5": {
+      "selected": true,
+      "certificate": {
+        "symbolic_inputs": 212,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 12,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 41,
+        "x_generators": 20,
+        "data_pair_factors": 16,
+        "physical_noise_sites": 100,
+        "prefix_event_stop": 6,
+        "projection_event_start": 200
+      },
+      "peak_entries": 64,
+      "numeric_payload_bytes": 477032,
+      "plans_over_budget": 0
+    },
+    "constructed-d7": {
+      "selected": true,
+      "certificate": {
+        "symbolic_inputs": 374,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 16,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 85,
+        "x_generators": 42,
+        "data_pair_factors": 36,
+        "physical_noise_sites": 164,
+        "prefix_event_stop": 8,
+        "projection_event_start": 328
+      },
+      "peak_entries": 4096,
+      "numeric_payload_bytes": 6919044,
+      "plans_over_budget": 0
+    },
+    "constructed-d9": {
+      "selected": true,
+      "certificate": {
+        "symbolic_inputs": 584,
+        "coherent_paths": 4,
+        "hadamards": 4,
+        "classical_records": 20,
+        "branch_independent_records_and_resets": true,
+        "same_code_coset": true,
+        "data_qubits": 145,
+        "x_generators": 72,
+        "data_pair_factors": 64,
+        "physical_noise_sites": 244,
+        "prefix_event_stop": 10,
+        "projection_event_start": 488
+      },
+      "peak_entries": 8192,
+      "numeric_payload_bytes": 30052688,
+      "plans_over_budget": 0
+    },
+    "reconstructed-f3": {
+      "selected": true,
+      "reason": "specialized terminal folded MSC region at distance 3",
+      "scope": "template and region certificate only; entry/growth validation is in prior studies"
+    },
+    "reconstructed-f5": {
+      "selected": true,
+      "reason": "specialized terminal folded MSC region at distance 5",
+      "scope": "template and region certificate only; entry/growth validation is in prior studies"
+    },
+    "reconstructed-f7": {
+      "selected": true,
+      "reason": "specialized terminal folded MSC region at distance 7",
+      "scope": "template and region certificate only; entry/growth validation is in prior studies"
+    }
+  },
+  "representation_controls": [
+    {
+      "change": "native block annotations removed",
+      "outcome": {
+        "selected": false,
+        "layer": "model recognizer",
+        "reason": "Expected two terminal folded checks"
+      }
+    },
+    {
+      "change": "exact native-gate decomposition with original noise sites",
+      "outcome": {
+        "selected": true,
+        "certificate": {
+          "symbolic_inputs": 811,
+          "coherent_paths": 4,
+          "hadamards": 4,
+          "classical_records": 12,
+          "branch_independent_records_and_resets": true,
+          "same_code_coset": true,
+          "data_qubits": 41,
+          "x_generators": 20,
+          "data_pair_factors": 16,
+          "physical_noise_sites": 698,
+          "prefix_event_stop": 2305,
+          "projection_event_start": 3198
+        },
+        "peak_entries": 64,
+        "numeric_payload_bytes": 477472,
+        "plans_over_budget": 0
+      }
+    },
+    {
+      "change": "qubit identifiers permuted",
+      "outcome": {
+        "selected": true,
+        "certificate": {
+          "symbolic_inputs": 811,
+          "coherent_paths": 4,
+          "hadamards": 4,
+          "classical_records": 12,
+          "branch_independent_records_and_resets": true,
+          "same_code_coset": true,
+          "data_qubits": 41,
+          "x_generators": 20,
+          "data_pair_factors": 16,
+          "physical_noise_sites": 698,
+          "prefix_event_stop": 2275,
+          "projection_event_start": 3114
+        },
+        "peak_entries": 64,
+        "numeric_payload_bytes": 477472,
+        "plans_over_budget": 0
+      }
+    }
+  ],
+  "negative_parity_checks": [
+    {
+      "mutation": "noninverse CNOT network",
+      "reason": "Clifford networks are not inverses"
+    },
+    {
+      "mutation": "wrong flag readout basis",
+      "reason": "flag preparation and readout bases differ"
+    },
+    {
+      "mutation": "unclosed flag",
+      "reason": "unmeasured flag remains"
+    },
+    {
+      "mutation": "noninverse phase layer",
+      "reason": "phase layers are not distinct inverses"
+    }
+  ],
+  "export_manifest_sha256": "d20c3a24c28be389c019160cf6cd9aaa3dbd54cafa760a5e6e9d7a0854a2a7ba",
+  "exported_cases": [
+    "rp2-d3",
+    "rp2-d5",
+    "fold-d3",
+    "fold-d5",
+    "chan-v1-d3",
+    "chan-v1-d5",
+    "chan-four-round-d5",
+    "soft-d5"
+  ]
+}
