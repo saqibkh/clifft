@@ -153,7 +153,11 @@ if(CLIFFT_ENABLE_CUDA)
         ${CMAKE_CURRENT_SOURCE_DIR}/..
         ${CMAKE_BINARY_DIR}/generated
     )
-    target_link_libraries(clifft_cuda_backend PUBLIC clifft_cuda_plan CUDA::cudart_static)
+    if(CLIFFT_CUDA_STATIC_RUNTIME)
+        target_link_libraries(clifft_cuda_backend PUBLIC clifft_cuda_plan CUDA::cudart_static)
+    else()
+        target_link_libraries(clifft_cuda_backend PUBLIC clifft_cuda_plan CUDA::cudart)
+    endif()
     target_compile_features(clifft_cuda_backend PUBLIC cxx_std_20)
     # Strict floating point keeps both device interpreters on the same
     # footing against the CPU oracle; the HIP backend disables fast math too.

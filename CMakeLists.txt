@@ -23,10 +23,16 @@ if(CLIFFT_ENABLE_HIP)
 endif()
 
 option(CLIFFT_ENABLE_CUDA "Build the experimental NVIDIA CUDA sampling backend" OFF)
+# CI turns this off to run the CUDA tests on a simulated GPU, which stands in
+# for the shared CUDA runtime.
+option(CLIFFT_CUDA_STATIC_RUNTIME "Link the CUDA runtime statically" ON)
 if(CLIFFT_ENABLE_CUDA)
     if(NOT DEFINED CMAKE_CUDA_ARCHITECTURES)
         set(CMAKE_CUDA_ARCHITECTURES 90 CACHE STRING
             "NVIDIA GPU architectures for the experimental CUDA backend")
+    endif()
+    if(NOT CLIFFT_CUDA_STATIC_RUNTIME)
+        set(CMAKE_CUDA_RUNTIME_LIBRARY Shared)
     endif()
     enable_language(CUDA)
     message(STATUS "CLIFFT_ENABLE_CUDA = ON (${CMAKE_CUDA_ARCHITECTURES})")
