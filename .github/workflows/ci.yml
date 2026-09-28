@@ -206,7 +206,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up a simulated H100
-        uses: pantheongpu/setup-pantheonsim@v0
+        uses: pantheongpu/pantheonsim@nanovdb-highs-fixes
         with:
           gpu: nvidia/h100
           cuda-toolkit: "12.6"
